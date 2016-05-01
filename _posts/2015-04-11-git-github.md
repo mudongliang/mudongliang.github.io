@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Git Github"
-date: "2015-04-11"
-description: ""
-category: 
+date: 2015-04-11
+description: "Materials about Git/Github, i.e. Version Control System"
+category: VCS
+tags: [Git,Github]
 ---
 
 用Github，交同性基友。 ——全球最大的同性交友网站
