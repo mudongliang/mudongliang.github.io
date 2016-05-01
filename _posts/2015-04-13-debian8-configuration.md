@@ -46,12 +46,20 @@ apt-get install ibus ibus-pinyin ibus-sunpinyin
 
 这里`ibus-googlepinyin`安装不上，完全没有这个软件包。使用`ibus-setup`可以对`ibus`进行图形设置，在输入法的选择适合自己的输入法。
 
+![ibus2]({{site.url}}/images/ibus2.png)
+
+![ibus3]({{site.url}}/images/ibus3.png)
+
 - fcitx googlepinyin sunpionyin cloudpinyin (sogoupinyin)
 
 直接从搜狗的官网上面下载deb包安装，然后使用`im-config`来选择`fcitx`。
-在`fcitx`的`config`中选择对应的中文输入法，`pinyin, sunpinyin,googlepinyin,sogoupinyin`。
 
-最后，可以使用`im-config`来选择你使用的中文输入法！
+![sogou]({{site.url}}/images/sougou.png)
+
+在`fcitx`的`config`中选择对应的中文输入法，`pinyin, sunpinyin,googlepinyin,sogoupinyin`。
+最后，可以使用`im-config`来选择你使用的中文输入法。
+
+![im-config]({{site.url}}/images/im-config.png)
 	   
 ### 安装 flashplugin
 可以直接使用新立得直接搜索并下载安装, 或 `apt-get install flashplugin-nonfree`
