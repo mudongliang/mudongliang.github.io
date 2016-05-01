@@ -65,71 +65,97 @@ apt-get install ibus ibus-pinyin ibus-sunpinyin
 可以直接使用新立得直接搜索并下载安装, 或 `apt-get install flashplugin-nonfree`
 
 ### 安装chrome浏览器
-从 dl.google.com 下载，之后同步google账户上的书签及密码, application.
+从[下载页](https://dl.google.com)下载 Chrome 对应的安装包，同步google账户上的书签，插件，应用程序等。
 
 ### 安装vmware
-要安装linux-headers-$(uname -r)，这里面的意思就是安装和内核对应版本的headers。
-	    sudo ./VMware-Workstation-Full-XXX.x86_64.bundle （lisence key直接在网上百度即可！）安装完成之后，sudo apt-get install linux-headers-$(uname -r) 可以安装对应版本的headers。
+
+    sudo apt-get install linux-headers-$(uname -r)
+
+这命令的意思就是安装和内核对应版本的headers
+
+    sudo ./VMware-Workstation-Full-*.x86_64.bundle 
+
+安装包可以在 VMware 官网上下载（lisence key直接在网上百度）
 
 ### 整理一下自己文件和分区
-add another hard disk, 然后调整fstab文件。
+添加一个新的硬盘,然后调整fstab文件进行自动挂载。
 
 ### 安装Thunderbird
-具体安装方法可以从这里http://wangye.org/blog/archives/609/拿到！也可以使用Icedove Debian版本，使用百度网盘上的feeds url来订阅消息。
-		MyIcedoveFeeds-New Account.opml ：我导出来的rss订阅的配置文件。
+~~具体安装方法可以从这里http://wangye.org/blog/archives/609/拿到,也可以使用Icedove Debian版本。~~
+因为Firefox，Thunderbird马上就要进入Debian了，取代原来的Iceweasel，Icedove。
+使用百度网盘上的feeds url来订阅消息,[MyIcedoveFeeds-New Account.opml](http://pan.baidu.com/s/1c0TSshU),它是我以前导出来的rss订阅的配置文件。
 
-### 按照之前截图的软件列表，将所有的软件安装齐全了。
-		（如果没有以往的软件集合的话，可以跳过！）
+### 安装其他软件
+按照之前截图的软件列表，将所有的软件安装齐全了。（如果没有以往的软件集合的话，可以跳过。）
 
-### 安装faenza-icon-theme，然后在tweak tool中选择这个图标，这个图标还是很漂亮的！
-		将顶部panel变为透明，修改/usr/share/gnome-shell/theme/gnome-shell.css文件，
+![Debian8-1.png]({{site.url}}/images/Debian8-1.png)
+![Debian8-2.png]({{site.url}}/images/Debian8-2.png)
+![Debian8-3.png]({{site.url}}/images/Debian8-3.png)
+![Debian8-4.png]({{site.url}}/images/Debian8-4.png)
+![Debian8-5.png]({{site.url}}/images/Debian8-5.png)
 
-		以下是许多好用的gnomeshell扩展：
-		gnome-shell-extension-alternate-tab.noarch
-		gnome-shell-extension-apps-menu.noarch
-		gnome-shell-extension-auto-move-windows.noarch
-		gnome-shell-extension-common.noarch
-		gnome-shell-extension-cpu-temperature.noarch
-		gnome-shell-extension-dock.noarch
-		gnome-shell-extension-drive-menu.noarch
-		gnome-shell-extension-gpaste.noarch
-		gnome-shell-extension-icon-manager.noarch
-		gnome-shell-extension-mediaplayers.noarch
-		gnome-shell-extension-noim.noarch
-		gnome-shell-extension-noripple.noarch
-		gnome-shell-extension-pidgin.i686
-		gnome-shell-extension-places-menu.noarch
-		gnome-shell-extension-pomodoro.noarch
-		gnome-shell-extension-presentation-mode.noarch
-		gnome-shell-extension-remove-volume-icon.noarch
-		gnome-shell-extension-righthotcorner.noarch
-		gnome-shell-extension-systemMonitor.noarch
-		gnome-shell-extension-theme-selector.noarch
-		gnome-shell-extension-user-theme.noarch
-		gnome-shell-extension-windowsNavigator.noarch
-		gnome-shell-extension-workspace-indicator.noarch
-		gnome-shell-extension-workspacesmenu.noarch
-		gnome-shell-extension-xrandr-indicator.noarch
-		你可以tweak-tool中打开一些自己喜欢的扩展，就比如说天气，这个非常不错的。NetSpeed       OpenWeather        UpTime Indicator        Text Translator
-		EasyScreenCast     Caffeine
+### 安装faenza-icon-theme
+在 tweak tool 中选择这个图标，这个图标还是很漂亮的。同时将顶部 panel 变为透明，修改`/usr/share/gnome-shell/theme/gnome-shell.css`文件，
 
-### 安装一下自己比较喜欢的程序。
-	terminator（多窗口终端）
-	wireshark（嗅探器）
-	retext(markdown编辑工具)
-	hexchat(irc聊天工具)
-	texmaker（latex gui）
-	hydra（破解密码）
-	VLC(视频播放器)
-	UGet(下载器)
-	（以上软件均可以直接用apt-get安装）
-	bcloud(百度云linux客户端) KWplayer(linux酷我客户端)
-	（从github LiuLang的开源库中下deb包,这些软件记住要自己定期更新）
-	sublime text
-	wiznote
-	(可以从ppa进行安装，关于debian ppa安装参见其他文章)
-	kuaipan
-	skype(only 32bit)
-	（可以直接从安装包安装）
+以下是许多好用的 gnome shell 扩展：
+
+	gnome-shell-extension-alternate-tab.noarch
+	gnome-shell-extension-apps-menu.noarch
+	gnome-shell-extension-auto-move-windows.noarch
+	gnome-shell-extension-common.noarch
+	gnome-shell-extension-cpu-temperature.noarch
+	gnome-shell-extension-dock.noarch
+	gnome-shell-extension-drive-menu.noarch
+	gnome-shell-extension-gpaste.noarch
+	gnome-shell-extension-icon-manager.noarch
+	gnome-shell-extension-mediaplayers.noarch
+	gnome-shell-extension-noim.noarch
+	gnome-shell-extension-noripple.noarch
+	gnome-shell-extension-pidgin.i686
+	gnome-shell-extension-places-menu.noarch
+	gnome-shell-extension-pomodoro.noarch
+	gnome-shell-extension-presentation-mode.noarch
+	gnome-shell-extension-remove-volume-icon.noarch
+	gnome-shell-extension-righthotcorner.noarch
+	gnome-shell-extension-systemMonitor.noarch
+	gnome-shell-extension-theme-selector.noarch
+	gnome-shell-extension-user-theme.noarch
+	gnome-shell-extension-windowsNavigator.noarch
+	gnome-shell-extension-workspace-indicator.noarch
+	gnome-shell-extension-workspacesmenu.noarch
+	gnome-shell-extension-xrandr-indicator.noarch
+
+你可以tweak-tool中打开一些自己喜欢的扩展，就比如说天气，这个非常不错的。
+
+- OpenWeather
+- NetSpeed
+- UpTime Indicator
+- Text Translator
+- EasyScreenCast
+- Caffeine
+
+### 安装一些自己喜欢的程序
+
+- terminator（多窗口终端）
+- wireshark（嗅探器）
+- retext(markdown编辑工具)
+- hexchat(irc聊天工具)
+- texmaker（latex gui）
+- hydra（破解密码）
+- VLC(视频播放器)
+- UGet(下载器)
+（以上软件均可以直接用apt-get安装）
+	
+- bcloud(百度云linux客户端) 
+- KWplayer(linux酷我客户端)
+（从github LiuLang的开源库中下deb包,这些软件记住要自己定期更新）
+
+- Sublime text
+- wiznote
+(可以从ppa进行安装，关于debian ppa安装参见其他文章)
+
+- kuaipan
+- skype(only 32bit)
+（可以直接从安装包安装）
 
 搞完收工，切记莫折腾，可以便好！
