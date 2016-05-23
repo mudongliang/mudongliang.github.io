@@ -9,4 +9,4 @@ tags: []
 
 ![Debian Development Model]({{site.url}}/images/infographic_debian.jpg)
 
-This comes from [https://github.com/filhocf/infographics](https://github.com/filhocf/infographics) ! Sadly, the author has stopped to refresh.
+This comes from [https://github.com/filhocf/infographics](https://github.com/filhocf/infographics) ! Sadly, the author has stopped to update this repo.
