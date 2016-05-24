@@ -6,5 +6,4 @@ description: ""
 category: 
 tags: []
 ---
-BitNami GitLab 是 GitLab 的一键安装包。
-[Download Link](https://bitnami.com/stack/gitlab/installer)
+BitNami GitLab : [Download Link](https://bitnami.com/stack/gitlab/installer)

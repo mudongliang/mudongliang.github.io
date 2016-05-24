@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Difference between C++ Vector wand Array"
+title: "C++ Vector与Array 区别"
 date: 2015-04-30
 description: ""
 category: 

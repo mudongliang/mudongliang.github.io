@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git Useful Operations"
+title: "Git常用操作"
 date: 2015-05-23
 description: ""
 category: 

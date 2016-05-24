@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "change default shell to bash"
+title: "Debian修改默认shell为bash"
 date: 2015-04-24
 description: ""
 category: 

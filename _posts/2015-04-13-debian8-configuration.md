@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Debian8 Configuration"
+title: "Debian8 配置"
 date: 2015-04-13
 description: ""
 category: 

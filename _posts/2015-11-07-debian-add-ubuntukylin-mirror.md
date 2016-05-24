@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Debian add UbuntuKylin mirror"
+title: "Linuxmint/Ubuntu/Debian添加Ubuntukylin源"
 date: 2015-08-26
 description: ""
 category: 

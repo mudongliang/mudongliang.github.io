@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C++ Virtual Function Example"
+title: "C++ 虚函数示例"
 date: 2015-05-05
 description: ""
 category: 

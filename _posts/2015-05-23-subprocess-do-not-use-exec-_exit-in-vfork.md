@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "subprocess do not use exec _exit in vfork"
+title: "vfork中子进程未使用exec或_exit"
 date: 2015-05-23
 description: ""
 category: 

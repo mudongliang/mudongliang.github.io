@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hashsum not match"
+title: "Hash 校验和不符问题解决"
 date: 2015-05-30
 description: ""
 category: 

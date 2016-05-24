@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C++ Virtual Function and Vtable"
+title: "C++中的虚函数与VTABLE"
 date: 2015-05-05
 description: ""
 category: 

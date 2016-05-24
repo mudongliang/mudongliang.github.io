@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git Tutorial (1)"
+title: "Git学习（一）"
 date: 2015-04-25
 description: ""
 category: 

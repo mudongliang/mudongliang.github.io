@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Debian install Google Chrome"
+title: "Debian系安装google chrome命令"
 date: 2015-11-07
 description: ""
 category: 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Managing the Heap"
+title: "堆管理"
 date: 2015-04-14
 description: ""
 category: 

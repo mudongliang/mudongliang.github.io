@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ELF Elf_Ehdr member analysis"
+title: "ELF文件中Elf_Ehdr成员类型分析"
 date: 2015-05-19
 description: ""
 category: 

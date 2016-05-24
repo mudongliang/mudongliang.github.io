@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Debian install openyoudao"
+title: "Debian/Ubuntu/LinuxMint 安装openyoudao，换下有道linux版"
 date: 2015-05-08
 description: ""
 category: 

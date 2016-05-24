@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Check Selinux status and close Selinux"
+title: "查看Selinux状态和关闭Selinux"
 date: 2015-05-30
 description: ""
 category: 
 tags: []
 ---
 
-查看Selinux状态和关闭Selinux
+# 查看Selinux状态和关闭Selinux
 
 Debian默认没有安装Selinux；Redhat，CentOS，Fedora都默认安装Selinux。
 

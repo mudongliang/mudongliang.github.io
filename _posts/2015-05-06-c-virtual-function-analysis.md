@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C++ Virtual Function Analysis"
+title: "C++ 虚函数解析"
 date: 2015-05-06
 description: ""
 category: 

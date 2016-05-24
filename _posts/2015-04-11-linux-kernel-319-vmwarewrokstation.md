@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Patch for Linux Kernel 3.19"
+title: "为 Linux Kernel 3.17 打补丁，使 VMwareWrokstation 正常运行"
 date: 2015-04-11
 description: ""
 category: Linux,Kernel,VMwareWorkstation
 tags: [linux kernel,3.19,vmware workstation,patch]
 ---
-为 Linux Kernel 3.19 打补丁，使 VMwareWrokstation 正常运行
+# 为 Linux Kernel 3.19 打补丁，使 VMwareWrokstation 正常运行
 
 继 [为 Linux Kernel 3.19 打补丁，使 VMwareWrokstation 正常运行]({{ site.url }}/2015/04/11/linux-kernel-317-vmwarewrokstation.html)之后，我又升级了内核，结果有发生了上文中出现的情况。对于这个 vmware 已然无语，但是虚拟机还要接着用，没办法又找了一下，结果发现只是更换一下使用的patch就可以了。
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Debian add partner mirror"
+title: "Debian添加Partner源"
 date: 2015-09-03
 description: ""
 category: 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Debian add https mirror"
+title: "Debian 添加 https 镜像源"
 date: 2016-01-14
 description: ""
 category: 
