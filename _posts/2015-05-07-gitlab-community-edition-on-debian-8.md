@@ -6,8 +6,8 @@ description: ""
 category: 
 tags: []
 ---
-Debian is among the most popular platforms to run GitLab on. With the stable release of Debian 8, we wanted to make sure that early-adopters could run GitLab on their new machines.
-You can install Github from [downloads page](https://about.gitlab.com/downloads)
+Debian is among the most popular platforms to run GitLab on. With the stable release of Debian 8, we wanted to make sure that early-adopters could run GitLab on their new machines.    
+You can install Github from [downloads page](https://about.gitlab.com/downloads).    
 You can also install GitLab Community Edition with:
 
 ```sh
