@@ -33,7 +33,7 @@ This command will tell FedUp to download all the appropriate packages from the F
 
 ## 4. Reboot, and upgrade
 
-![Image]({{site.url}}/image/fedup-grub.png)
+![Image]({{site.url}}/images/fedup-grub.png)
 
 Once the FedUp command from step 3 has completed without errors, reboot your system. In the Fedora Boot Menu (i.e. grub), there will be a menu item “System Upgrade”, select that and press enter.
 
