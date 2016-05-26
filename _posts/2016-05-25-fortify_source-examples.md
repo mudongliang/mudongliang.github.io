@@ -165,5 +165,6 @@ Compare the assembly language with different flags of gcc:
 0x0000000000000668 <+24>:	callq  0x630 <__strcpy_chk@plt>
 ```
 
-When -D_FORTIFY_SOURCE equals 1, edx is set to 4, the length of buffer : 4 (5 - 1);    
-When -D_FORTIFY_SOURCE equals 2, edx is set to 31, the length of buffer : 31 (32 - 1);
+When -D_FORTIFY_SOURCE equals 1, edx is set to 4, the length of buffer : 4 (5 - 1); It separate the members in struct, so the edx is 4;
+When -D_FORTIFY_SOURCE equals 2, edx is set to 31, the length of buffer : 31 (32 - 1); It regards struct S as a whole, so the edx is 31.    
+
