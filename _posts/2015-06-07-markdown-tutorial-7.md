@@ -117,5 +117,5 @@ Markdown 使用一种和链接很相似的语法来标记图片，同样也允�
 
 「id」是图片参考的名称，图片参考的定义方式则和连结参考一样：
 
-[id]: http://njumdl-wordpress.stor.sinaapp.com/uploads/linuxpicture/1247537239.png "ArchLinux"
+[id]: {{site.url}}/images/arch-linux-logo.png "ArchLinux"
 > id defines here
