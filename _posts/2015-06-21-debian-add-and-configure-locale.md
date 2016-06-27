@@ -17,4 +17,4 @@ tags: []
 
 选择语言包。需要添加上en_US(以为我之后把它给删了),zh_CN等开头的几个选项，当然你也可以只添加一个，然后，选择其中的一个作为默认。设置完成后，执行locale命令检查一下当前的locale设置是否为英文或中文了。
 
-![Locale]({{site.url}}/images/index.png)
+![Locale]({{site.url}}/images/locales.png)
