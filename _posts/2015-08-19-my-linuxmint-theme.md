@@ -8,7 +8,7 @@ tags: []
 ---
 
 - Window borders : Mint-X
-- Icons : [Feanza](http://mudongliang.github.io/2015/08/19/my-linuxmint-theme.html)
+- Icons : [Feanza](http://mudongliang.github.io/2015/08/19/linuxmint-install-faenza-icon-theme.html)
 - Mouse-Pointer : DMZ-White
 - Desktop : Metro
 
