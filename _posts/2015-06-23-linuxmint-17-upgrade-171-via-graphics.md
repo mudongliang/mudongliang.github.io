@@ -8,7 +8,7 @@ tags: []
 ---
 
 这篇文章是LinuxMint17升级为17.1的截图。操作十分简单，这也许就是LinuxMint的魅力！
-打开更新管理器，
+打开更新管理器，选择 “Edit” / “Upgrade to Linux Mint 17.1 Rebecca”，
 
 ![Index]({{site.url}}/images/index0.png)
 ![Index]({{site.url}}/images/index1.png)
