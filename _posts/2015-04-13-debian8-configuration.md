@@ -130,8 +130,12 @@ apt-get install ibus ibus-pinyin ibus-sunpinyin
 - OpenWeather
 - NetSpeed
 - UpTime Indicator
-- Text Translator
 - EasyScreenCast
+- Places Status Indicator
+- Dynamic Top Bar
+- Clipboard Indicator
+- Recent Items
+- Drop Down Terminal
 - Caffeine
 
 ### 安装一些自己喜欢的程序
