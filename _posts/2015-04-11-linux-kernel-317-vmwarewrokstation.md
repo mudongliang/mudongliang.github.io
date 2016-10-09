@@ -7,8 +7,6 @@ category:
 tags: [linux kernel,3.17,vmware workstation,patch]
 ---
 
-# 为 Linux Kernel 3.17 打补丁，使 VMwareWrokstation 正常运行
-
 本人用的 fedora20，安装的是 vmware workstation 10.0.4。在升级内核之后，vmware 虚拟机无法使用，错误提示为 vmnet 模块无法正确编译。
 
 ### Step 1
