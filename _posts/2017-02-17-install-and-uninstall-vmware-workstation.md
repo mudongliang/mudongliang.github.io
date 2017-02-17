@@ -9,20 +9,23 @@ tags: [vmware, install, uninstall]
 
 ## Install VMware Workstation
 
-Download Installation Script from (VMware Website)[https://my.vmware.com/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/12_0]. The newest version of vmware workstation is 12.5.2. And the corresponding script name is `VMware-Workstation-Full-12.5.2-4638234.x86_64.bundle`.
+Download Installation Script from [VMware Website](https://my.vmware.com/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/12_0).
 
-Change the permission of this installation script,
+The newest version of vmware workstation is 12.5.2. And the corresponding script name is `VMware-Workstation-Full-12.5.2-4638234.x86_64.bundle`.
+
+First, change the permission of this installation script,
 
 ```sh
 $ chmod +x VMware-Workstation-Full-12.5.2-4638234.x86_64.bundle
 ```
-Execute this installtion script, (this operation needs root privilege)
+
+Second, execute this installtion script, (this operation needs root privilege)
 
 ```sh
 $ sudo ./VMware-Workstation-Full-12.5.2-4638234.x86_64.bundle
 ```
 
-Follow the Graphics Installation Menu, and choose "Yes/No".
+At last, follow the Graphics Installation Menu, and choose "Yes/No".
 
 
 ## Uninstall VMware Workstation
