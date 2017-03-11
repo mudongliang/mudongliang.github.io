@@ -8,16 +8,16 @@ permalink: /about/
 
 My name is **Dongliang Mu**. I am a phd student at Nanjing University and now a visiting scholar at PSU.
 
-My favourite linux distrobution is as follows:
+My favourite linux distrobutions are as follows:
 
 - Point Release
 	- Debian
 	- Linux Mint / LMDE
-	- Ubuntu
 	- CentOS
+	- Ubuntu
 
 - Rolling Release:
 	- Kali Linux
-	- Arch Linux
 	- AntegerOS
+	- Arch Linux
 	- OpenSUSE Tumbleweed
