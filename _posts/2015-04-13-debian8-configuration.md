@@ -28,7 +28,7 @@ deb-src http://mirrors.ustc.edu.cn/debian-security/ jessie/updates main non-free
 ```
 
 ### 添加sudo权限
-首先，如果没有安装`sudo`的话，`apt-get install sudo`;  
+首先，如果没有安装`sudo`的话，`apt-get install sudo`;
 然后，编辑`/etc/sudoers`，`vim /etc/sudoers`;
 
 	root ALL=(ALL) ALL
@@ -39,7 +39,7 @@ deb-src http://mirrors.ustc.edu.cn/debian-security/ jessie/updates main non-free
 - ibus ibus-pinyin ibus-sunpinyin
 
 ```
-apt-get install ibus ibus-pinyin ibus-sunpinyin     
+apt-get install ibus ibus-pinyin ibus-sunpinyin
 ```
 
 ![ibus1]({{site.url}}/images/ibus1.png)
@@ -97,48 +97,13 @@ apt-get install ibus ibus-pinyin ibus-sunpinyin
 ### 安装faenza-icon-theme
 在 tweak tool 中选择这个图标，这个图标还是很漂亮的。同时将顶部 panel 变为透明，修改`/usr/share/gnome-shell/theme/gnome-shell.css`文件，
 
-以下是许多好用的 gnome shell 扩展：
+### Gnome Shell Extensions
 
-	gnome-shell-extension-alternate-tab.noarch
-	gnome-shell-extension-apps-menu.noarch
-	gnome-shell-extension-auto-move-windows.noarch
-	gnome-shell-extension-common.noarch
-	gnome-shell-extension-cpu-temperature.noarch
-	gnome-shell-extension-dock.noarch
-	gnome-shell-extension-drive-menu.noarch
-	gnome-shell-extension-gpaste.noarch
-	gnome-shell-extension-icon-manager.noarch
-	gnome-shell-extension-mediaplayers.noarch
-	gnome-shell-extension-noim.noarch
-	gnome-shell-extension-noripple.noarch
-	gnome-shell-extension-pidgin.i686
-	gnome-shell-extension-places-menu.noarch
-	gnome-shell-extension-pomodoro.noarch
-	gnome-shell-extension-presentation-mode.noarch
-	gnome-shell-extension-remove-volume-icon.noarch
-	gnome-shell-extension-righthotcorner.noarch
-	gnome-shell-extension-systemMonitor.noarch
-	gnome-shell-extension-theme-selector.noarch
-	gnome-shell-extension-user-theme.noarch
-	gnome-shell-extension-windowsNavigator.noarch
-	gnome-shell-extension-workspace-indicator.noarch
-	gnome-shell-extension-workspacesmenu.noarch
-	gnome-shell-extension-xrandr-indicator.noarch
-
-你可以tweak-tool中打开一些自己喜欢的扩展，就比如说天气，这个非常不错的。
-
-- OpenWeather
-- NetSpeed
-- UpTime Indicator
-- EasyScreenCast
-- Places Status Indicator
-- Dynamic Top Bar
-- Clipboard Indicator
-- Recent Items
-- Drop Down Terminal
-- Caffeine
+我喜欢的 Gnome 桌面扩展列在[My Favourite Gnome Extensions](http://mudongliang.github.io/2017/03/12/my-favourite-gnome-extensions.html)
 
 ### 安装一些自己喜欢的程序
+
+**Installed by apt-get**
 
 - terminator（多窗口终端）
 - wireshark（嗅探器）
@@ -148,18 +113,16 @@ apt-get install ibus ibus-pinyin ibus-sunpinyin
 - hydra（破解密码）
 - VLC(视频播放器)
 - UGet(下载器)
-（以上软件均可以直接用apt-get安装）
+
+**Installed by downloaded deb package**
 	
 - bcloud(百度云linux客户端) 
 - KWplayer(linux酷我客户端)
-（从github LiuLang的开源库中下deb包,这些软件记住要自己定期更新）
+- Skype(only bit)
+
+**Installed by ppa**
 
 - Sublime text
 - wiznote
-(可以从ppa进行安装，关于debian ppa安装参见其他文章)
-
-- kuaipan
-- skype(only 32bit)
-（可以直接从安装包安装）
 
 搞完收工，切记莫折腾，可以便好！
