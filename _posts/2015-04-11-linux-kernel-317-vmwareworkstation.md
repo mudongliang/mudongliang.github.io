@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "为 Linux Kernel 3.17 打补丁，使 VMwareWrokstation 正常运行"
+title: "为 Linux Kernel 3.17 打补丁，使 VMware Workstation 正常运行"
 date: 2015-04-11
 description: ""
 category: 
