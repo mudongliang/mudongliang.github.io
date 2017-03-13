@@ -19,4 +19,5 @@ My Favourite Papers List:
 - [SP 2013 SoK: Eternal War in Memory](http://dl.acm.org/citation.cfm?id=2498101)
 - [NDSS 2015 FreeSentry](http://fort-knox.org/files/freesentry.pdf)
 	- [Discuss about NDSS 2015 FreeSentry](http://mudongliang.github.io/2015/04/16/ndss-15-freesentry.html)
-- [USENIX Security 2015 DOP](http://dl.acm.org/citation.cfm?id=2831155) 
+- [USENIX Security 2015 Automatic Generation of Data-Oriented Exploits](http://dl.acm.org/citation.cfm?id=2831155) 
+- [SP 2016 DOP](http://ieeexplore.ieee.org/document/7546545/) 
