@@ -1,10 +1,13 @@
 ---
-layout: page
-title: "Papers"
+layout: post
+title: "My Favourite Paper List"
+date: 2017-03-22
 description: ""
+category: 
+tags: []
 ---
 
-My Favourite Papers List:
+My Favourite Paper List:
 
 
 - [Phrack 1996 Smashing The Stack For Fun And Profit](http://phrack.org/issues/49/14.html)
