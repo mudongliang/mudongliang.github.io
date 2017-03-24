@@ -31,6 +31,6 @@ My name is **Dongliang Mu**. I am a Research Assistant in Penn State University 
 
 [1] Xu, J., **Mu, D.**, Chen, P., Wang, P., Xing, X., Liu, P., "CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump", In Proceedings of the the 23nd ACM Conference on Computer and Communications Security (CCS 2016), Vienna, Austria, October 2016.
 
-[2] Xu, J., **Mu, D.**, Wu, W., Xing, X., Liu, P., "POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts" **(Submitted to Usenix Security 2017)**
+[2] Xu, J., **Mu, D.**, Xing, X., Liu, P., "POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts" **(Submitted to Usenix Security 2017)**
 
 If you need my CV, please [email](mailto:mudongliangabcd@gmail.com) me.
