@@ -17,5 +17,5 @@ github_username:  mudongliang
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hacker
+#theme: jekyll-theme-hacker
 # mudongliang.github.io
