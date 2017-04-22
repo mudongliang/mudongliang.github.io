@@ -11,14 +11,14 @@ My name is **Dongliang Mu**. I am a Research Assistant in Penn State University 
 - Education 
 	- Undergraduate(2010.09 - 2014.06), Computer Science and Technology, Zhengzhou University
 	- Ph.D (2014.09 - Now), Computer Science and Technology, Nanjing University
-- Major field - Software Security
+- Major field : Software Security
 	- Vulnerability diagnose
 	- Postmortem Program Analysis
 	- Binary security
 	- ROP
-- Blog 	    : [http://mudongliang.github.io/](http://mudongliang.github.io/)
-- Github    : [https://github.com/mudongliang](https://github.com/mudongliang)
-- Bitbucket : [https://bitbucket.org/mudongliang](https://bitbucket.org/mudongliang)
+- [Github Page](http://mudongliang.github.io/)
+- [Github Account](https://github.com/mudongliang)
+- [Bitbucket Account](https://bitbucket.org/mudongliang)
 
 ### Experience
 
