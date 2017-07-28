@@ -29,8 +29,8 @@ Like -fstack-protector but includes additional functions to be protected — tho
 
 **Comment 3**:
 
-- perforamce: -fstack-protector > -fstack-protector-strong > -fstack-protector-all
-- coverage:   -fstack-protector < -fstack-protector-strong < -fstack-protector-all
+- performance: -fstack-protector > -fstack-protector-strong > -fstack-protector-all
+- coverage:    -fstack-protector < -fstack-protector-strong < -fstack-protector-all
 
 **Comment 4**:
 From [References 2](https://outflux.net/blog/archives/2014/01/27/fstack-protector-strong/), we learn from the condition in which we add stack protector check:
