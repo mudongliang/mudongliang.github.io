@@ -7,25 +7,28 @@ category:
 tags: []
 ---
 
-# Objective
+* TOC
+{:toc}
+
+## Objective
 
 The objective is to install desktop sharing application TeamViewer on Debian 9 Stretch Linux.
 
-# Operating System and Software Versions
+## Operating System and Software Versions
 
 Operating System: Debian 9 Stretch
 
 Software: TeamViewer v12.0.76279
 
-# Requirements
+## Requirements
 
 Privileged access to to your Debian system will be required to install TeamViewer and its prerequisites.
 
-# Difficulty
+## Difficulty
 
 EASY
 
-# Conventions
+## Conventions
 
 ```
 # - requires given command to be executed with root privileges 
@@ -33,9 +36,9 @@ EASY
 $ - given command to be executed as a regular non-privileged user
 ```
 
-# Instructions
+## Instructions
 
-## Prerequisites
+### Prerequisites
 
 TeamViewer is i386 application and from this reason it depends on number i386 libraries. First, enable multi-arch on your Debian system:
 
@@ -50,7 +53,7 @@ Next, install prerequisites and tools to help with the actual installation:
 # apt install libjpeg62-turbo:i386 wget gdebi-core
 ```
 
-## Download and install TeamViewer
+### Download and install TeamViewer
 
 At this stage we are ready to download TeamViewer:
 
@@ -82,7 +85,7 @@ Do you want to install the software package? [y/N]:y
 # apt-get install -f
 ```
 
-## Launch TeamViewer
+### Launch TeamViewer
 
 TeamViewer is now ready to be started from your desktop navigation menu or from command line. Please note, the first launch of the TeamViewer may take some time. The reason for this is that TeamViewer is wine dependent application and it will be setting up an environment on its first launch. So be patient:
 
