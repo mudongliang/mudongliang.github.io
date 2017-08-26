@@ -19,3 +19,5 @@ github_username:  mudongliang
 markdown: kramdown
 #theme: jekyll-theme-hacker
 # mudongliang.github.io
+
+theme: jekyll-theme-cayman
