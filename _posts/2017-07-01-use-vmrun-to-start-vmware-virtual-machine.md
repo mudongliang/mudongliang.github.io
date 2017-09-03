@@ -7,6 +7,9 @@ category:
 tags: []
 ---
 
+* TOC
+{:toc}
+
 ## VIX API
 
 [VIX API](https://www.vmware.com/support/developer/vix-api/) allows users to automate the management of VMs, such as APIs used to start/stop VMs. It supports most products from VMware, including Player, Sever, Workstation, Fusion and vSphere (though VIX API is deprecated as there is a vSphere API).
