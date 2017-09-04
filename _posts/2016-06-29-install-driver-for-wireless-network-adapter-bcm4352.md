@@ -7,38 +7,61 @@ category:
 tags: []
 ---
 
-From [Debian Wiki: wl](https://wiki.debian.org/wl)
+## Check type of wireless network adapter
 
 A small tip to check the type of wireless network adapter:
 
-    #lspci -k | grep -i "wireless"
-    02:00.0 Network controller: Broadcom Corporation BCM4352 802.11ac Wireless Network Adapter (rev 03)
-            Subsystem: Dell BCM4352 802.11ac Wireless Network Adapter
+```
+$ lspci -k | grep -i "wireless"
+02:00.0 Network controller: Broadcom Corporation BCM4352 802.11ac
+Wireless Network Adapter (rev 03)
+        Subsystem: Dell BCM4352 802.11ac Wireless Network Adapter
+```
 
+For this wireless network adapter `BCM4352`, we need Broadcom wireless LAN driver (wl, aka broadcom-sta). The proprietary Broadcom wireless LAN driver (wl, aka broadcom-sta) provides support for some Broadcom-based PCI/PCIe hardware. It includes a binary-only component targeted for the x86 or x86-64 architecture. Supported devices are listed as follows:
 
 Supported Devices : **Broadcom BCM4311, BCM4312, BCM4313, BCM4321, BCM4322, BCM43224, BCM43225, BCM43227, BCM43228, BCM43142, BCM4331, `BCM4352`, BCM4360**
 
-## Installation:
+## wl installation
 
 
-#### 1. Add a "non-free" component to /etc/apt/sources.list for your Debian version, for example:
+### Add a "non-free" component to /etc/apt/sources.list
 
-    # Debian 8 "Jessie"
-    deb http://httpredir.debian.org/debian/ jessie main contrib non-free
+Add "non-free" component to the mirror file - `/etc/apt/sources.list` for your Debian version
 
-#### 2. Update the list of available packages. Install the relevant/latest linux-image, linux-headers and broadcom-sta-dkms packages:
+```
+# Debian 8 "Jessie"
+deb http://httpredir.debian.org/debian/ jessie main contrib non-free
+```
 
-    # apt-get update
-    # apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms
+```
+# Debian 9 "stretch"
+deb http://httpredir.debian.org/debian/ stretch main contrib non-free
+```
+### Install linux-image, linux-headers and broadcom-sta-dkms packages
 
-    This will also install the recommended wireless-tools package. DKMS will build the wl module for your system.
+```
+# apt-get update
+# apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms
 
-#### 3. Unload conflicting modules:
+This will also install the recommended wireless-tools package.
+DKMS will build the wl module for your system.
+```
 
-    # modprobe -r b44 b43 b43legacy ssb brcmsmac bcma
+### Unload conflicting modules
 
-#### 4. Load the wl module:
+```
+# modprobe -r b44 b43 b43legacy ssb brcmsmac bcma
+```
 
-    # modprobe wl
+### Load the wl module
 
-### 5. Configure your wireless interface as appropriate.
+```
+# modprobe wl
+```
+
+### Configure your wireless interface as appropriate.
+
+## References
+
+[Debian Wiki: wl](https://wiki.debian.org/wl)
