@@ -7,6 +7,9 @@ category:
 tags: [linux kernel,3.17,vmware workstation,patch]
 ---
 
+* TOC
+{:toc}
+
 ### 添加较快源
 国内比较快速和稳定的源应该是
 
