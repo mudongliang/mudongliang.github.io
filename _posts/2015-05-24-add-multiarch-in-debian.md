@@ -7,7 +7,8 @@ category:
 tags: []
 ---
 
-# add multiarch(i386 or others) in Debian
+* TOC
+{:toc}
 
 ### Add
 ```sh

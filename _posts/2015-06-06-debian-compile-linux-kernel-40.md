@@ -7,15 +7,18 @@ category:
 tags: []
 ---
 
-继[Fedora21 编译 Linux Kernel 4.0](http://mudongliang.github.io/2015/06/06/fedora21-compile-linux-kernel.html)之后，我在Debian系列--Debian和LinuxMint也进行了相同的实验。由于发行版本的差异，所以有些地方还有些差异的，所以进行一些修改（红色字体部分）。
+* TOC
+{:toc}
 
-我使用的是
+继[Fedora21 编译 Linux Kernel 4.0](http://mudongliang.github.io/2015/06/06/fedora21-compile-linux-kernel.html)之后，我在 Debian 系列 -- Debian 和 LinuxMint 也进行了相同的实验。由于发行版本的差异，所以有些地方还有些差异的，所以进行一些修改（红色字体部分）。
 
-**Debian 8(Stable)**,其中内核版本（缩略）为：
+我使用的是:
+
+- **Debian 8(Stable)**,其中内核版本（缩略）为：
 
     Linux 3.16.0-4-amd64 #1 SMP Debian x86_64 GNU/LinuxLinux
 
-**LinuxMint 17**,其中内核版本（缩略）为：
+- **LinuxMint 17**,其中内核版本（缩略）为：
 
     Linux 3.13.0-24-generic #47-Ubuntu SMP x86_64 x86_64 x86_64 GNU/Linux
 

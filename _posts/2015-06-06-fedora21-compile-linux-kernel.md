@@ -7,6 +7,9 @@ category:
 tags: []
 ---
 
+* TOC
+{:toc}
+
 我使用的是Fedora21,其中内核版本（缩略）为：
 
 ```sh

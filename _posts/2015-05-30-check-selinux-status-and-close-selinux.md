@@ -7,7 +7,10 @@ category:
 tags: []
 ---
 
-# 查看Selinux状态和关闭Selinux
+* TOC
+{:toc}
+
+### 查看Selinux状态和关闭Selinux
 
 Debian默认没有安装Selinux；Redhat，CentOS，Fedora都默认安装Selinux。
 
@@ -20,14 +23,14 @@ SELinux status:                 enabled
 
 ### 关闭SELinux：
 
-1. 临时关闭（不用重启机器）：
+临时关闭（不用重启机器）：
 
 ```sh
 setenforce 0                  ##设置SELinux 成为permissive模式
 ##setenforce 1 设置SELinux 成为enforcing模式
 ```
 
-2. 修改配置文件需要重启机器：
+修改配置文件需要重启机器：
 修改/etc/selinux/config 文件
 将SELINUX=enforcing改为SELINUX=disabled
 重启机器即可

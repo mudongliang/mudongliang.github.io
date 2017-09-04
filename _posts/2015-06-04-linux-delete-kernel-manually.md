@@ -7,7 +7,10 @@ category:
 tags: []
 ---
 
-继 [Fedora21编译 Linux Kernel 4.0](http://mudongliang.github.io/2015/06/06/fedora21-compile-linux-kernel.html) 和[Debian8/LinuxMint17 编译 Linux Kernel 4.0](http://mudongliang.github.io/2015/06/06/debian-compile-linux-kernel-40.html) 之后，我们想着删除自己手动编译的内核！
+* TOC
+{:toc}
+
+继 [Fedora21编译 Linux Kernel 4.0](http://mudongliang.github.io/2015/06/06/fedora21-compile-linux-kernel.html) 和 [Debian8/LinuxMint17 编译 Linux Kernel 4.0](http://mudongliang.github.io/2015/06/06/debian-compile-linux-kernel-40.html) 之后，我们想着删除自己手动编译的内核！
 
 ## 1. 删除编译生成的内核文件
 
@@ -23,13 +26,13 @@ sudo rm /boot/*4.0.0*
 - Redhat 阵营
 
 ```
-    sudo grub2-mkconfig 
-    sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+sudo grub2-mkconfig 
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 
 - Debian 阵营
 
 ```
-    sudo grub-mkconfig （Debian Jessie Stable）
-    sudo grub-update (Ubuntu14 LinuxMint17)
+sudo grub-mkconfig （Debian Jessie Stable）
+sudo grub-update (Ubuntu14 LinuxMint17)
 ```
