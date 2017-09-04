@@ -6,13 +6,10 @@ description: ""
 category: 
 tags: []
 ---
-
-**Copy and modify [linux_build_instructions.md from Chromium Documents](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_build_instructions.md).**
-
-**I have installed the latest chromium from source code successfully in Debian Stretch by the following instructions.**
-
 * TOC
 {:toc}
+
+**I have installed the latest chromium from source code successfully in Debian Stretch by the following instructions.**
 
 ## System requirements
 
@@ -315,3 +312,9 @@ other settings):
 If you want to contribute to the effort toward a Chromium-based browser for
 Linux, please check out the [Linux Development page](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_development.md) for
 more information.
+
+## References
+
+[linux_build_instructions.md from Chromium Documents](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_build_instructions.md)
+
+
