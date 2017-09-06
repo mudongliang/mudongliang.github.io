@@ -41,6 +41,8 @@ task :post do
     post.puts "category: #{category}"
     post.puts "tags: #{tags}"
     post.puts "---"
+    post.puts "* TOC"
+    post.puts "{:toc}"
   end
 end # task :post
 
