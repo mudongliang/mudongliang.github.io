@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Debian Stretch 为 Linux Kernel 4.7 打补丁，使 VMwareWrokstation 正常运行"
+title: "Debian Stretch 为 Linux Kernel 4.7 打补丁，使 VMwareWorkstation 正常运行"
 date: 2016-10-09
 description: ""
 category: 
