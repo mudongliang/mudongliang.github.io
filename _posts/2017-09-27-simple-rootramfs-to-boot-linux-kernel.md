@@ -65,3 +65,4 @@ Note: if you disable gui, you can switch to qemu console with ctrl-A + C + ENTER
 ## Reference
 
 [1] [https://www.kernel.org/doc/Documentation/filesystems/ramfs-rootfs-initramfs.txt](https://www.kernel.org/doc/Documentation/filesystems/ramfs-rootfs-initramfs.txt)
+[2] [http://nairobi-embedded.org/initramfs_tutorial.html](http://nairobi-embedded.org/initramfs_tutorial.html)
