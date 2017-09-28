@@ -68,3 +68,4 @@ Note: if you disable gui, you can switch to qemu console with ctrl-A + C + ENTER
 
 [1] [https://www.kernel.org/doc/Documentation/filesystems/ramfs-rootfs-initramfs.txt](https://www.kernel.org/doc/Documentation/filesystems/ramfs-rootfs-initramfs.txt)
 [2] [http://nairobi-embedded.org/initramfs_tutorial.html](http://nairobi-embedded.org/initramfs_tutorial.html)
+[3] [Custom Linux Distro that runs just one program, nothing else](https://unix.stackexchange.com/questions/122717/custom-linux-distro-that-runs-just-one-program-nothing-else/238579#238579)
