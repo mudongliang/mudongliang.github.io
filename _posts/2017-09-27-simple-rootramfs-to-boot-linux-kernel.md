@@ -60,6 +60,8 @@ qemu-system-x86_64 -kernel /boot/vmlinuz-`uname -r` -initrd test.cpio.gz -nograp
 
 After the kernel boots successfully, you will see "Hello World" at the bottom of qemu window.
 
+![boot]({{site.url}}/images/hello_world_screenshot.png)
+
 Note: if you disable gui, you can switch to qemu console with ctrl-A + C + ENTER. Then you can exit by `quit` command in the qemu console. For more detail you can refer to [one blog](http://nairobi-embedded.org/qemu_monitor_console.html).
 
 ## Reference
