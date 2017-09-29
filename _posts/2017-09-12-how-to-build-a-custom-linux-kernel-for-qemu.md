@@ -156,3 +156,4 @@ $ qemu-system-x86_64 \
 
 [minimal](https://github.com/ivandavidov/minimal)
 
+[Rapid Linux Kernel Dev/Test with QEMU, KVM and Dracut](http://blog.elastocloud.org/2015/06/rapid-linux-kernel-devtest-with-qemu.html)
