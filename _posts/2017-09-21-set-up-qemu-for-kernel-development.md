@@ -70,12 +70,12 @@ At last, I try to boot one kernel with that rootfs.
 create.sh  qemu-image.img
 
 # current kernel
-~/Qemu/test-debootstrap$ qemu-system-x86_64 -kernel ~/Repos/linux/arch/x86/boot/bzImage \
+~/Qemu/test-debootstrap$ qemu-system-x86_64 -kernel /boot/vmlinuz-4.12.0-2-amd64 \
 -drive file=qemu-image.img,index=0,media=disk,format=raw -append "root=/dev/sda single"
 
 # own building kernel
 
-~/Qemu/test-debootstrap$ qemu-system-x86_64 -kernel /boot/vmlinuz-4.12.0-2-amd64 \
+~/Qemu/test-debootstrap$ qemu-system-x86_64 -kernel ~/Repos/linux/arch/x86/boot/bzImage \
 -drive file=qemu-image.img,index=0,media=disk,format=raw -append "root=/dev/sda single"
 ```
 
