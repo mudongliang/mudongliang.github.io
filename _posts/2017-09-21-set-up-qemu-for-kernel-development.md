@@ -79,6 +79,11 @@ create.sh  qemu-image.img
 -drive file=qemu-image.img,index=0,media=disk,format=raw -append "root=/dev/sda single"
 ```
 
+The screenshot is in the below:
+
+![qemu debootstrap]({{site.url}}/images/qemu_debootstrap.png)
+
+
 ## Result
 
 I try to set up qemu according to the instruction in the [References](##Refereces), but failed. I will try my best to figure out reason and finish writing this post.
