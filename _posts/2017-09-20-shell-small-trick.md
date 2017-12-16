@@ -15,3 +15,12 @@ tags: []
 ```
 awk '{sum+=$1};END{print sum/NR}' result
 ```
+
+### Use Tab as field delimiter
+
+```
+cut -f 1 file
+awk -F$'\t' '{print $1} file
+```
+
+Note: `cut` use TAB for its field delimiter
