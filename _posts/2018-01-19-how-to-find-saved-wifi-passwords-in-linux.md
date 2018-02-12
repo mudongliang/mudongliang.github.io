@@ -16,7 +16,7 @@ How do we find saved WiFi password in Linux?
 
 ## Solution
 
-### Graphic Menu
+### Terminal
 
 `cd /etc/NetworkManager/system-connections`
 
@@ -26,7 +26,7 @@ Now with the help of cat command followed by the network name, you can see the s
 
 ![wireless network connection]({{site.url}}/images/wifi-network-password-ubuntu-6.jpg)
 
-### Terminal
+### Graphic Menu
 
 1. First you need to click on the **WiFi icon** in the top right corner to reveal a drop-down menu. At the bottom of the menu, **Edit Connections** option.
 
