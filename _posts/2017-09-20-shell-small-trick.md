@@ -24,3 +24,10 @@ awk -F$'\t' '{print $1} file
 ```
 
 Note: `cut` use TAB for its field delimiter
+
+## Uncompress all the archives in one 
+
+```
+find . -name '*.zip' -execdir unzip '{}' ';'
+find . -name '*.tar.gz' -execdir tar -xvf '{}' ';'
+```
