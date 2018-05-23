@@ -31,3 +31,9 @@ Note: `cut` use TAB for its field delimiter
 find . -name '*.zip' -execdir unzip '{}' ';'
 find . -name '*.tar.gz' -execdir tar -xvf '{}' ';'
 ```
+
+## Find empty folder
+
+```
+find /path/to/dir -empty -exec echo {} is empty. \;
+```
