@@ -12,84 +12,58 @@ tags: []
 ## Preparation
 
 ```
-~/Qemu/test-debootstrap$ ls
-create.sh
-~/Qemu/test-debootstrap$ cat create.sh
-#!/bin/bash
+```
 
-IMG=qemu-image.img
-DIR=mount-point.dir
+**Note:** I add `sudo` before `mkfs.ext4`, or it could not work.
+
+```
+IMG=test_stretch.img
+DIR=stretch
 qemu-img create $IMG 1g
-sudo mkfs.ext2 $IMG
-mkdir $DIR
+sudo mkfs.ext4 $IMG
+mkdir -p $DIR
 sudo mount -o loop $IMG $DIR
-sudo debootstrap --arch amd64 jessie $DIR
+sudo debootstrap --arch amd64 stretch $DIR
 sudo umount $DIR
 rmdir $DIR
 ```
 
-Note: I add `sudo` before `mkfs.ext2`, or it could not work.
+There is no error message when creating rootfs. At last, I try to boot one kernel with that rootfs.
+
+## Experiment
+
+### Test on the current kernel
 
 ```
-~/Qemu/test-debootstrap$ ./create.sh
-./create.sh 
-Formatting 'qemu-image.img', fmt=raw size=1073741824
-[sudo] password for mdl: 
-mke2fs 1.43.6 (29-Aug-2017)
-Discarding device blocks: done                            
-Creating filesystem with 262144 4k blocks and 65536 inodes
-Filesystem UUID: 2f04ec87-c64a-417f-836e-379ee7a1f17a
-Superblock backups stored on blocks: 
-	32768, 98304, 163840, 229376
-
-Allocating group tables: done                            
-Writing inode tables: done                            
-Writing superblocks and filesystem accounting information: done
-
-I: Retrieving InRelease 
-I: Retrieving Release 
-I: Retrieving Release.gpg 
-I: Checking Release signature
-......
-I: Configuring iputils-ping...
-I: Configuring isc-dhcp-common...
-I: Configuring isc-dhcp-client...
-I: Configuring tasksel...
-I: Configuring tasksel-data...
-I: Configuring libc-bin...
-I: Configuring systemd...
-I: Base system installed successfully.
+$ qemu-system-x86_64 -kernel /boot/vmlinuz-`uname -r` \
+-hda qemu-image.img -append "console=ttyS0 root=/dev/sda"
 ```
 
-There is no error message when creating rootfs.
+**Result:**
 
-At last, I try to boot one kernel with that rootfs.
+Failed in Debian, succeed in Ubuntu
+
+### Test on own building kernel
 
 ```
-~/Qemu/test-debootstrap$ ls
-create.sh  qemu-image.img
+$ git clone --depth=1 git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+$ cd linux
+$ make x86_64_defconfig
+$ make kvmconfig
+$ make -j 4
 
-# current kernel
-~/Qemu/test-debootstrap$ qemu-system-x86_64 -kernel /boot/vmlinuz-4.12.0-2-amd64 \
--drive file=qemu-image.img,index=0,media=disk,format=raw -append "root=/dev/sda single"
-
-# own building kernel
-
-~/Qemu/test-debootstrap$ qemu-system-x86_64 -kernel ~/Repos/linux/arch/x86/boot/bzImage \
--drive file=qemu-image.img,index=0,media=disk,format=raw -append "root=/dev/sda single"
+$ qemu-system-x86_64 -kernel linux/arch/x86/boot/bzImage \
+-hda qemu-image.img -append "console=ttyS0 root=/dev/sda"
 ```
 
-The screenshot is in the below:
+**Result:**
 
-![qemu debootstrap]({{site.url}}/images/qemu_debootstrap.png)
+Succeed in Both Ubuntu and Debian
 
+### Other options
 
-## Result
-
-I try to set up qemu according to the instruction in the [References](##Refereces), but failed. I will try my best to figure out reason and finish writing this post.
+You could use options `--enable-kvm`(speed up with KVM) and `--nographic`(without GUI).
 
 ## References
 
 [1] [Set up qemu for kernel development](https://www.collabora.com/news-and-blog/blog/2017/01/16/setting-up-qemu-kvm-for-kernel-development/)
-
-
