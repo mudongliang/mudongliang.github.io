@@ -14,22 +14,21 @@ My name is **Dongliang Mu**. I am a Research Assistant in Penn State University 
 - Education 
 	- Undergraduate(2010.09 - 2014.06), Computer Science and Technology, Zhengzhou University
 	- Ph.D (2014.09 - Now), Computer Science and Technology, Nanjing University
-- Major field : **Software Security**
-	- Vulnerability Diagnose
+- Major field : **Software Security & System Security**
+	- Vulnerability Reproduction
 	- Postmortem Program Analysis
+	- Vulnerability Diagnose
 	- Binary Analysis
-- [Github Account](https://github.com/mudongliang)
-- [Bitbucket Account](https://bitbucket.org/mudongliang)
+- [Github Account](https://github.com/mudongliang)/[Bitbucket Account](https://bitbucket.org/mudongliang)
 
 ### Experience
 
 - Research Assistant in The Pennsylvania State University
-	- Time : **04/2016 - Now**
 	- Adviser: [Dr. Xinyu Xing](http://xinyuxing.org/)
 	- Topic: **Diagnose on process/OS crashes/panics**
 
-- Orangizers of 2018 Penn State Cybersecurity Competition inThe Pennsylvania State University
-	- HomePage : https://psusecurity.github.io/
+- Orangizers of 2018 Penn State Cybersecurity Competition in The Pennsylvania State University
+	- HomePage : <https://psusecurity.github.io/>
 
 ### Publications
 
@@ -37,11 +36,11 @@ My name is **Dongliang Mu**. I am a Research Assistant in Penn State University 
 
 [2] Xu, J., **Mu, D.**, Xing, X., Liu, P., Chen, P., Mao, B., "POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts", In Proceedings of the 26th USENIX Security Symposium (USENIX Security 17), VANCOUVER, BC, CANADA, AUGUST 2017.
 
-[3] Mu, D., Guo, J., Ding, W., Wang, Z., Mao, B., Shi, L., “ROPOB: Obfuscating Binary Code via ReturnOriented Programming.” In International Conference on Security and Privacy in CommunicationSystems (SecureCOMM 17), Niagara Falls, Canada, October 2017.
+[3] **Mu, D.**, Guo, J., Ding, W., Wang, Z., Mao, B., Shi, L., “ROPOB: Obfuscating Binary Code via ReturnOriented Programming.” In International Conference on Security and Privacy in CommunicationSystems (SecureCOMM 17), Niagara Falls, Canada, October 2017.
 
 [4] **Mu, D.**, Cuevas, A., Yang, L., Hu, H., Wang, G., Xing, X., Mao, B., “Understanding the Repro-ducibility of Crowd-reported Security Vulnerabilities”, In Proceedings of the 27th USENIX SecuritySymposium (USENIX Security 18), BALTIMORE, MD, USA, AUGUST 2018.
 
-### My Discovered CVEs
+### CVEs discovered by me
 
 CVE ID | Vulnerability Type | Vulnerable Software and Version
 -------|------------------- | -------------------------------
