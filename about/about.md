@@ -40,6 +40,8 @@ My name is **Dongliang Mu**. I am a Research Assistant in Penn State University 
 
 [4] **Mu, D.**, Cuevas, A., Yang, L., Hu, H., Wang, G., Xing, X., Mao, B., “Understanding the Repro-ducibility of Crowd-reported Security Vulnerabilities”, In Proceedings of the 27th USENIX SecuritySymposium (USENIX Security 18), BALTIMORE, MD, USA, AUGUST 2018.
 
+[5] Guo, W., **Mu, D.**, Xu, J., Su, P., Wang G. , Xing X., "LEMNA: Explaining Deep Learning based Security Applications", In Proceedings of The 25th ACM Conference on Computer and Communications Security (CCS 2018), Toronto, Canada, October 2018.
+
 ### CVEs discovered by me
 
 CVE ID | Vulnerability Type | Vulnerable Software and Version
