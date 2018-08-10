@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create Vagrant Base Box"
+title: "Create Vagrant Base Box Based on Existing One"
 date: 2018-06-25
 description: ""
 category: 
@@ -23,12 +23,6 @@ vagrant init ubuntu/trusty64
 vagrant up
 vagrant ssh
 # do your own modifications
-```
-
-### Add public key
-
-```
-
 ```
 
 ### Install VirtualBox Guest Additions
@@ -68,3 +62,7 @@ Fill in the provider and upload the box file to Vagrant Cloud.
 ## References
 
 [1] <https://www.sitepoint.com/create-share-vagrant-base-box/>
+
+[2] <https://scotch.io/tutorials/how-to-create-a-vagrant-base-box-from-an-existing-one>
+
+[3] <https://abhishek-tiwari.com/creating-a-new-vagrant-base-box-from-an-existing-vm/>
