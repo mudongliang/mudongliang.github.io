@@ -28,7 +28,7 @@ For virtualbox, download Deb packege from [VirtualBox for Linux](https://www.vir
 
 ### Install Linux in the VirtualBox
 
-Follow the instructions in the [PDF File]() to install Ubuntu 16.04 LTS in the VirtualBox. Note that the user and password should be **vagrant**
+Follow the instructions in the [PDF File](https://raw.githubusercontent.com/mudongliang/mudongliang.github.io/master/files/VirtualBox_Ubuntu_16.04LTS_Installation.pdf) to install Ubuntu 16.04 LTS in the VirtualBox. Note that the user and password should be **vagrant**
 
 ### Configure Linux
 
