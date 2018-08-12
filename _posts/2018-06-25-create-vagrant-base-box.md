@@ -22,42 +22,58 @@ vagrant init ubuntu/trusty64
 ```
 vagrant up
 vagrant ssh
-# do your own modifications
 ```
 
-### Install VirtualBox Guest Additions
+### Klee Installation and configuration
 
-```
-```
+You can follow [Building KLEE (LLVM 3.4)](http://klee.github.io/build-llvm34/) to install and configure KLEE.
 
 ### Create new base image
+
+```
+$ vagrant package --base trusty64_default_1529872704422_34658
+```
+
+Then you will see one file - package.box in the working directory.
+
+Note, you can use following instruction to obtain the name of a VM in VirtualBox.
 
 ```
 $ VBoxManage list vms
 "bionic64_default_1527182703834_99771" {daba6cbc-6031-4526-975f-3d5d952d6e89}
 "trusty64_default_1529872704422_34658" {f7d11d1b-d88e-4241-a36e-78d434e0fa51}
 
-$ vagrant package --base trusty64_default_1529872704422_34658
 ```
 
-Then you will see one file - package.box in the working directory.
-
-## Upload to Vagrant Cloud
-
+## Sharing the base box
+ 
+One easy method to share the base box is **to Upload the base box to Vagrant Cloud**.
 
 ### Sign in
 
+At first, you need to create one account and sign in with your new account.
+
 ### Create new image
 
-Screenshot
+![create]({{site.url}}/images/vagrant_cloud_newimage.png)
 
 ### Create new version
 
-Screenshot
+![new_version]({{site.url}}/images/vagrant_cloud_newversion.png)
 
-### Upload box file
+Then you will see the new vagrant box like this,
 
-Fill in the provider and upload the box file to Vagrant Cloud.
+![status]({{site.url}}/images/vagrant_cloud_status.png)
+
+### Select provider and Upload box file
+
+![status]({{site.url}}/images/vagrant_cloud_provider.png)
+
+Here I use vritualbox. So I fill the provider as "virtualbox".
+
+![status]({{site.url}}/images/vagrant_cloud_upload.png)
+
+Then upload the box file to Vagrant Cloud.
 
 ## References
 
