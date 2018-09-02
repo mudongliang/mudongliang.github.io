@@ -81,5 +81,8 @@ The following projects are Github / Bitbucket Repositories I maintained or contr
 
 - [ScreenFetch](https://github.com/KittyKatt/screenFetch)
 - [apt-spy-python](https://bitbucket.org/pheanex/apt-spy-python/)
+- [linux-configuration](https://github.com/mudongliang/linux-configuration)
+- [youdao-python](https://github.com/mudongliang/youdao-python)
+- [x86.renejeschke.de](https://github.com/mudongliang/x86.renejeschke.de)
 
 If you need my full CV, please [email](mailto:mudongliangabcd@gmail.com) me.
