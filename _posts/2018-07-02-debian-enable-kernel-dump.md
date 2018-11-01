@@ -17,7 +17,7 @@ In case of a system crash, `kdump` uses `kexec` to boot into a second kernel (a 
 
 ## Installation
 
-1. `sudo apt-get install kdump-tools`
+1. `sudo apt-get install kdump-tools crash kexec-tools makedumpfile $(uname -r)-dbg`
 2. Check `USE_KDUMP=1` in `/etc/default/kdump-tools`
 3. Check `crashkernel=384M-:128M`
 4. If you modify the kernel command-line given in bootloader configuration, `sudo update-grub`
