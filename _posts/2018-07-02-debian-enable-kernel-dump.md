@@ -59,3 +59,5 @@ Use the `crash` tool to look at the resulting crash dump
 [4] <https://www.kernel.org/doc/Documentation/kdump/kdump.txt>
 
 [5] <https://github.com/gurugio/linuxdeveloptip/blob/master/qemu-gdb-kdump.md>
+
+[6] <https://www.dedoimedo.com/computers/crash-analyze.html#mozTocId45838>
