@@ -10,7 +10,7 @@ tags: []
 * TOC
 {:toc}
 
-### 添加较快源
+## 添加较快源
 国内比较快速和稳定的源有以下两种：
 
 **Official**
@@ -37,7 +37,7 @@ deb-src http://mirrors.ustc.edu.cn/debian-security/ stretch/updates main non-fre
 ```
 将上述内容写入到 `/etc/apt/sources.list`, 然后 `apt-get update`
 
-### 添加sudo权限
+## 添加sudo权限
 首先，Debian 镜像默认没有安装`sudo`(`apt-get install sudo`)
 然后，编辑`/etc/sudoers`(`vim /etc/sudoers`)
 
@@ -46,13 +46,16 @@ root ALL=(ALL) ALL
 <your_user_name> ALL=(ALL) ALL
 ```
 
+## 安装常用软件
+### 安装Openssh server
+
+参见[教程](https://mudongliang.github.io/2018/12/16/popular-software.html#openssh-server)，
+
 ### 安装中文输入法 IBUS
 
 ibus-pinyin ibus-sunpinyin
 
-```
-sudo apt-get install ibus ibus-pinyin ibus-sunpinyin
-```
+参见[教程](https://mudongliang.github.io/2018/12/16/popular-software.html#ibus--pinyinsunpinyin)
 
 ![ibus1]({{site.url}}/images/ibus1.png)
 
@@ -66,9 +69,7 @@ sudo apt-get install ibus ibus-pinyin ibus-sunpinyin
 
 googlepinyin sunpionyin (sogoupinyin)
 
-```
-sudo apt install fcitx fcitx-googlepinyin fcitx-sunpionyin
-```
+参见[教程1](https://mudongliang.github.io/2018/12/16/popular-software.html#fcitx--sunpinyingooglepinyin)和[教程2](https://mudongliang.github.io/2018/12/16/popular-software.html#fcitx--sogoupinyin)
 
 直接从搜狗的官网上面下载deb包安装，然后使用`im-config`来选择`fcitx`。
 
@@ -82,13 +83,18 @@ sudo apt install fcitx fcitx-googlepinyin fcitx-sunpionyin
 **注意：在搜狗输入法的使用过程中，我经常发现搜狗的进程占用100%CPU导致系统非常卡，所以我一般使用Google pinyin**
  
 <!--
-
 ### ~~安装 flashplugin~~
 ~~可以直接使用新立得直接搜索并下载安装, 或 `apt-get install flashplugin-nonfree`~~
 -->
 
-### 安装chrome浏览器
+### 安装 Anyconnect
+
+根据[教程](https://pennstate.service-now.com/sp?id=kb_article_view&sys_kb_id=ee330252db212788a318fb671d961981&sysparm_tsqueryId=5d397a69db1ea34497c9ffe61d961965&sysparm_rank=1#Linux%20Install)安装Anyconnect。教程讲解地十分详细。
+
+### 安装Chrome浏览器
 从[下载页](https://dl.google.com)下载 Chrome 对应的安装包，同步google账户上的书签，插件，应用程序等。
+
+或者根据[教程](https://mudongliang.github.io/2018/12/16/popular-software.html#chrome)来通过软件仓库安装
 
 ### 安装vmware workstation
 
@@ -101,6 +107,8 @@ sudo apt install fcitx fcitx-googlepinyin fcitx-sunpionyin
 安装包可以在 VMware 官网上下载（lisence key直接在网上百度）
 
 ### 安装无线网卡驱动
+
+参照[另一篇博文](ihttps://mudongliang.github.io/2017/02/17/install-driver-for-intel-corporation-wireless-8260-in-debian-jessie-and-stretch.html)来安装无线网卡驱动
 
 ### 整理一下自己文件和分区
 添加一个新的硬盘,然后调整fstab文件进行自动挂载。
@@ -119,13 +127,6 @@ sudo apt install fcitx fcitx-googlepinyin fcitx-sunpionyin
 ![Debian8-4.png]({{site.url}}/images/Debian8-4.png)
 ![Debian8-5.png]({{site.url}}/images/Debian8-5.png)
 
-### 安装faenza-icon-theme
-在 tweak tool 中选择这个图标，这个图标还是很漂亮的。同时将顶部 panel 变为透明，修改`/usr/share/gnome-shell/theme/gnome-shell.css`文件，
-
-### Gnome Shell Extensions
-
-我喜欢的 Gnome 桌面扩展列在[My Favourite Gnome Extensions](http://mudongliang.github.io/2017/03/12/my-favourite-gnome-extensions.html)
-
 ### 安装一些自己喜欢的程序
 
 **Installed by apt-get**
@@ -142,5 +143,13 @@ sudo apt install fcitx fcitx-googlepinyin fcitx-sunpionyin
 **Installed by downloaded deb package**
 	
 - Skype
+
+
+## 安装faenza-icon-theme
+在 tweak tool 中选择这个图标，这个图标还是很漂亮的。同时将顶部 panel 变为透明，修改`/usr/share/gnome-shell/theme/gnome-shell.css`文件，
+
+## Gnome Shell Extensions
+
+我喜欢的 Gnome 桌面扩展列在[My Favourite Gnome Extensions](http://mudongliang.github.io/2017/03/12/my-favourite-gnome-extensions.html)
 
 搞完收工，切记莫折腾，可以便好！

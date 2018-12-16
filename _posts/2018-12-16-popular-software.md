@@ -950,11 +950,69 @@ Gnome桌面中的图片查看器及浏览器
 
 ### 输入法
 
-#### ibus + sunpinyin
+#### ibus + pinyin/sunpinyin
+
+- 介绍
+
+
+- 下载位置
+
+[官方网站]()
+
+- 安装方法
+
+```
+sudo apt-get install ibus ibus-pinyin ibus-sunpinyin
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge ibus ibus-pinyin ibus-sunpinyin
+```
+
 
 #### fcitx + sunpinyin/googlepinyin
 
+- 介绍
+
+
+- 下载位置
+
+[官方网站]()
+
+- 安装方法
+
+```
+sudo apt-get install fcitx fcitx-googlepinyin fcitx-sunpionyin
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge fcitx fcitx-googlepinyin fcitx-sunpionyin
+```
+
+
 #### fcitx + sogoupinyin
+
+- 介绍
+
+
+- 下载位置
+
+[官方网站]()
+
+- 安装方法
+
+```
+```
+
+- 卸载方法
+
+```
+```
+
 
 ### 文档阅读
 
@@ -1124,11 +1182,43 @@ GNU screen 类似的程序，可作为 screen 的替代品使用
 
 #### dd
 
+### 包管理器
+
+#### Gdebi
+
+#### Synaptic
+
 ## 系统管理
 
 ### 配置工具
 
 #### Tweak Tool
+
+### SSH Server/Client
+
+#### openssh server
+
+- 介绍
+
+Secure Shell 的开源实现，目前已经成为 SSH Server 的首选
+
+
+- 官方网站
+
+[Official Website](http://www.openssh.com/)
+
+- 安装方法
+
+```
+sudo apt-get install openssh-server
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge openssh-server
+```
+
 
 ## 程序开发
 
