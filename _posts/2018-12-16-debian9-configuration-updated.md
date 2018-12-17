@@ -46,6 +46,14 @@ root ALL=(ALL) ALL
 <your_user_name> ALL=(ALL) ALL
 ```
 
+## 美化
+
+删除Firefox, Gnome terminal 标题下面的**非常难看**的边框, 
+
+![ugly border line]({{site.url}}/images/noxEnD4.png)
+
+参考[教程](https://mudongliang.github.io/2016/06/29/remove-the-ugly-border-in-gnome-320.html)
+
 ## 安装常用软件
 ### 安装Openssh server
 
