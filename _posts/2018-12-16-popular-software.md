@@ -392,8 +392,6 @@ sudo apt-get install pidgin
 sudo apt-get purge pidgin
 ```
 
-#### XChat
-
 #### HexChat
 
 - 介绍
@@ -439,8 +437,6 @@ sudo apt-get purge corebird
 ```
 
 ### 文件传输
-
-#### ~~XwareDesktop~~
 
 #### FlareGet
 
@@ -532,6 +528,25 @@ sudo apt-get purge transmission
 
 #### qBittorrent
 
+- 介绍
+
+A BitTorrent client in Qt
+
+- 下载位置
+
+[Download](https://github.com/qbittorrent/qBittorrent)
+
+- 安装方法
+
+```
+sudo apt-get install qbittorrent
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge qbittorrent
+```
 #### Aria2
 
 - 介绍
@@ -609,8 +624,47 @@ sudo dpkg -r bcloud
 
 #### 坚果云
 
+- 介绍
+
+任何设备，随时随地实现文件共享
+
+- 下载位置
+
+[DEB包](https://www.jianguoyun.com/static/exe/installer/debian/nautilus_nutstore_amd64.deb)
+
+- 安装方法
+
+```
+sudo gdebi nautilus_nutstore_amd64.deb
+```
+
+- 卸载方法
+
+```
+sudo dpkg -r nautilus_nutstore
+```
 
 #### Dropbox
+
+- 介绍
+
+我用的最好的的文件托管服务
+
+- 下载位置
+
+[Dropbox安装](https://www.dropbox.com/install-linux)
+
+- 安装方法
+
+```
+sudo apt install nautilus-dropbox
+```
+
+- 卸载方法
+
+```
+sudo apt purge nautilus-dropbox
+```
 
 #### OwnCloud
 
@@ -1302,29 +1356,50 @@ sudo vmware-installer -u vmware-workstation
 
 - 介绍
 
+Sun公司开发的完全开源的x86模拟器
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://www.virtualbox.org/)
 
-[下载位置]()
+[下载位置](ihttps://www.virtualbox.org/wiki/Linux_Downloads)
 
 - 安装方法
 
+```
+sudo sh -c 'echo "deb https://download.virtualbox.org/virtualbox/debian stretch contrib" > /etc/apt/sources.list.d/virtualbox.list'
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install virtualbox-5.2
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge virtualbox-5.2
+```
 
 #### Boxes
 
 - 介绍
 
+A simple GNOME application to view, access, and manage remote and virtual systems.
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[官方网站](https://wiki.gnome.org/Apps/Boxes)
 
 - 安装方法
 
+```
+sudo apt-get install gnome-boxes
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge gnome-boxes
+```
 
 #### Qemu
 
