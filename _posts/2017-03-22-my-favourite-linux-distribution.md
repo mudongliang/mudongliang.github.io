@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "my favourite linux distribution"
+title: "My favourite linux distributions"
 date: 2017-03-22
 description: ""
 category: 
@@ -10,13 +10,14 @@ tags: []
 My favourite linux distrobutions are as follows:
 
 - Point Release
-	- Debian
-	- Linux Mint / LMDE
+	- **Debian**
+	- Linux Mint 
 	- CentOS
 	- Ubuntu
 
 - Rolling Release:
-	- Kali Linux
+	- **Kali Linux**
+	- LMDE
 	- AntegerOS
 	- Arch Linux
 	- OpenSUSE Tumbleweed
