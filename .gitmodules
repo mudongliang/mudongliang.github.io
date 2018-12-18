@@ -1,3 +1,6 @@
 [submodule "x86"]
 	path = x86
 	url = https://github.com/mudongliang/x86.renejeschke.de
+[submodule "debgen"]
+	path = debgen
+	url = https://github.com/MintCN/debgen
