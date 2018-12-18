@@ -301,22 +301,30 @@ sudo apt-get update
 
 最清晰的免费网络电话，提供文字、声音和视频聊天
 
+- 官方网站
+
+[Official Website](https://www.skype.com/en/)
+
 - 下载位置
 
 [Download](https://www.skype.com/en/download-skype/skype-for-linux/)
 
 - 安装方法
 
-    sudo gdebi skypeforlinux-64.deb
+```
+wget https://go.skype.com/skypeforlinux-64.deb
+sudo gdebi skypeforlinux-64.deb
+```
 
 - 卸载方法
 
-    sudo dpkg -r skypeforlinux
+```
+sudo dpkg -r skypeforlinux
+```
 
 - 备注
 
 目前只支持 64 位版本的 `deb` 和 `rpm` 安装包。
-
 
 #### Skype WebPage
 
@@ -326,8 +334,7 @@ sudo apt-get update
 
 - 安装方法
 
-使用 Skype Beta 的[网页版本](https://web.skype.com)
-
+使用 Skype 的[网页版本](https://web.skype.com)
 
 #### BearyChat
 
@@ -357,7 +364,6 @@ sudo apt-get install empathy
 sudo apt-get purge empathy
 ```
 
-
 #### Pidgin
 
 - 介绍
@@ -370,12 +376,15 @@ sudo apt-get purge empathy
 
 - 安装方法
 
-    sudo apt-get install pidgin
+```
+sudo apt-get install pidgin
+```
 
 - 卸载方法
 
-    sudo apt-get purge pidgin
-
+```
+sudo apt-get purge pidgin
+```
 
 #### XChat
 
@@ -439,12 +448,15 @@ sudo apt-get purge corebird
 
 - 安装方法
 
-    sudo gdebi flareget_4.3-95_amd64.deb
+```
+sudo gdebi flareget_4.3-95_amd64.deb
+```
 
 - 卸载方法
 
-    sudo dpkg -r flareget
-
+```
+sudo dpkg -r flareget
+```
 
 #### UGet
 
@@ -458,12 +470,15 @@ sudo apt-get purge corebird
 
 - 安装方法
 
-    sudo apt-get install uget
+```
+sudo apt-get install uget
+```
 
 - 卸载方法
 
-    sudo apt-get purge uget
-
+```
+sudo apt-get purge uget
+```
 
 #### Wget
 
@@ -477,12 +492,15 @@ sudo apt-get purge corebird
 
 - 安装方法
 
-    sudo apt-get install wget
+```
+sudo apt-get install wget
+```
 
 - 卸载方法
 
-    sudo apt-get purge wget
-
+```
+sudo apt-get purge wget
+```
 
 #### Transmission
 
@@ -496,12 +514,15 @@ sudo apt-get purge corebird
 
 - 安装方法
 
-    sudo apt-get install transmission
+```
+sudo apt-get install transmission
+```
 
 - 卸载方法
 
-    sudo apt-get purge transmission
-
+```
+sudo apt-get purge transmission
+```
 
 #### qBittorrent
 
@@ -517,12 +538,15 @@ sudo apt-get purge corebird
 
 - 安装方法
 
-    sudo apt-get install aria2
+```
+sudo apt-get install aria2
+```
 
 - 卸载方法
 
-    sudo apt-get purge aria2
-
+```
+sudo apt-get purge aria2
+```
 
 #### Filezilla
 
@@ -536,12 +560,15 @@ sudo apt-get purge corebird
 
 - 安装方法
 
-    sudo apt-get install filezilla
+```
+sudo apt-get install filezilla
+```
 
 - 卸载方法
 
-    sudo apt-get purge filezilla
-
+```
+sudo apt-get purge filezilla
+```
 
 ### 云存储
 
@@ -570,8 +597,9 @@ rm -rf bcloud-packages
  
 - 卸载方法
 
-    sudo dpkg -r bcloud
-
+```
+sudo dpkg -r bcloud
+```
 
 #### 坚果云
 
@@ -594,8 +622,8 @@ rm -rf bcloud-packages
 
 - 下载位置
 
-- 首先进入[支付宝](https://www.alipay.com/)首页；
-- 点击登录按钮之后，下载支付宝控件；
+	- 首先进入[支付宝](https://www.alipay.com/)首页；
+	- 点击登录按钮之后，下载支付宝控件；
 
 - 安装方法
 
@@ -610,6 +638,8 @@ Press any key to quit...
 ```
 
 - 卸载方法
+
+无
 
 ### 远程控制
 
@@ -646,8 +676,9 @@ rm -rf kwplayer-packages
 
 - 卸载方法
 
-    sudo dpkg -r kwplayer
-
+```
+sudo dpkg -r kwplayer
+```
 
 #### FeelUOwn
 
@@ -662,7 +693,6 @@ rm -rf kwplayer-packages
 - 安装方法
 
 [安装方法](https://github.com/cosven/FeelUOwn#安装方法)
-
 
 #### 网易云音乐官方客户端
 
@@ -680,12 +710,15 @@ rm -rf kwplayer-packages
 
 - 安装方法
 
-    sudo apt-get install banshee
+```
+sudo apt-get install banshee
+```
 
 - 卸载方法
 
-    sudo apt-get purge banshee
-
+```
+sudo apt-get purge banshee
+```
 
 #### Rhythmbox
 
@@ -699,12 +732,15 @@ Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大
 
 - 安装方法
 
+```
     sudo apt-get install rhythmbox
+```
 
 - 卸载方法
 
-    sudo apt-get purge rhythmbox
-
+```
+sudo apt-get purge rhythmbox
+```
 
 ### 视频播放
 
@@ -720,12 +756,15 @@ Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大
 
 - 安装方法
 
-    sudo apt-get install smplayer
+```
+sudo apt-get install smplayer
+```
 
 - 卸载方法
 
-    sudo apt-get purge smplayer
-
+```
+sudo apt-get purge smplayer
+```
 
 #### VLC
 
@@ -739,12 +778,15 @@ Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大
 
 - 安装方法
 
-    sudo apt-get install vlc
+```
+sudo apt-get install vlc
+```
 
 - 卸载方法
 
-    sudo apt-get purge vlc
-
+```
+sudo apt-get purge vlc
+```
 
 #### mpv
 
@@ -759,12 +801,15 @@ Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大
 
 - 安装方法
 
-    sudo apt-get install mpv
+```
+sudo apt-get install mpv
+```
 
 - 卸载方法
 
-    sudo apt-get purge mpv
-
+```
+sudo apt-get purge mpv
+```
 
 #### KODI(原XBMC)
 
@@ -786,12 +831,13 @@ sudo apt-get install kodi
 
 - 卸载方法
 
-    sudo apt-get purge kodi
-    
+```
+sudo apt-get purge kodi
+```
+ 
 - 中文插件
 
 [xbmc-addons-chinese](https://github.com/taxigps/xbmc-addons-chinese)
-
 
 ### 图像浏览
 
@@ -807,12 +853,15 @@ Gnome桌面中默认的图片查看器
 
 - 安装方法
 
-    sudo apt-get install eog
+```
+sudo apt-get install eog
+```
 
 - 卸载方法
 
-    sudo apt-get purge eog
-
+```
+sudo apt-get purge eog
+```
 
 #### gThumb
 
@@ -826,12 +875,15 @@ Gnome桌面中的图片查看器及浏览器
 
 - 安装方法
 
-    sudo apt-get install gthumb
+```
+sudo apt-get install gthumb
+```
 
 - 卸载方法
 
-    sudo apt-get purge gthumb
-
+```
+sudo apt-get purge gthumb
+```
 
 ## 游戏娱乐
 
@@ -849,12 +901,15 @@ Gnome桌面中的图片查看器及浏览器
 
 - 安装方法
 
-    sudo apt-get install steam
+```
+sudo apt-get install steam
+```
 
 - 卸载方法
 
-    sudo apt-get purge steam
-
+```
+sudo apt-get purge steam
+```
 
 ### Gnome自带小游戏
 
@@ -870,12 +925,15 @@ Gnome桌面中的图片查看器及浏览器
 
 - 安装方法
 
-    sudo apt-get install gnome-2048
+```
+sudo apt-get install gnome-2048
+```
 
 - 卸载方法
 
-    sudo apt-get purge gnome-2048
-
+```
+sudo apt-get purge gnome-2048
+```
 
 #### Gnomine
 
@@ -889,12 +947,15 @@ Gnome桌面中的图片查看器及浏览器
 
 - 安装方法
 
-    sudo apt-get install gnomine
+```
+sudo apt-get install gnomine
+```
 
 - 卸载方法
 
-    sudo apt-get purge gnomine
-
+```
+sudo apt-get purge gnomine
+```
 
 #### Sudoku
 
@@ -908,12 +969,15 @@ Gnome桌面中的图片查看器及浏览器
 
 - 安装方法
 
-    sudo apt-get install gnome-sudoku
+```
+sudo apt-get install gnome-sudoku
+```
 
 - 卸载方法
 
-    sudo apt-get purge gnome-sudoku
-
+```
+sudo apt-get purge gnome-sudoku
+```
 
 #### Quadrapassel
 
@@ -927,12 +991,15 @@ Gnome桌面中的图片查看器及浏览器
 
 - 安装方法
 
-    sudo apt-get install quadrapassel
+```
+sudo apt-get install quadrapassel
+```
 
 - 卸载方法
 
-    sudo apt-get purge quadrapassel
-
+```
+sudo apt-get purge quadrapassel
+```
 
 ## 文件管理
 
@@ -954,10 +1021,11 @@ Gnome桌面中的图片查看器及浏览器
 
 - 介绍
 
+为Linux/Unix系统开发的全新输入法框架
 
 - 下载位置
 
-[官方网站]()
+[官方网站](https://github.com/ibus/ibus/wiki)
 
 - 安装方法
 
@@ -976,10 +1044,11 @@ sudo apt-get purge ibus ibus-pinyin ibus-sunpinyin
 
 - 介绍
 
+为Linux 提供的轻量的输入法框架
 
 - 下载位置
 
-[官方网站]()
+[官方网站](https://fcitx-im.org/wiki/Fcitx)
 
 - 安装方法
 
@@ -998,35 +1067,101 @@ sudo apt-get purge fcitx fcitx-googlepinyin fcitx-sunpionyin
 
 - 介绍
 
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
+### 文档阅读
+
+- 介绍
 
 - 下载位置
 
 [官方网站]()
 
-- 安装方法
+[下载位置]()
 
-```
-```
+- 安装方法
 
 - 卸载方法
 
-```
-```
-
-
-### 文档阅读
-
 #### Evince
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 #### Okular
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Foxit Reader
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ### 办公套件
 
 #### Libre Office
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### WPS Office
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ### 笔记记事
 
@@ -1048,27 +1183,174 @@ sudo apt-get purge fcitx fcitx-googlepinyin fcitx-sunpionyin
 
 #### Texmaker
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Latexila
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 #### Lyx
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### TeXstudio
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Texlive
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ## 科学软件
 
 #### Mendeley
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 ## 虚拟化
 
 ### 虚拟机
 
-#### VMware Play/Workstation
+#### VMware Workstation
+
+- 介绍
+
+VMware Workstation Pro is the industry standard for running multiple operating systems as virtual machines (VMs) on a single Linux or Windows PC. IT professionals, developers and businesses who build, test or demo software for any device, platform or cloud rely on Workstation Pro.
+
+- 下载位置
+
+[官方网站](https://www.vmware.com/products/workstation-pro.html)
+
+[下载位置](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)
+
+- 安装方法
+
+```
+chmod +x VMware-Workstation-Full-*.x86_64.bundle
+sudo ./VMware-Workstation-Full-*.x86_64.bundle
+```
+
+- 卸载方法
+
+```
+sudo vmware-installer -u vmware-workstation
+```
 
 #### VirtualBox
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Boxes
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
+#### Qemu
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
+#### Qemu-KVM
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ## 监视和控制
 
@@ -1076,29 +1358,161 @@ sudo apt-get purge fcitx fcitx-googlepinyin fcitx-sunpionyin
 
 #### CPU-G
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Hardinfo
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 #### I-Nex
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Psensor
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ### 系统监视
 
 #### System Monitor
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Htop
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ### 远程控制
 
 #### TeamViewer
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Chrome Remote Desktop
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 #### Remmina
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### AnyDesk
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Putty
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ## 系统安全
 
@@ -1106,11 +1520,47 @@ sudo apt-get purge fcitx fcitx-googlepinyin fcitx-sunpionyin
 
 #### KeePass2
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### KeePassX
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ### 杀毒软件
 
 #### ClamAV
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ## 系统工具
 
@@ -1125,16 +1575,20 @@ Gnome Terminal 是 Gnome 桌面环境中的终端模拟软件
 - 官方网站
 
 [Official Website](https://help.gnome.org/users/gnome-terminal/stable/index.html.en)
+
 [GitHub](https://github.com/GNOME/gnome-terminal)
 
 - 安装方法
 
-    sudo apt-get install gnome-terminal
+```
+sudo apt-get install gnome-terminal
+```
 
 - 卸载方法
 
-    sudo apt-get purge gnome-terminal
-
+```
+sudo apt-get purge gnome-terminal
+```
 
 #### Terminator
 
@@ -1148,12 +1602,15 @@ Terminator 是一个程序，它可让用户自由地排布多个 GNOME 终端�
 
 - 安装方法
 
-    sudo apt-get install terminator
+```
+sudo apt-get install terminator
+```
 
 - 卸载方法
 
-    sudo apt-get purge terminator
-
+```
+sudo apt-get purge terminator
+```
 
 #### tmux
 
@@ -1167,32 +1624,125 @@ GNU screen 类似的程序，可作为 screen 的替代品使用
 
 - 安装方法
 
-    sudo apt-get install tmux
+```
+sudo apt-get install tmux
+```
 
 - 卸载方法
 
-    sudo apt-get purge tmux
-
+```
+sudo apt-get purge tmux
+```
 
 ### Shell
+
+#### Zsh
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ### 启动盘制作工具
 
 #### UNetbootin
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### dd
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ### 包管理器
 
 #### Gdebi
 
+- 介绍
+
+用于安装你自己手动下载的包的GUI程序
+
+- 官方网站
+
+[Official Website](https://packages.debian.org/stretch/gdebi)
+
+- 安装方法
+
+```
+sudo apt-get install gdebi
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge gdebi
+```
+
 #### Synaptic
+
+- 介绍
+
+apt系的图形化安装软件
+
+- 官方网站
+
+[Official Website](https://www.nongnu.org/synaptic/)
+
+- 安装方法
+
+```
+sudo apt-get install synaptic
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge synaptic
+```
 
 ## 系统管理
 
 ### 配置工具
 
 #### Tweak Tool
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ### SSH Server/Client
 
@@ -1226,30 +1776,174 @@ sudo apt-get purge openssh-server
 
 #### Git
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### SVN
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ### 本文编辑器
 
 #### Sublime Text
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Visual Studio Code
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 #### gedit
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Atom
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 #### Vim
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Emacs
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ### 集成开发环境
 
 #### Eclipse IDE
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### JetBrains IDE
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 #### Wireshark
 
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
 #### Code Blocks
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
 
 ## 其他
