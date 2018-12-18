@@ -1075,27 +1075,23 @@ sudo apt-get purge fcitx fcitx-googlepinyin fcitx-sunpionyin
 
 - 下载位置
 
-[官方网站]()
+[官方网站](https://pinyin.sogou.com/)
 
-[下载位置]()
+[下载位置](https://pinyin.sogou.com/linux/?r=pinyin)
 
 - 安装方法
 
+```
+sudo gdebi sogoupinyin_*_amd64.deb
+```
+
 - 卸载方法
+
+```
+sudo dpkg -r sogoupinyin
+```
 
 ### 文档阅读
-
-- 介绍
-
-- 下载位置
-
-[官方网站]()
-
-[下载位置]()
-
-- 安装方法
-
-- 卸载方法
 
 #### Evince
 
@@ -1752,7 +1748,7 @@ sudo apt-get purge synaptic
 
 ### SSH Server/Client
 
-#### Openssh server
+#### Openssh Server
 
 - 介绍
 
@@ -1888,71 +1884,141 @@ sudo apt-get purge sublime-text
 
 - 介绍
 
+微软开发可以跨Linux，Windows，Mac OS的编辑器
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://code.visualstudio.com/)
 
-[下载位置]()
+[下载位置](https://code.visualstudio.com/Download)
 
 - 安装方法
 
+```
+# 1. install from downloaded package
+sudo gdebi code_*_amd64.deb
+# 2. install from source list
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install code
+```
+
 - 卸载方法
+
+```
+# 1.
+sudo dpkg -r code
+# 2.
+sudo apt-get purge code
+```
 
 #### gedit
 
 - 介绍
 
+GNOME桌面环境的默认文本编辑器
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://wiki.gnome.org/Apps/Gedit)
 
-[下载位置]()
+[下载位置](https://wiki.gnome.org/Apps/Gedit#Download)
 
 - 安装方法
 
+```
+sudo apt-get install gedit
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge gedit
+```
 
 #### Atom
 
 - 介绍
 
+**A hackable text editor for the 21st Century**
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://atom.io/)
 
-[下载位置]()
+[下载位置](https://github.com/atom/atom)
 
 - 安装方法
 
+```
+# 1. install from package
+sudo gdebi atom-amd64.deb
+# 2. install from source list
+curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+sudo apt-get update
+sudo apt-get install atom
+```
+
 - 卸载方法
+
+```
+# 1.
+sudo dpkg -r atom
+# 2.
+sudo apt-get purge atom
+```
 
 #### Vim
 
 - 介绍
 
+Unix/Linux平台下的高度可配置的文本编译器，可以说Linux下非常好的文本编译器，也是我默认的编译器。
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://www.vim.org/)
 
-[下载位置]()
+[下载位置](https://github.com/vim/vim.git)
 
 - 安装方法
 
+```
+sudo apt-get install vim
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge vim
+```
 
 #### Emacs
 
 - 介绍
 
+**An extensible, customizable, free/libre text editor — and more.**
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://www.gnu.org/software/emacs/)
 
-[下载位置]()
+[下载位置](https://www.gnu.org/software/emacs/download.html)
 
 - 安装方法
 
+```
+sudo apt-get install emacs
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge emacs
+```
 
 ### 集成开发环境
 
@@ -1988,15 +2054,25 @@ sudo apt-get purge sublime-text
 
 - 介绍
 
+世界第一以及使用最广泛的网络协议分析器
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://www.wireshark.org/)
 
-[下载位置]()
+[下载位置](https://www.wireshark.org/download.html)
 
 - 安装方法
 
+```
+sudo apt-get install wireshark
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge wireshark
+```
 
 #### Code Blocks
 

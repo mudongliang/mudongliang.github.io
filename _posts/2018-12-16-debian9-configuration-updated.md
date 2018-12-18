@@ -85,11 +85,10 @@ googlepinyin sunpionyin (sogoupinyin)
 
 参见[教程1](https://mudongliang.github.io/2018/12/16/popular-software.html#fcitx--sunpinyingooglepinyin)和[教程2](https://mudongliang.github.io/2018/12/16/popular-software.html#fcitx--sogoupinyin)
 
-直接从搜狗的官网上面下载deb包安装，然后使用`im-config`来选择`fcitx`。
+然后在`fcitx`的`config`中选择对应的中文输入法，`pinyin, sunpinyin,googlepinyin,sogoupinyin`。
 
 ![sogou]({{site.url}}/images/sougou.png)
 
-在`fcitx`的`config`中选择对应的中文输入法，`pinyin, sunpinyin,googlepinyin,sogoupinyin`。
 最后，可以使用`im-config`来选择你使用的中文输入法。
 
 ![im-config]({{site.url}}/images/im-config.png)
@@ -109,26 +108,26 @@ googlepinyin sunpionyin (sogoupinyin)
 
 从[下载页](https://dl.google.com)下载 Chrome 对应的安装包，同步google账户上的书签，插件，应用程序等。
 
-或者根据本站内的[教程](https://mudongliang.github.io/2018/12/16/popular-software.html#chrome)来通过软件仓库安装
+或者根据本站内的[教程](https://mudongliang.github.io/2018/12/16/popular-software.html#chrome)来通过软件仓库安装。
 
 ### 安装vmware workstation
 
-根据本站内的[教程](ihttps://mudongliang.github.io/2017/02/17/install-and-uninstall-vmware-workstation.html)来安装 VMware Workstation Pro
+根据本站内的[教程](ihttps://mudongliang.github.io/2017/02/17/install-and-uninstall-vmware-workstation.html)来安装 VMware Workstation Pro。
 
 ### 安装一些自己喜欢的应用程序
 
 **Installed by apt-get**
 
-- Terminator(多窗口终端)
-- Wireshark(嗅探器)
-- Hexchat(irc聊天工具)
-- VLC(视频播放器)
-- UGet(下载器)
+- [Terminator](https://mudongliang.github.io/2018/12/16/popular-software.html#terminator)(多窗口终端)
+- [Wireshark](https://mudongliang.github.io/2018/12/16/popular-software.html#wireshark)(嗅探器)
+- [Hexchat](https://mudongliang.github.io/2018/12/16/popular-software.html#hexchat)(irc聊天工具)
+- [VLC](https://mudongliang.github.io/2018/12/16/popular-software.html#vlc)(视频播放器)
+- [UGet](https://mudongliang.github.io/2018/12/16/popular-software.html#uget)(下载器)
 
 **Installed by downloaded deb package**
 	
-- Skype(即时通讯工具)
-- VSCode(编辑器)
+- [Skype](https://mudongliang.github.io/2018/12/16/popular-software.html#skype)(即时通讯工具)
+- [VSCode](https://mudongliang.github.io/2018/12/16/popular-software.html#visual-studio-code)(编辑器)
 
 <!--
 ### 安装其他软件
