@@ -242,12 +242,15 @@ sudo apt-get update
 
 - 安装方法
 
-    sudo apt-get install evolution
+```
+sudo apt-get install evolution
+```
 
 - 卸载方法
 
-    sudo apt-get purge evolution
-
+```
+sudo apt-get purge evolution
+```
 
 #### Geary
 
@@ -263,12 +266,15 @@ sudo apt-get update
 
 - 安装方法
 
-    sudo apt-get install mutt
+```
+sudo apt-get install mutt
+```
 
 - 卸载方法
 
-    sudo apt-get install mutt
-
+```
+sudo apt-get install mutt
+```
 
 ### 即时聊天
 
@@ -733,7 +739,7 @@ Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大
 - 安装方法
 
 ```
-    sudo apt-get install rhythmbox
+sudo apt-get install rhythmbox
 ```
 
 - 卸载方法
@@ -1746,12 +1752,11 @@ sudo apt-get purge synaptic
 
 ### SSH Server/Client
 
-#### openssh server
+#### Openssh server
 
 - 介绍
 
 Secure Shell 的开源实现，目前已经成为 SSH Server 的首选
-
 
 - 官方网站
 
@@ -1769,6 +1774,27 @@ sudo apt-get install openssh-server
 sudo apt-get purge openssh-server
 ```
 
+#### Openssh Client
+
+- 介绍
+
+Secure Shell 的开源实现，目前已经成为 SSH Server 的首选
+
+- 官方网站
+
+[Official Website](http://www.openssh.com/)
+
+- 安装方法
+
+```
+sudo apt-get install openssh-client
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge openssh-client
+```
 
 ## 程序开发
 
@@ -1778,29 +1804,49 @@ sudo apt-get purge openssh-server
 
 - 介绍
 
+Linus为管理Linux内核而开发的分布式版本管理工具
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://git-scm.com/)
 
-[下载位置]()
+[下载位置](https://git-scm.com/download/linux)
 
 - 安装方法
 
+```
+sudo apt-get install git
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge git
+```
 
 #### SVN
 
 - 介绍
 
+Apache开发的集中式版本管理工具
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://subversion.apache.org/)
 
-[下载位置]()
+[下载位置](https://subversion.apache.org/packages.html)
 
 - 安装方法
 
+```
+sudo apt-get install subversion
+```
+
 - 卸载方法
+
+```
+sudo apt-get install subversion
+```
 
 ### 本文编辑器
 
@@ -1808,15 +1854,35 @@ sudo apt-get purge openssh-server
 
 - 介绍
 
+A sophisticated text editor for code, markup and prose
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://www.sublimetext.com/)
 
-[下载位置]()
+[下载位置](https://www.sublimetext.com/3)
 
 - 安装方法
 
+```
+sudo apt-get install apt-transport-https
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+
+# Stable
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+
+# Dev
+echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+
+sudo apt-get update
+sudo apt-get install sublime-text
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge sublime-text
+```
 
 #### Visual Studio Code
 
