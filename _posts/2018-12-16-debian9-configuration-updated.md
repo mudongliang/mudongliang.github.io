@@ -52,8 +52,28 @@ root ALL=(ALL) ALL
 
 参照本站内的[另一篇博文](ihttps://mudongliang.github.io/2017/02/17/install-driver-for-intel-corporation-wireless-8260-in-debian-jessie-and-stretch.html)来安装无线网卡驱动
 
+## 系统清理
+
+### 删除无用软件
+
+```
+sudo apt-get purge gnome-2048 aisleriot atomix gnome-chess five-or-more \
+hitori iagno gnome-klotski lightsoff gnome-mahjongg gnome-mines \
+gnome-nibbles quadrapassel four-in-a-row gnome-robots gnome-sudoku \
+swell-foop tali gnome-taquin gnome-tetravex
+sudo apt-get autoremove
+```
+
 ## 美化
 
+### 安装字体
+
+```
+sudo apt-get install ttf-freefont ttf-mscorefonts-installer
+```
+
+### 去除GNOME难看的边框
+ 
 删除Firefox, Gnome terminal 标题下面的**非常难看**的边框, 
 
 ![ugly border line]({{site.url}}/images/noxEnD4.png)
@@ -61,13 +81,14 @@ root ALL=(ALL) ALL
 参考本站内的[教程](https://mudongliang.github.io/2016/06/29/remove-the-ugly-border-in-gnome-320.html)
 
 ## 安装常用软件
+
 ### 安装Openssh server
 
 参见本站内的[教程](https://mudongliang.github.io/2018/12/16/popular-software.html#openssh-server)
 
-### 安装中文输入法 IBUS
+### 安装中文输入法 IBUS 或 Fcitx
 
-ibus-pinyin ibus-sunpinyin
+- ibus-pinyin ibus-sunpinyin
 
 参见本站内的[教程](https://mudongliang.github.io/2018/12/16/popular-software.html#ibus--pinyinsunpinyin)
 
@@ -79,9 +100,8 @@ ibus-pinyin ibus-sunpinyin
 
 ![ibus3]({{site.url}}/images/ibus3.png)
 
-### 安装中文输入法 Fcitx
 
-googlepinyin sunpionyin (sogoupinyin)
+- googlepinyin sunpionyin sogoupinyin
 
 参见[教程1](https://mudongliang.github.io/2018/12/16/popular-software.html#fcitx--sunpinyingooglepinyin)和[教程2](https://mudongliang.github.io/2018/12/16/popular-software.html#fcitx--sogoupinyin)
 

@@ -670,7 +670,13 @@ sudo apt purge nautilus-dropbox
 
 #### Google Drive
 
-#### NextCloud
+- 介绍
+
+Google巨人开发的文件存储和同步服务
+
+- 安装方法
+
+使用Google Drive的[网页版本](https://drive.google.com)
 
 ### 网络支付
 
@@ -681,7 +687,6 @@ sudo apt purge nautilus-dropbox
 全球领先的独立第三方支付平台
 
 - 下载位置
-
 	- 首先进入[支付宝](https://www.alipay.com/)首页；
 	- 点击登录按钮之后，下载支付宝控件；
 
@@ -945,6 +950,78 @@ sudo apt-get install gthumb
 sudo apt-get purge gthumb
 ```
 
+### 截图工具
+
+#### shutter
+
+- 介绍
+
+Shutter is a feature-rich screenshot program for Linux based operating systems. You can take a screenshot of a specific area, window, your whole screen, or even of a website – apply different effects to it, draw on it to highlight points, and then upload to an image hosting site, all within one window. 
+
+- 下载位置
+
+[官方网站](https://wiki.gnome.org/Apps/gthumb)
+
+- 安装方法
+
+```
+sudo apt-get install shutter
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge shutter
+```
+
+#### Gnome Screenshot
+
+- 介绍
+
+GNOME Screenshot is a small utility that takes a screenshot of the whole desktop; the currently focused window; or an area of the screen.
+
+- 下载位置
+
+[官方网站](https://github.com/GNOME/gnome-screenshot)
+
+- 安装方法
+
+```
+sudo apt-get install gnome-screenshot
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge gnome-screenshot
+```
+
+
+
+### 画图工具
+
+#### Dia
+
+- 介绍
+
+GNOME桌面环境中的画图软件
+
+- 下载位置
+
+[官方网站](https://wiki.gnome.org/Apps/Dia)
+
+- 安装方法
+
+```
+sudo apt-get install dia
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge dia
+```
+
 ## 游戏娱乐
 
 ### 游戏平台
@@ -1151,29 +1228,45 @@ sudo dpkg -r sogoupinyin
 
 - 介绍
 
+GNOME中默认的pdf阅读器
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[官方网站](https://wiki.gnome.org/Apps/Evince)
 
 - 安装方法
 
+```
+sudo apt-get install evince
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge evince
+```
 
 #### Okular
 
 - 介绍
 
+More than a reader
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[官方网站](https://okular.kde.org/)
 
 - 安装方法
 
+```
+sudo apt-get install okular
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge okular
+```
 
 #### Foxit Reader
 
@@ -1223,7 +1316,13 @@ sudo dpkg -r sogoupinyin
 
 #### Google Keep
 
-记事和清单
+- 介绍
+
+Google 巨人开发的笔记服务
+
+- 下载位置
+
+[网页](https://keep.google.com/)
 
 #### WizNote
 
@@ -1379,6 +1478,75 @@ sudo apt-get install virtualbox-5.2
 sudo apt-get purge virtualbox-5.2
 ```
 
+#### Vagrant
+
+- 介绍
+
+Vagrant 提供了一个易于配置，可重复使用，兼容的环境，通过一个单一的工作流程来控制，帮助你和团队最大化生产力和灵活性。
+
+- 下载位置
+
+[官方网站](https://www.vagrantup.com/)
+
+[下载位置](https://www.vagrantup.com/downloads.html)
+
+- 安装方法
+
+```
+# 1. install from downloaded package
+wget https://releases.hashicorp.com/vagrant/2.2.2/vagrant_2.2.2_x86_64.deb
+sudo gdebi vagrant_2.2.2_x86_64.deb
+
+# 2. install from apt-get
+sudo apt install vagrant
+```
+
+- 卸载方法
+
+```
+# 1. uninstall from downloaded package
+sudo dpkg -r vagrant
+
+# 2. uninstall from apt-get
+sudo apt-get purge vagrant
+```
+
+#### Docker
+
+- 介绍
+
+Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。
+
+- 下载位置
+
+[官方网站](https://www.docker.com/)
+
+[下载位置](https://docs.docker.com/install/linux/docker-ce/debian/)
+
+- 安装方法
+
+```
+sudo apt-get install \
+     apt-transport-https \
+     ca-certificates \
+     curl \
+     gnupg2 \
+     software-properties-common
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/debian \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge docker-ce
+```
+
 #### Boxes
 
 - 介绍
@@ -1509,15 +1677,23 @@ sudo apt-get purge gnome-boxes
 
 - 介绍
 
+Htop is an ncursed-based process viewer similar to top, but it allows one to scroll the list vertically and horizontally to see  all processes and their full command lines.
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[官方网站](https://hisham.hm/htop/)
 
 - 安装方法
 
+```
+sudo apt-get install htop
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge htop
+```
 
 ### 远程控制
 
@@ -1625,19 +1801,27 @@ sudo apt-get purge gnome-boxes
 
 ### 杀毒软件
 
-#### ClamAV
+#### ClamAV/ClamTk
 
 - 介绍
 
+ClamAV 是一个开源的跨平台命令行防病毒工具，用于检测木马、病毒和其他恶意代码。而 ClamTk 则是它的前端 GUI。
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[官方网站](https://www.clamav.net/)
 
 - 安装方法
 
+```
+sudo apt-get install clamav clamtk
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge clamav clamtk
+```
 
 ## 系统工具
 
@@ -1743,20 +1927,6 @@ sudo apt-get purge tmux
 
 - 卸载方法
 
-#### dd
-
-- 介绍
-
-- 下载位置
-
-[官方网站]()
-
-[下载位置]()
-
-- 安装方法
-
-- 卸载方法
-
 ### 包管理器
 
 #### Gdebi
@@ -1803,6 +1973,75 @@ sudo apt-get install synaptic
 sudo apt-get purge synaptic
 ```
 
+### 压缩管理
+
+#### Unrar
+
+- 介绍
+
+WinRAR的Linux版本
+
+- 下载位置
+
+[官方网站](https://www.rarlab.com/)
+
+- 安装方法
+
+```
+sudo apt-get install unrar
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge unrar
+```
+
+#### UnZip
+
+- 介绍
+
+UnZip is an extraction utility for archives compressed in .zip format
+
+- 下载位置
+
+[官方网站](http://infozip.sourceforge.net/UnZip.html)
+
+- 安装方法
+
+```
+sudo apt-get install unzip
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge unzip
+```
+
+
+#### file-roller
+
+- 介绍
+
+File Roller is an archive manager for the GNOME desktop environment.
+
+- 下载位置
+
+[官方网站](https://wiki.gnome.org/Apps/FileRoller)
+
+- 安装方法
+
+```
+sudo apt-get install file-roller
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge file-roller
+```
+
 ## 系统管理
 
 ### 配置工具
@@ -1811,15 +2050,23 @@ sudo apt-get purge synaptic
 
 - 介绍
 
+Previously known as Tweak Tool. Graphical interface for advanced GNOME 3 settings.
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[官方网站](https://wiki.gnome.org/action/show/Apps/Tweaks?action=show&redirect=Apps%2FGnomeTweakTool)
 
 - 安装方法
 
+```
+sudo apt-get install gnome-tweak-tool
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge gnome-tweak-tool
+```
 
 ### SSH Server/Client
 
@@ -2093,6 +2340,28 @@ sudo apt-get install emacs
 
 ```
 sudo apt-get purge emacs
+```
+
+#### Nano
+
+- 介绍
+
+类Unix系统上基于命令行接口的文本编辑器
+
+- 下载位置
+
+[官方网站](https://www.nano-editor.org/)
+
+- 安装方法
+
+```
+sudo apt-get install nano
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge nano
 ```
 
 ### 集成开发环境
