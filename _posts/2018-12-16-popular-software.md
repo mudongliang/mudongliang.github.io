@@ -1286,31 +1286,32 @@ sudo apt-get purge okular
 
 #### Libre Office
 
-- 介绍
-
-- 下载位置
-
-[官方网站]()
-
-[下载位置]()
-
-- 安装方法
-
-- 卸载方法
+ship by default  
 
 #### WPS Office
 
 - 介绍
 
+Bringing **The World’s Best Office Experience** To Linux
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://www.wps.com/en-US/linux)
 
-[下载位置]()
+[下载位置](http://wps-community.org/download.html)
 
 - 安装方法
 
+```
+wget http://kdl.cc.ksosoft.com/wps-community/download/6757/wps-office_10.1.0.6757_amd64.deb
+sudo gdebi wps-office_*_amd64.deb
+```
+
 - 卸载方法
+
+```
+sudo dpkg -r wps-office
+```
 
 ### 笔记记事
 

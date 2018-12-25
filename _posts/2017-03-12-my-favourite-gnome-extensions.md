@@ -24,6 +24,7 @@ My Favourite Gnome Extensions are in the following:
 - [Dynamic Top Bar](https://extensions.gnome.org/extension/885/dynamic-top-bar/)
 - [EasyScreenCast](https://extensions.gnome.org/extension/690/easyscreencast/)
 - [Extensions](https://extensions.gnome.org/extension/1036/extensions/)
+- [gsnow](https://extensions.gnome.org/extension/1156/gsnow/)
 - [NetSpeed](https://extensions.gnome.org/extension/104/netspeed/)
 - [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
 - [Places Status Indicator](https://extensions.gnome.org/extension/8/places-status-indicator/)
@@ -37,3 +38,4 @@ My Favourite Gnome Extensions are in the following:
 - [UpTime Indicator](https://extensions.gnome.org/extension/508/uptime-indicator/)
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Workspace Indicator](https://extensions.gnome.org/extension/21/workspace-indicator/)
+- [World Cup Indicator](https://extensions.gnome.org/extension/1450/world-cup-indicator/)
