@@ -12,8 +12,11 @@ The Gnome Extensions are listed at [https://extensions.gnome.org/](https://exten
 My Favourite Gnome Extensions are in the following:
 
 - [Alternatetab](https://extensions.gnome.org/extension/15/alternatetab/)
+- [Appfolders Management extensions](https://extensions.gnome.org/extension/1217/appfolders-manager/)
+- [Applications Overview Tooltip](https://extensions.gnome.org/extension/1071/applications-overview-tooltip/)
 - [Apt Update Indicator](https://extensions.gnome.org/extension/1139/apt-update-indicator/)
 - [Auto Move Windows](https://extensions.gnome.org/extension/16/auto-move-windows/)
+- [Battery Status](https://extensions.gnome.org/extension/817/battery-status/)
 - [Bing Wallpaper Changer](https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/)
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
@@ -28,6 +31,7 @@ My Favourite Gnome Extensions are in the following:
 - [NetSpeed](https://extensions.gnome.org/extension/104/netspeed/)
 - [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
 - [Places Status Indicator](https://extensions.gnome.org/extension/8/places-status-indicator/)
+- [Pomodoro](https://extensions.gnome.org/extension/53/pomodoro/)
 - [Recent Items](https://extensions.gnome.org/extension/72/recent-items/)
 - [Refresh Wifi Connections](https://extensions.gnome.org/extension/905/refresh-wifi-connections/)
 - [Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/)
@@ -35,7 +39,10 @@ My Favourite Gnome Extensions are in the following:
 - [System-monitor](https://extensions.gnome.org/extension/120/system-monitor/)
 - [Todo.txt](https://extensions.gnome.org/extension/570/todotxt/)
 - [TopIcons Plus](https://extensions.gnome.org/extension/1031/topicons/)
+- [Top Panel Workspace Scroll](https://extensions.gnome.org/extension/701/top-panel-workspace-scroll/)
 - [UpTime Indicator](https://extensions.gnome.org/extension/508/uptime-indicator/)
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Workspace Indicator](https://extensions.gnome.org/extension/21/workspace-indicator/)
 - [World Cup Indicator](https://extensions.gnome.org/extension/1450/world-cup-indicator/)
+
+Note: New versions of **Pomodoro** are no longer distributed through extensions.gnome.org. Look for "pomodoro" in your distros repositories or grab package from <http://gnomepomodoro.org>)
