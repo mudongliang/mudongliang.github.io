@@ -11,10 +11,15 @@ tags: []
 
 ## Preparation
 
-```
-```
+Create one Debian image as rootfs. Two methods are in the following:
 
-**Note:** I add `sudo` before `mkfs.ext4`, or it could not work.
+### Method One
+
+Use [one script in syzkaller](https://github.com/google/syzkaller/blob/master/tools/create-image.sh) to generate debian image. It could generate wheezy, jessie, stretch release.
+
+However, for jessie or above releases, you need to take care of kernel configuration. See [another post](https://mudongliang.github.io/2019/02/08/syzkaller-stretch-image-troubleshooting.html)
+
+### Method Two
 
 ```
 IMG=test_stretch.img
@@ -27,6 +32,7 @@ sudo debootstrap --arch amd64 stretch $DIR
 sudo umount $DIR
 rmdir $DIR
 ```
+The above instruction sequence is copied from Reference 1.
 
 There is no error message when creating rootfs. At last, I try to boot one kernel with that rootfs.
 
@@ -41,7 +47,7 @@ $ qemu-system-x86_64 -kernel /boot/vmlinuz-`uname -r` \
 
 **Result:**
 
-Failed in Debian, succeed in Ubuntu
+Succeed in both Debian and Ubuntu
 
 ### Test on own building kernel
 
@@ -50,7 +56,7 @@ $ git clone --depth=1 git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/lin
 $ cd linux
 $ make x86_64_defconfig
 $ make kvmconfig
-$ make -j 4
+$ make -j4
 
 $ qemu-system-x86_64 -kernel linux/arch/x86/boot/bzImage \
 -hda qemu-image.img -append "console=ttyS0 root=/dev/sda"
