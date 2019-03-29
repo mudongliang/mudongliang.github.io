@@ -26,6 +26,9 @@ My name is **Dongliang Mu**.
 	- Adviser: [Dr. Xinyu Xing](http://xinyuxing.org/)
 	- Topic: **Diagnose on process/OS crashes/panics**
 
+- Talk in the GeekPwn China 2018 in Shanghai
+	- Name: From Physical Security to Cyber Security: How to forge data spoofing personalized auto insurance
+
 - Organizer of 2018 Penn State Cybersecurity Competition in Pennsylvania State University
 	- HomePage : <https://psusecurity.github.io/>
 
@@ -40,6 +43,10 @@ My name is **Dongliang Mu**.
 [4] **Mu, D.**, Cuevas, A., Yang, L., Hu, H., Wang, G., Xing, X., Mao, B., “Understanding the Repro-ducibility of Crowd-reported Security Vulnerabilities”, In Proceedings of the 27th USENIX SecuritySymposium (USENIX Security 18), BALTIMORE, MD, USA, AUGUST 2018.
 
 [5] Guo, W., **Mu, D.**, Xu, J., Su, P., Wang G. , Xing X., "LEMNA: Explaining Deep Learning based Security Applications", In Proceedings of The 25th ACM Conference on Computer and Communications Security (CCS 2018), Toronto, Canada, October 2018. (**Outstanding paper award**)
+
+[6] Guo, W.*, **Mu, D.\***, Xing, X., Du, M., Song, D., "DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis", In Proceedings of the 28th USENIX Security Symposium (USENIX Security), Santa Clara, US, August 2019. (conditionally accepted)
+
+Note that \* means *equal contribution*
 
 ### CVEs discovered by me
 
