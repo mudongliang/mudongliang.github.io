@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Setting up git send-email with gmail to send Linux kernel patch"
-date: 2019-03-20
+date: 2018-03-20
 description: ""
 category: 
 tags: []
