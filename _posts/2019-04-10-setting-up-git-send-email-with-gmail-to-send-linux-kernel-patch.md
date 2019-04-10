@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Setting up git send email with gmail to send Linux kernel patch"
-date: 2019-04-10
+title: "Setting up git send-email with gmail to send Linux kernel patch"
+date: 2019-03-20
 description: ""
 category: 
 tags: []
@@ -46,4 +46,4 @@ Note that, please modify the configuration according to your personal profile. F
 
 You can find that `smtppass` is missing here. Due to security concern, I intentionally remove this configuration. But if for convenience or being confident with your environment, you could set the smtppass as plaintext.
 
-Then you could follow [my other post]({{site.url}}/2018/03/20/one-simple-patch-to-linux-kernel.html)
+Then you could follow [my other post]({{site.url}}/2018/03/20/one-simple-patch-to-linux-kernel.html) to send kernel patch.
