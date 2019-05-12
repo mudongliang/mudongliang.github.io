@@ -15,5 +15,9 @@ url: "http://mudongliang.github.io" # the base hostname & protocol for your site
 twitter_username: mudongliang
 github_username:  mudongliang
 
+# Jekyll Plugins
+plugins:
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
