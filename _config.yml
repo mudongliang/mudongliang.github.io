@@ -16,7 +16,7 @@ twitter_username: mudongliang
 github_username:  mudongliang
 
 # Jekyll Plugins
-plugins:
+plugins_dir:
   - jekyll-sitemap
 
 # Build settings

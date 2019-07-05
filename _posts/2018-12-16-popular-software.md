@@ -23,22 +23,23 @@ Chrome 浏览器是一款专为现代互联网开发的网络浏览器，高速�
 
 - 下载位置
 
-[Download](http://www.google.cn/intl/zh-CN/chrome/browser/)
+[Download](https://www.google.com/chrome/)
 
 - 安装方法
 
 ```
-# 1. install through deb package
+# 1. Install through deb package
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo gdebi google-chrome-stable_current_amd64.deb
 
-# 2. install through software repo
+# 2. Install through software repo
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 sudo apt-get update
 sudo apt-get install google-chrome-stable
 
+# Or 
 sudo apt-get install google-chrome-beta
-
 sudo apt-get install google-chrome-unstable
 ```
 
@@ -899,10 +900,35 @@ sudo apt-get install kodi
 ```
 sudo apt-get purge kodi
 ```
- 
-- 中文插件
 
-[xbmc-addons-chinese](https://github.com/taxigps/xbmc-addons-chinese)
+注: 中文插件 [xbmc-addons-chinese](https://github.com/taxigps/xbmc-addons-chinese)
+
+
+### 音频编辑
+
+#### Audacity
+
+- 介绍
+
+简单易用的跨平台多轨音频编辑器
+
+- 下载位置
+
+[官方网站](https://www.audacityteam.org/)
+
+- 安装方法
+
+```
+sudo apt-get install audacity
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge audacity
+```
+
+
 
 ### 图像浏览
 
@@ -949,6 +975,54 @@ sudo apt-get install gthumb
 ```
 sudo apt-get purge gthumb
 ```
+
+
+### 图像编辑
+
+#### GIMP
+
+- 介绍
+
+支持多种操作系统（Linux，Windows，MacOS等）的跨平台的图片编辑软件
+
+- 下载位置
+
+[官方网站](https://www.gimp.org/)
+
+- 安装方法
+
+```
+sudo apt-get install gimp
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge gimp
+```
+
+#### Inkscape
+
+- 介绍
+
+支持多种操作系统（Linux，Windows，MacOS）的矢量图片编辑软件
+
+- 下载位置
+
+[官方网站](https://inkscape.org/)
+
+- 安装方法
+
+```
+sudo apt-get install inkscape
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge inkscape
+```
+
 
 ### 截图工具
 
@@ -1039,6 +1113,8 @@ sudo apt-get purge dia
 - 安装方法
 
 ```
+sudo dpkg --add-architecture i386
+sudo apt-get update
 sudo apt-get install steam
 ```
 
@@ -1460,23 +1536,29 @@ Sun公司开发的完全开源的x86模拟器
 
 - 下载位置
 
-[官方网站](https://www.virtualbox.org/)
-
-[下载位置](ihttps://www.virtualbox.org/wiki/Linux_Downloads)
+[官方网站](https://www.virtualbox.org/) [下载位置](ihttps://www.virtualbox.org/wiki/Linux_Downloads)
 
 - 安装方法
 
 ```
+# 1. Install from deb package
+# Ubuntu 18.04 / 18.10 / 19.04 / Debian 10
+wget https://download.virtualbox.org/virtualbox/6.0.8/virtualbox-6.0_6.0.8-130520~Ubuntu~bionic_amd64.deb -O virtualbox.deb
+# Debian 9
+https://download.virtualbox.org/virtualbox/6.0.8/virtualbox-6.0_6.0.8-130520~Debian~stretch_amd64.deb -O virtualbox.deb
+sudo gdebi virtualbox.deb
+
+# 2. Install through software repo
 sudo sh -c 'echo "deb https://download.virtualbox.org/virtualbox/debian stretch contrib" > /etc/apt/sources.list.d/virtualbox.list'
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 sudo apt-get update
-sudo apt-get install virtualbox-5.2
+sudo apt-get install virtualbox-6.0
 ```
 
 - 卸载方法
 
 ```
-sudo apt-get purge virtualbox-5.2
+sudo apt-get purge virtualbox-6.0
 ```
 
 #### Vagrant
@@ -2211,16 +2293,16 @@ sudo apt-get purge sublime-text
 
 - 下载位置
 
-[官方网站](https://code.visualstudio.com/)
-
-[下载位置](https://code.visualstudio.com/Download)
+[官方网站](https://code.visualstudio.com/) [下载位置](https://code.visualstudio.com/Download)
 
 - 安装方法
 
 ```
-# 1. install from downloaded package
+# 1. Install from deb package
+# Download deb package from https://code.visualstudio.com/
 sudo gdebi code_*_amd64.deb
-# 2. install from source list
+
+# 2. Install from software repo
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
@@ -2270,20 +2352,23 @@ sudo apt-get purge gedit
 
 - 下载位置
 
-[官方网站](https://atom.io/)
-
-[下载位置](https://github.com/atom/atom)
+[官方网站](https://atom.io/) [Github仓库](https://github.com/atom/atom)
 
 - 安装方法
 
 ```
 # 1. install from package
+# Download deb package from https://atom.io/
 sudo gdebi atom-amd64.deb
+
 # 2. install from source list
 curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
 sudo apt-get update
 sudo apt-get install atom
+
+# Or
+sudo apt-get install atom-beta
 ```
 
 - 卸载方法
@@ -2299,7 +2384,7 @@ sudo apt-get purge atom
 
 - 介绍
 
-Unix/Linux平台下的高度可配置的文本编译器，可以说Linux下非常好的文本编译器，也是我默认的编译器。
+Unix/Linux平台下的高度可配置的文本编译器，可以说Linux下非常好的文本编译器，也是我默认使用的编译器。
 
 - 下载位置
 
