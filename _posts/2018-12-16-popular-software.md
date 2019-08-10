@@ -1,4 +1,4 @@
----
+/--
 layout: post
 title: "Linux 常用软件列表"
 date: 2018-12-16
@@ -615,35 +615,6 @@ sudo apt-get purge filezilla
 
 ### 云存储
 
-#### ~~金山快盘~~
-
-#### ~~bcloud(百度云)~~
-
-- 介绍
-
-百度网盘的linux桌面客户端
-
-- 下载位置
-
-[bcloud源码](https://github.com/LiuLang/bcloud)  
-[bcloud安装包](https://github.com/LiuLang/bcloud-packages)
-
-- 安装方法
-
-```
-git clone https://github.com/LiuLang/bcloud-packages
-cd bcloud-packages/
-sudo gdebi bcloud_XXX_all.deb
-cd ..
-rm -rf bcloud-packages
-```
- 
-- 卸载方法
-
-```
-sudo dpkg -r bcloud
-```
-
 #### 坚果云
 
 - 介绍
@@ -739,33 +710,6 @@ Press any key to quit...
 ## 图像影音
 
 ### 音乐播放
-
-#### ~~kwplayer~~
-
-- 介绍
-
-酷我音乐盒的 Linux 客户端
-
-- 下载位置
-
-[kwplayer源码](https://github.com/LiuLang/kwplayer)  
-[kwplayer安装包](https://github.com/LiuLang/kwplayer-packages)
-
-- 安装方法
-
-```
-git clone https://github.com/LiuLang/kwplayer-packages
-cd kwplayer-packages/
-sudo gdebi kwplayer_XXX_all.deb
-cd ..
-rm -rf kwplayer-packages
-```
-
-- 卸载方法
-
-```
-sudo dpkg -r kwplayer
-```
 
 #### FeelUOwn
 
