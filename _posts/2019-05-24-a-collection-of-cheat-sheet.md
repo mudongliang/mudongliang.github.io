@@ -31,3 +31,6 @@ tags: []
 
 - X86_64 Cheat Sheet
 	- <https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf>
+
+- Latex Cheat Sheet
+	- <https://wch.github.io/latexsheet/>

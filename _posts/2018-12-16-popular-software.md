@@ -345,7 +345,28 @@ sudo dpkg -r skypeforlinux
 
 #### BearyChat
 
-#### Telegram
+#### Telegram Desktop
+
+- 介绍
+
+Fast and secure desktop app, perfectly synced with your mobile phone.
+
+- 下载位置
+
+[Download](https://desktop.telegram.org/)
+[Debian Package](https://packages.debian.org/buster/telegram-desktop)
+
+- 安装方法
+
+```
+sudo apt-get install telegram-desktop
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge telegram-desktop
+```
 
 #### Empathy
 
@@ -902,6 +923,31 @@ sudo apt-get purge kodi
 ```
 
 注: 中文插件 [xbmc-addons-chinese](https://github.com/taxigps/xbmc-addons-chinese)
+
+
+### 屏幕录制
+
+#### SimpleScreenRecorder
+
+- 介绍
+
+基于QT的Linux原生屏幕录制软件
+
+- 下载位置
+
+[Download](https://www.maartenbaert.be/simplescreenrecorder/#download)  
+
+- 安装方法
+
+```
+sudo apt-get install simplescreenrecorder
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge simplescreenrecorder
+```
 
 
 ### 音频编辑
@@ -2508,14 +2554,46 @@ sudo apt-get purge wireshark
 
 - 介绍
 
+Codeblocks is a cross-platform IDE built around wxWidgets, designed to be extensible and configurable. 
+
 - 下载位置
 
-[官方网站]()
+[官方网站](http://www.codeblocks.org/)
 
-[下载位置]()
+[下载位置](http://www.codeblocks.org/downloads)
 
 - 安装方法
 
+```
+sudo apt-get install codeblocks
+```
+
 - 卸载方法
 
+```
+sudo apt-get purge codeblocks
+```
+
 ## 其他
+
+### Caffeine
+
+- 介绍
+Caffeine prevents the desktop from becoming idle when an application is running full-screen.
+
+- 下载位置
+
+[Debian Package](https://packages.debian.org/buster/caffeine)
+
+- 安装方法
+
+```
+sudo apt-get install caffeine
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge caffeine
+```
+
