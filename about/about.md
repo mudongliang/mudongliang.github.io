@@ -48,6 +48,8 @@ My name is **Dongliang Mu**.
 
 [7] Chen, Y.*, **Mu, D.\***, Sun, Z., Xu, J., Shen, W., Xing, X., Lu, L., Mao B., "[Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary]({{site.url}}/files/papers/ptrix.pdf)", In Proceedings of the 14th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2019), AUCKLAND, NEW ZEALAND, July 2019
 
+[8] **Mu, D.\***, Guo, W.*, Cuevas, A., Chen, Y., Gai, J. Xing, X., Mao, B., Song, C., "RENN: Efficient Reverse Execution with Neural-Network-assisted Alias Analysis", In Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE 2019), San Diego, CA, November 2019.
+
 Note that \* means *equal contribution*
 
 ### CVEs discovered by me
