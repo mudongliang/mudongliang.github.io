@@ -345,7 +345,28 @@ sudo dpkg -r skypeforlinux
 
 #### BearyChat
 
-#### Telegram
+#### Telegram Desktop
+
+- 介绍
+
+Fast and secure desktop app, perfectly synced with your mobile phone.
+
+- 下载位置
+
+[Download](https://desktop.telegram.org/)
+[Debian Package](https://packages.debian.org/buster/telegram-desktop)
+
+- 安装方法
+
+```
+sudo apt-get install telegram-desktop
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge telegram-desktop
+```
 
 #### Empathy
 
@@ -594,35 +615,6 @@ sudo apt-get purge filezilla
 
 ### 云存储
 
-#### ~~金山快盘~~
-
-#### ~~bcloud(百度云)~~
-
-- 介绍
-
-百度网盘的linux桌面客户端
-
-- 下载位置
-
-[bcloud源码](https://github.com/LiuLang/bcloud)  
-[bcloud安装包](https://github.com/LiuLang/bcloud-packages)
-
-- 安装方法
-
-```
-git clone https://github.com/LiuLang/bcloud-packages
-cd bcloud-packages/
-sudo gdebi bcloud_XXX_all.deb
-cd ..
-rm -rf bcloud-packages
-```
- 
-- 卸载方法
-
-```
-sudo dpkg -r bcloud
-```
-
 #### 坚果云
 
 - 介绍
@@ -719,31 +711,30 @@ Press any key to quit...
 
 ### 音乐播放
 
-#### ~~kwplayer~~
+#### Spotify
 
 - 介绍
 
-酷我音乐盒的 Linux 客户端
+Non-free music client
 
 - 下载位置
 
-[kwplayer源码](https://github.com/LiuLang/kwplayer)  
-[kwplayer安装包](https://github.com/LiuLang/kwplayer-packages)
+[官方网站](https://www.spotify.com/us/)
+
+[下载](https://www.spotify.com/us/download/linux/)
 
 - 安装方法
 
 ```
-git clone https://github.com/LiuLang/kwplayer-packages
-cd kwplayer-packages/
-sudo gdebi kwplayer_XXX_all.deb
-cd ..
-rm -rf kwplayer-packages
+curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update && sudo apt-get install spotify-client
 ```
 
 - 卸载方法
 
 ```
-sudo dpkg -r kwplayer
+sudo apt-get purge spotify-client
 ```
 
 #### FeelUOwn
@@ -902,6 +893,31 @@ sudo apt-get purge kodi
 ```
 
 注: 中文插件 [xbmc-addons-chinese](https://github.com/taxigps/xbmc-addons-chinese)
+
+
+### 屏幕录制
+
+#### SimpleScreenRecorder
+
+- 介绍
+
+基于QT的Linux原生屏幕录制软件
+
+- 下载位置
+
+[Download](https://www.maartenbaert.be/simplescreenrecorder/#download)  
+
+- 安装方法
+
+```
+sudo apt-get install simplescreenrecorder
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge simplescreenrecorder
+```
 
 
 ### 音频编辑
@@ -1424,8 +1440,16 @@ Google 巨人开发的笔记服务
 [下载位置]()
 
 - 安装方法
+ 
+```
+sudo apt-get install texmaker
+```
 
 - 卸载方法
+
+```
+sudo apt-get purge texmaker
+```
 
 #### Latexila
 
@@ -1439,7 +1463,15 @@ Google 巨人开发的笔记服务
 
 - 安装方法
 
+```
+sudo apt-get install latexila
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge latexila
+```
 
 #### Lyx
 
@@ -1453,7 +1485,15 @@ Google 巨人开发的笔记服务
 
 - 安装方法
 
+```
+sudo apt-get install lyx
+```
+
 - 卸载方法
+
+```
+sudo apt-get install lyx
+```
 
 #### TeXstudio
 
@@ -1467,7 +1507,15 @@ Google 巨人开发的笔记服务
 
 - 安装方法
 
+```
+sudo apt-get install texstudio
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge texstudio
+```
 
 #### Texlive
 
@@ -1481,7 +1529,15 @@ Google 巨人开发的笔记服务
 
 - 安装方法
 
+```
+sudo apt-get install texlive-full
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge texlive-full
+```
 
 ## 科学软件
 
@@ -1497,7 +1553,16 @@ Google 巨人开发的笔记服务
 
 - 安装方法
 
+```
+wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest -O mendeleydesktop.deb
+sudo dpkg -i mendeleydesktop.deb
+```
+
 - 卸载方法
+
+```
+sudo dpkg -r mendeleydesktop
+```
 
 ## 虚拟化
 
@@ -1652,7 +1717,7 @@ sudo apt-get install gnome-boxes
 sudo apt-get purge gnome-boxes
 ```
 
-#### Qemu
+#### Qemu & Qemu-KVM
 
 - 介绍
 
@@ -1664,21 +1729,14 @@ sudo apt-get purge gnome-boxes
 
 - 安装方法
 
+```
+sudo apt-get install qemu qemu-kvm
+```
 - 卸载方法
 
-#### Qemu-KVM
-
-- 介绍
-
-- 下载位置
-
-[官方网站]()
-
-[下载位置]()
-
-- 安装方法
-
-- 卸载方法
+```
+sudo apt-get purge qemu qemu-kvm
+```
 
 ## 监视和控制
 
@@ -1696,7 +1754,17 @@ sudo apt-get purge gnome-boxes
 
 - 安装方法
 
+```
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install cpu-g
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge cpu-g
+```
 
 #### Hardinfo
 
@@ -1710,7 +1778,15 @@ sudo apt-get purge gnome-boxes
 
 - 安装方法
 
+```
+sudo apt-get install hardinfo
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge hardinfo
+```
 
 #### I-Nex
 
@@ -1724,7 +1800,15 @@ sudo apt-get purge gnome-boxes
 
 - 安装方法
 
+```
+sudo apt-get install cpu-g
+```
+
 - 卸载方法
+
+```
+sudo apt-get install cpu-g
+```
 
 #### Psensor
 
@@ -1738,7 +1822,15 @@ sudo apt-get purge gnome-boxes
 
 - 安装方法
 
+```
+sudo apt-get install psensor
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge psensor
+```
 
 ### 系统监视
 
@@ -1754,7 +1846,14 @@ sudo apt-get purge gnome-boxes
 
 - 安装方法
 
+```
+sudo apt-get install gnome-system-monitor
+```
 - 卸载方法
+
+```
+sudo apt-get purge gnome-system-monitor
+```
 
 #### Htop
 
@@ -1792,7 +1891,16 @@ sudo apt-get purge htop
 
 - 安装方法
 
+```
+wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb -O teamviewer_amd64.deb
+sudo dpkg -i teamviewer_amd64.deb
+```
+
 - 卸载方法
+
+```
+sudo dpkg -r teamviewer
+```
 
 #### Chrome Remote Desktop
 
@@ -1820,7 +1928,15 @@ sudo apt-get purge htop
 
 - 安装方法
 
+```
+sudo apt-get install remmina
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge remmina
+```
 
 #### AnyDesk
 
@@ -1848,7 +1964,15 @@ sudo apt-get purge htop
 
 - 安装方法
 
+```
+sudo apt-get install putty
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge putty
+```
 
 ## 系统安全
 
@@ -1866,7 +1990,15 @@ sudo apt-get purge htop
 
 - 安装方法
 
+```
+sudo apt-get install keepass2
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge keepass2
+```
 
 #### KeePassX
 
@@ -1880,7 +2012,15 @@ sudo apt-get purge htop
 
 - 安装方法
 
+```
+sudo apt-get install keepassx
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge keepassx
+```
 
 ### 杀毒软件
 
@@ -1992,7 +2132,15 @@ sudo apt-get purge tmux
 
 - 安装方法
 
+```
+sudo apt-get install zsh
+```
+
 - 卸载方法
+
+```
+sudo apt-get purge zsh
+```
 
 ### 启动盘制作工具
 
@@ -2102,7 +2250,6 @@ sudo apt-get install unzip
 sudo apt-get purge unzip
 ```
 
-
 #### file-roller
 
 - 介绍
@@ -2149,6 +2296,28 @@ sudo apt-get install gnome-tweak-tool
 
 ```
 sudo apt-get purge gnome-tweak-tool
+```
+
+#### Font Manager
+
+- 介绍
+
+Gnome桌面中管理，添加和去除系统字体
+
+- 下载位置
+
+[Debian Package](https://packages.debian.org/buster/font-manager)
+
+- 安装方法
+
+```
+sudo apt-get install font-manager
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge font-manager
 ```
 
 ### SSH Server/Client
@@ -2508,14 +2677,46 @@ sudo apt-get purge wireshark
 
 - 介绍
 
+Codeblocks is a cross-platform IDE built around wxWidgets, designed to be extensible and configurable. 
+
 - 下载位置
 
-[官方网站]()
+[官方网站](http://www.codeblocks.org/)
 
-[下载位置]()
+[下载位置](http://www.codeblocks.org/downloads)
 
 - 安装方法
 
+```
+sudo apt-get install codeblocks
+```
+
 - 卸载方法
 
+```
+sudo apt-get purge codeblocks
+```
+
 ## 其他
+
+### Caffeine
+
+- 介绍
+Caffeine prevents the desktop from becoming idle when an application is running full-screen.
+
+- 下载位置
+
+[Debian Package](https://packages.debian.org/buster/caffeine)
+
+- 安装方法
+
+```
+sudo apt-get install caffeine
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge caffeine
+```
+
