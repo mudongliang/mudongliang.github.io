@@ -699,14 +699,6 @@ Press any key to quit...
 
 无
 
-### 远程控制
-
-#### TeamViewer
-
-#### Remmina
-
-#### AnyDesk
-
 ## 图像影音
 
 ### 音乐播放
@@ -1885,9 +1877,9 @@ sudo apt-get purge htop
 
 - 下载位置
 
-[官方网站]()
+[官方网站](https://www.teamviewer.cn/cn/)
 
-[下载位置]()
+[下载位置](https://download.teamviewer.com/download/linux/teamviewer_amd64.deb)
 
 - 安装方法
 
@@ -1902,29 +1894,17 @@ sudo dpkg -i teamviewer_amd64.deb
 sudo dpkg -r teamviewer
 ```
 
-#### Chrome Remote Desktop
-
-- 介绍
-
-- 下载位置
-
-[官方网站]()
-
-[下载位置]()
-
-- 安装方法
-
-- 卸载方法
-
 #### Remmina
 
 - 介绍
 
+通过 Linux 来随时随地访问任何操作系统
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://remmina.org/)
 
-[下载位置]()
+[下载位置](https://remmina.org/how-to-install-remmina/)
 
 - 安装方法
 
@@ -1942,15 +1922,26 @@ sudo apt-get purge remmina
 
 - 介绍
 
+随时随地 AnyDesk
+
 - 下载位置
 
-[官方网站]()
+[官方网站](https://anydesk.com/en)
 
-[下载位置]()
+[下载位置](https://anydesk.com/en/downloads/linux)
 
 - 安装方法
 
+```
+wget https://download.anydesk.com/linux/anydesk_5.1.2-1_amd64.deb -O anydesk_amd64.deb
+sudo gdebi anydesk_amd64.deb
+```
+
 - 卸载方法
+
+```
+sudo dpkg -r anydesk
+```
 
 #### Putty
 
@@ -1958,9 +1949,9 @@ sudo apt-get purge remmina
 
 - 下载位置
 
-[官方网站]()
+[官方网站](https://www.putty.org/)
 
-[下载位置]()
+[下载位置](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 - 安装方法
 
