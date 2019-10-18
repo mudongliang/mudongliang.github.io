@@ -9,7 +9,7 @@ permalink: /about/
 
 ### Basic Information
 
-My name is **Dongliang Mu**. I am on the job market this year. Please feel free to download [my CV]({{site.url}}/files/papers/DongliangMu_CV.pdf).
+My name is **Dongliang Mu**. I am on the job market this year. Please feel free to download [my CV]({{site.url}}/files/DongliangMu_CV.pdf).
 
 - Education 
 	- Undergraduate (2010.09 - 2014.06), Computer Science and Technology, Zhengzhou University
