@@ -46,7 +46,7 @@ My name is **Dongliang Mu**. I am on the job market this year. Please feel free 
 
 [6] Guo, W., **Mu, D.**, Xu, J., Su, P., Wang, G. , Xing, X., "[LEMNA: Explaining Deep Learning based Security Applications]({{site.url}}/files/papers/ccs18.pdf)", In Proceedings of The 25th ACM Conference on Computer and Communications Security (CCS 2018), Toronto, Canada, October 2018. (**Outstanding paper award**)
 
-[7] Guo, W.*, **Mu, D.\***, Xing, X., Du, M., Song, D., "[DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis]({{site.url}}/files/papers/ccs18.pdf)", In Proceedings of the 28th USENIX Security Symposium (USENIX Security 2019), Santa Clara, California, August 2019.
+[7] Guo, W.*, **Mu, D.\***, Xing, X., Du, M., Song, D., "[DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis]({{site.url}}/files/papers/deepvsa.pdf)", In Proceedings of the 28th USENIX Security Symposium (USENIX Security 2019), Santa Clara, California, August 2019.
 
 [8] Chen, Y.*, **Mu, D.\***, Sun, Z., Xu, J., Shen, W., Xing, X., Lu, L., Mao B., "[Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary]({{site.url}}/files/papers/ptrix.pdf)", In Proceedings of the 14th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2019), Auckland, New Zealand, July 2019
 
