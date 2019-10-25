@@ -34,37 +34,37 @@ My name is **Dongliang Mu**. I am on the job market this year. Please feel free 
 
 ### Publications
 
-1. CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump [Paper]({{site.url}}/files/papers/p529-xu.pdf)  
+1. CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump [\[Paper\]]({{site.url}}/files/papers/p529-xu.pdf)  
 Jun Xu, **Dongliang Mu**, Ping Chen, Xinyu Xing, Pei Wang, Peng Liu  
 Proceedings of the 23nd ACM Conference on Computer and Communications Security (**ACM CCS 2016**)
 
-2. POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts [Paper]({{site.url}}/files/papers/sec17-xu.pdf)  
+2. POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts [\[Paper\]]({{site.url}}/files/papers/sec17-xu.pdf)  
 Jun Xu, **Dongliang Mu**, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao  
 Proceedings of the 26th USENIX Security Symposium (**USENIX Security 17**)
 
-3. ROPOB: Obfuscating Binary Code via ReturnOriented Programming [Paper]({{site.url}}/files/papers/ropob_securecomm.pdf)  
+3. ROPOB: Obfuscating Binary Code via ReturnOriented Programming [\[Paper\]]({{site.url}}/files/papers/ropob_securecomm.pdf)  
 **Dongliang Mu**, Jia Guo, Wenbiao Ding, Zhilong Wang, Bing Mao, Lei Shi  
 International Conference on Security and Privacy in Communication Systems (**SecureCOMM 17**)
 
-4. DiffGuard: Obscuring Sensitive Information in Canary Based Protections [Paper]({{site.url}}/files/papers/diffguard_securecomm.pdf)  
+4. DiffGuard: Obscuring Sensitive Information in Canary Based Protections [\[Paper\]]({{site.url}}/files/papers/diffguard_securecomm.pdf)  
 Jun Zhu, Weiping Zhou, Zhilong Wang, **Dongliang Mu**, Bing Mao  
 International Conference on Security and Privacy in Communication Systems (**SecureCOMM 17**)
 
-5. Understanding the Reproducibility of Crowd-reported Security Vulnerabilities [Paper]({{site.url}}/files/papers/sec18-mu.pdf)  
+5. Understanding the Reproducibility of Crowd-reported Security Vulnerabilities [\[Paper\]]({{site.url}}/files/papers/sec18-mu.pdf)  
 **Dongliang Mu**, Alejandro Cuevas, Limin Yang, Hang Hu, Xinyu Xing, Bing Mao, Gang Wang  
 Proceedings of the 27th USENIX Security Symposium (**USENIX Security 18**)
 
-6. LEMNA: Explaining Deep Learning based Security Applications [Paper]({{site.url}}/files/papers/ccs18.pdf)  
+6. LEMNA: Explaining Deep Learning based Security Applications [\[Paper\]]({{site.url}}/files/papers/ccs18.pdf)  
 Wenbo Guo, **Dongliang Mu**, Jun Xu, Purui Su, Gang Wang, Xinyu Xing  
 Proceedings of The 25th ACM Conference on Computer and Communications Security (**CCS 2018**) **Outstanding paper award**
 
-7. DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis [Paper]({{site.url}}/files/papers/deepvsa.pdf)  
+7. DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis [\[Paper\]]({{site.url}}/files/papers/deepvsa.pdf)  
 Wenbo Guo\*, **Dongliang Mu\***, Xinyu Xing, Min Du, Dawn Song  
 Proceedings of the 28th USENIX Security Symposium (USENIX Security 2019)
 
-8. Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary [Paper]({{site.url}}/files/papers/ptrix.pdf)  
+8. Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary [\[Paper\]]({{site.url}}/files/papers/ptrix.pdf)  
 Yaohui Chen\*, **Dongliang Mu\***, Jun Xu, Zhichuang Sun, Wenbo Shen, Xinyu Xing, Long Lu, Bing Mao  
-Proceedings of the 14th ACM ASIA Conference on Computer and Communications Security (**AsiaCCS 2019**), Auckland, New Zealand, July 2019
+Proceedings of the 14th ACM ASIA Conference on Computer and Communications Security (**AsiaCCS 2019**)
 
 9. RENN: Efficient Reverse Execution with Neural-Network-assisted Alias Analysis  
 **Dongliang Mu\***, Wenbo Guo\*, Alejandro Cuevas, Yueqi Chen, Jinxuan Gai, Xinyu Xing, Bing Mao, Chengyu Song  
