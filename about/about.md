@@ -34,9 +34,13 @@ My name is **Dongliang Mu**. I am on the job market this year. Please feel free 
 
 ### Publications
 
-[1] Xu, J., **Mu, D.**, Chen, P., Wang, P., Xing, X., Liu, P., "[CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump]({{site.url}}/files/papers/p529-xu.pdf)", In Proceedings of the 23nd ACM Conference on Computer and Communications Security (CCS 2016), Vienna, Austria, October 2016.
+1. CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump [Paper]({{site.url}}/files/papers/p529-xu.pdf)
+Jun Xu, Dongliang Mu, Ping Chen, Xinyu Xing, Pei Wang, Peng Liu
+Proceedings of the 23nd ACM Conference on Computer and Communications Security (**ACM CCS 2016**)
 
-[2] Xu, J., **Mu, D.**, Xing, X., Liu, P., Chen, P., Mao, B., "[POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts]({{site.url}}/files/papers/sec17-xu.pdf)", In Proceedings of the 26th USENIX Security Symposium (USENIX Security 17), Vancouver, Canada, August 2017.
+2. POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts [Paper]({{site.url}}/files/papers/sec17-xu.pdf)
+Jun Xu, Dongliang Mu, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao
+Proceedings of the 26th USENIX Security Symposium (**USENIX Security 17**)
 
 [3] **Mu, D.**, Guo, J., Ding, W., Wang, Z., Mao, B., Shi, L., "[ROPOB: Obfuscating Binary Code via ReturnOriented Programming.]({{site.url}}/files/papers/ropob_securecomm.pdf)", In International Conference on Security and Privacy in Communication Systems (SecureCOMM 17), Niagara Falls, Canada, October 2017.
 
