@@ -76,6 +76,14 @@ IEEE Transactions on Software Engineering (**TSE 2019**) **Accepted**
 
 Note that \* means *equal contribution*
 
+### Talks
+
+- [Understanding the Reproducibility of Crowd-reported Security Vulnerabilities]({{site.url}}/files/slides/usenix18_slide.pptx)
+2018 USENIX Security in USA
+
+- [Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary]({{site.url}}/files/slides/asiaccs19_slide.pptx)
+2019 AsiaCCS in New Zealand
+
 ### CVEs discovered by me
 
 |   CVE ID      | Vulnerability Type     | Vulnerable Software
