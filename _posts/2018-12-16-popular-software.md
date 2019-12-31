@@ -1323,11 +1323,11 @@ sudo apt-get install file-roller
 sudo apt-get purge file-roller
 ```
 
-#### unzip/zip
+#### UnZip
 
 - 介绍
 
-InfoZIP's unzip program
+UnZip is an extraction utility for archives compressed in .zip format
 
 - 下载位置
 
@@ -1345,6 +1345,27 @@ sudo apt-get install unzip
 sudo apt-get purge unzip
 ```
 
+#### Unrar
+
+- 介绍
+
+WinRAR的Linux版本
+
+- 下载位置
+
+[官方网站](https://www.rarlab.com/)
+
+- 安装方法
+
+```
+sudo apt-get install unrar
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge unrar
+```
 
 ## 办公应用
 
@@ -2315,74 +2336,6 @@ sudo apt-get install synaptic
 
 ```
 sudo apt-get purge synaptic
-```
-
-### 压缩管理
-
-#### Unrar
-
-- 介绍
-
-WinRAR的Linux版本
-
-- 下载位置
-
-[官方网站](https://www.rarlab.com/)
-
-- 安装方法
-
-```
-sudo apt-get install unrar
-```
-
-- 卸载方法
-
-```
-sudo apt-get purge unrar
-```
-
-#### UnZip
-
-- 介绍
-
-UnZip is an extraction utility for archives compressed in .zip format
-
-- 下载位置
-
-[官方网站](http://infozip.sourceforge.net/UnZip.html)
-
-- 安装方法
-
-```
-sudo apt-get install unzip
-```
-
-- 卸载方法
-
-```
-sudo apt-get purge unzip
-```
-
-#### file-roller
-
-- 介绍
-
-File Roller is an archive manager for the GNOME desktop environment.
-
-- 下载位置
-
-[官方网站](https://wiki.gnome.org/Apps/FileRoller)
-
-- 安装方法
-
-```
-sudo apt-get install file-roller
-```
-
-- 卸载方法
-
-```
-sudo apt-get purge file-roller
 ```
 
 ## 系统管理
