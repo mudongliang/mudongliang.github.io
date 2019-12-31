@@ -308,10 +308,6 @@ sudo apt-get install mutt
 
 最清晰的免费网络电话，提供文字、声音和视频聊天
 
-- 官方网站
-
-[Official Website](https://www.skype.com/en/)
-
 - 下载位置
 
 [Download](https://www.skype.com/en/download-skype/skype-for-linux/)
@@ -345,6 +341,28 @@ sudo dpkg -r skypeforlinux
 
 #### BearyChat
 
+- 介绍
+
+BearyChat, better communication service that brings your team on the same page
+
+- 下载位置
+
+[Download](https://bearychat.com/downloads)
+
+- 安装方法
+
+```
+tar -xvf BearyChat-linux-x64.tar.gz
+cd BearyChat-linux-x64/
+./BearyChat
+```
+
+- 卸载方法
+
+```
+rm -rf BearyChat-linux-x64/ BearyChat-linux-x64.tar.gz
+```
+
 #### Telegram Desktop
 
 - 介绍
@@ -354,7 +372,6 @@ Fast and secure desktop app, perfectly synced with your mobile phone.
 - 下载位置
 
 [Download](https://desktop.telegram.org/)
-[Debian Package](https://packages.debian.org/buster/telegram-desktop)
 
 - 安装方法
 
@@ -661,6 +678,40 @@ sudo apt purge nautilus-dropbox
 
 #### OwnCloud
 
+- 介绍
+
+The last cloud collaboration/file sharing/file syncing/data privacy platform you'll ever need.
+
+- 下载位置
+
+[下载](https://owncloud.org/download/#owncloud-desktop-client-linux)
+
+- 安装方法
+
+```
+# Debian 10
+su root
+echo 'deb http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Debian_10/ /' > /etc/apt/sources.list.d/isv:ownCloud:desktop.list
+wget -nv https://download.opensuse.org/repositories/isv:ownCloud:desktop/Debian_10/Release.key -O Release.key
+apt-key add - < Release.key
+apt-get update
+apt-get install owncloud-client
+
+# Debian 9
+su root
+echo 'deb http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Debian_9.0/ /' > /etc/apt/sources.list.d/isv:ownCloud:desktop.list
+wget -nv https://download.opensuse.org/repositories/isv:ownCloud:desktop/Debian_9.0/Release.key -O Release.key
+apt-key add - < Release.key
+apt-get update
+apt-get install owncloud-client
+```
+
+- 卸载方法
+
+```
+sudo apt-get remove owncloud-client
+```
+
 #### Google Drive
 
 - 介绍
@@ -707,11 +758,9 @@ Press any key to quit...
 
 - 介绍
 
-Non-free music client
+Spotify: Music for everyone
 
 - 下载位置
-
-[官方网站](https://www.spotify.com/us/)
 
 [下载](https://www.spotify.com/us/download/linux/)
 
@@ -753,8 +802,6 @@ sudo apt-get purge spotify-client
 
 - 下载位置
 
-[官方网站](http://banshee.fm/)
-
 [安装包下载](http://banshee.fm/download/)
 
 - 安装方法
@@ -777,7 +824,7 @@ Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大
 
 - 下载位置
 
-[官方网站](https://wiki.gnome.org/Apps/Rhythmbox)
+[下载位置](https://wiki.gnome.org/Apps/Rhythmbox)
 
 - 安装方法
 
@@ -821,9 +868,9 @@ sudo apt-get purge smplayer
 
 全平台的自由多媒体解决方案
 
-- 官方网站
+- 下载位置
 
-[Official website](http://www.videolan.org/)
+[下载位置](http://www.videolan.org/)
 
 - 安装方法
 
@@ -843,9 +890,10 @@ sudo apt-get purge vlc
 
 专注与视频播放质量和体验。GUI？我们不需要，配置文件更高效。
 
-- 官方网站
+- 下载位置
 
 [Official website](https://mpv.io/)
+
 [GitHub](https://github.com/mpv-player/mpv)
 
 - 安装方法
@@ -935,7 +983,6 @@ sudo apt-get install audacity
 ```
 sudo apt-get purge audacity
 ```
-
 
 
 ### 图像浏览
@@ -1038,7 +1085,7 @@ sudo apt-get purge inkscape
 
 - 介绍
 
-Shutter is a feature-rich screenshot program for Linux based operating systems. You can take a screenshot of a specific area, window, your whole screen, or even of a website – apply different effects to it, draw on it to highlight points, and then upload to an image hosting site, all within one window. 
+Shutter is a feature-rich screenshot program for Linux based operating systems.
 
 - 下载位置
 
@@ -1079,7 +1126,6 @@ sudo apt-get purge gnome-screenshot
 ```
 
 
-
 ### 画图工具
 
 #### Dia
@@ -1103,6 +1149,8 @@ sudo apt-get install dia
 ```
 sudo apt-get purge dia
 ```
+
+
 
 ## 游戏娱乐
 
@@ -1222,17 +1270,81 @@ sudo apt-get install quadrapassel
 sudo apt-get purge quadrapassel
 ```
 
+
+
 ## 文件管理
 
 ### 文件管理
 
 #### Nautilus
 
+- 介绍
+
+GNOME桌面的简单文件管理器
+
+- 下载位置
+
+[Files](https://wiki.gnome.org/Apps/Nautilus)
+
+- 安装方法
+
+```
+sudo apt-get install nautilus
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge nautilus
+```
+
+
 ### 压缩打包
 
-#### fileroller
+#### FileRoller
+
+- 介绍
+
+GNOME桌面使用的解压工具
+
+- 下载位置
+
+[FileRoller](https://wiki.gnome.org/Apps/FileRoller)
+
+- 安装方法
+
+```
+sudo apt-get install file-roller
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge file-roller
+```
 
 #### unzip/zip
+
+- 介绍
+
+InfoZIP's unzip program
+
+- 下载位置
+
+[Unzip](https://packages.debian.org/buster/unzip)
+
+- 安装方法
+
+```
+sudo apt-get install unzip
+```
+
+- 卸载方法
+
+```
+sudo apt-get purge unzip
+```
+
 
 ## 办公应用
 
@@ -1356,21 +1468,31 @@ sudo apt-get purge okular
 
 - 介绍
 
+The PDF Reader for the Connected World
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[下载位置](https://www.foxitsoftware.com/pdf-reader/)
 
 - 安装方法
 
+```
+tar zxvf FoxitReader.enu.setup.2.4.4.0911.x64.run.tar.gz
+cd FoxitReader.enu.setup.2.4.4.0911.x64.run/
+./FoxitReader.enu.setup.2.4.4.0911\(r057d814\).x64.run
+```
+
 - 卸载方法
+
+```
+rm -rf ~/opt/foxitsoftware/foxitreader
+```
 
 ### 办公套件
 
 #### Libre Office
 
-ship by default  
+Ship by default
 
 #### WPS Office
 
@@ -1379,8 +1501,6 @@ ship by default
 Bringing **The World’s Best Office Experience** To Linux
 
 - 下载位置
-
-[官方网站](https://www.wps.com/en-US/linux)
 
 [下载位置](http://wps-community.org/download.html)
 
@@ -1425,11 +1545,11 @@ Google 巨人开发的笔记服务
 
 - 介绍
 
+Free cross-platform LaTeX editor(Windows, MacOsX, Linux)
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[下载位置](https://www.xm1math.net/texmaker/download.html)
 
 - 安装方法
  
@@ -1447,11 +1567,11 @@ sudo apt-get purge texmaker
 
 - 介绍
 
+GNOME LaTeX is a LaTeX editor for the GNOME desktop. It is a free/libre software (GPLv3+ license).
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[下载位置](https://wiki.gnome.org/Apps/GNOME-LaTeX)
 
 - 安装方法
 
@@ -1469,11 +1589,11 @@ sudo apt-get purge latexila
 
 - 介绍
 
+LyX combines the power and flexibility of TeX/LaTeX with the ease of use of a graphical interface.
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[下载位置](https://www.lyx.org/Download#toc5)
 
 - 安装方法
 
@@ -1491,11 +1611,11 @@ sudo apt-get install lyx
 
 - 介绍
 
+TeXstudio is an integrated writing environment for creating LaTeX documents
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[下载位置](https://www.texstudio.org/)
 
 - 安装方法
 
@@ -1513,11 +1633,11 @@ sudo apt-get purge texstudio
 
 - 介绍
 
+TeX Live: metapackage pulling in all components of TeX Live
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[下载位置](https://packages.debian.org/buster/texlive-full)
 
 - 安装方法
 
@@ -1537,11 +1657,11 @@ sudo apt-get purge texlive-full
 
 - 介绍
 
+Mendeley brings your research to life, so you can make an impact on tomorrow
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[下载位置](https://www.mendeley.com/download-desktop/)
 
 - 安装方法
 
@@ -1555,6 +1675,8 @@ sudo dpkg -i mendeleydesktop.deb
 ```
 sudo dpkg -r mendeleydesktop
 ```
+
+
 
 ## 虚拟化
 
@@ -2548,8 +2670,6 @@ Unix/Linux平台下的高度可配置的文本编译器，可以说Linux下非�
 
 - 下载位置
 
-[官方网站](https://www.vim.org/)
-
 [下载位置](https://github.com/vim/vim.git)
 
 - 安装方法
@@ -2568,11 +2688,9 @@ sudo apt-get purge vim
 
 - 介绍
 
-**An extensible, customizable, free/libre text editor — and more.**
+An extensible, customizable, free/libre text editor — and more
 
 - 下载位置
-
-[官方网站](https://www.gnu.org/software/emacs/)
 
 [下载位置](https://www.gnu.org/software/emacs/download.html)
 
@@ -2693,6 +2811,7 @@ sudo apt-get purge codeblocks
 ### Caffeine
 
 - 介绍
+
 Caffeine prevents the desktop from becoming idle when an application is running full-screen.
 
 - 下载位置
