@@ -1852,15 +1852,16 @@ sudo apt-get install gnome-boxes
 sudo apt-get purge gnome-boxes
 ```
 
-#### Qemu & Qemu-KVM
+#### QEMU & QEMU-KVM
 
 - 介绍
 
+The **FAST!** processor emulator
+
+
 - 下载位置
 
-[官方网站]()
-
-[下载位置]()
+[下载位置](https://www.qemu.org/download/)
 
 - 安装方法
 
