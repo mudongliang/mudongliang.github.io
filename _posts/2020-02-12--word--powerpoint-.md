@@ -21,4 +21,4 @@ tags: []
 
 保存文件时，其中使用的字体将嵌入到演示文稿文件中。
 
-[1] https://support.office.com/zh-cn/article/%E5%9C%A8-word-%E6%88%96-powerpoint-%E4%B8%AD%E5%B5%8C%E5%85%A5%E5%AD%97%E4%BD%93-cb3982aa-ea76-4323-b008-86670f222dbc
+[1] <https://support.office.com/zh-cn/article/%E5%9C%A8-word-%E6%88%96-powerpoint-%E4%B8%AD%E5%B5%8C%E5%85%A5%E5%AD%97%E4%BD%93-cb3982aa-ea76-4323-b008-86670f222dbc>
