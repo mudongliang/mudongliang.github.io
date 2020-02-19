@@ -56,7 +56,7 @@ Proceedings of the 27th USENIX Security Symposium
 Wenbo Guo, **Dongliang Mu**, Jun Xu, Purui Su, Gang Wang, Xinyu Xing  
 Proceedings of The 25th ACM Conference on Computer and Communications Security **Outstanding paper award**
 
-7. [**USENIX Security 2019**] DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis [\[Paper\]]({{site.url}}/files/papers/deepvsa.pdf)  
+A7. [**USENIX Security 2019**] DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis [\[Paper\]]({{site.url}}/files/papers/deepvsa.pdf)  
 Wenbo Guo\*, **Dongliang Mu\***, Xinyu Xing, Min Du, Dawn Song  
 Proceedings of the 28th USENIX Security Symposium 
 
@@ -64,13 +64,13 @@ Proceedings of the 28th USENIX Security Symposium
 Yaohui Chen\*, **Dongliang Mu\***, Jun Xu, Zhichuang Sun, Wenbo Shen, Xinyu Xing, Long Lu, Bing Mao  
 Proceedings of the 14th ACM ASIA Conference on Computer and Communications Security
 
-9. [**ASE 2019**] RENN: Efficient Reverse Execution with Neural-Network-assisted Alias Analysis  
+9. [**ASE 2019**] RENN: Efficient Reverse Execution with Neural-Network-assisted Alias Analysis [\[Paper\]]({{site.url}}/files/papers/ASE19.pdf)  
 **Dongliang Mu\***, Wenbo Guo\*, Alejandro Cuevas, Yueqi Chen, Jinxuan Gai, Xinyu Xing, Bing Mao, Chengyu Song  
 Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering
 
 #### Journal Papers
 
-1. [**TSE 2019**] POMP++: Facilitating Postmortem Program Diagnosis with Value-set Analysis  
+1. [**TSE 2019**] POMP++: Facilitating Postmortem Program Diagnosis with Value-set Analysis [\[Paper\]]({{site.url}}/files/papers/pomp++.pdf)  
 **Dongliang Mu**, Yunlan Du, Jianhao Xu, Jun Xu, Xinyu Xing, Bing Mao, Peng Liu  
 IEEE Transactions on Software Engineering  
 
