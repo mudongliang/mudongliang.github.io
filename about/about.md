@@ -11,9 +11,10 @@ My current research focuses on **Software and System Security**. More specifical
 
 
 ### Education
-- B.E. (2010.09 - 2014.06), Computer Science and Technology, Zhengzhou University
-  - Advisor: Professor [Bing Mao](http://seclab.nju.edu.cn/people/professor.html)
+
 - Ph.D. (2014.09 - 2019.12), Computer Science and Technology, Nanjing University
+  - Advisor: Professor [Bing Mao](http://seclab.nju.edu.cn/people/professor.html)
+- B.E. (2010.09 - 2014.06), Computer Science and Technology, Zhengzhou University
 
 ### Experience
 
@@ -32,45 +33,45 @@ My current research focuses on **Software and System Security**. More specifical
 
 #### Conference Papers
 
-1. [**ACM CCS 16**] CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump [\[Paper\]]({{site.url}}/files/papers/p529-xu.pdf)  
+* [**ACM CCS 16**] CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump [\[Paper\]]({{site.url}}/files/papers/p529-xu.pdf)  
 Jun Xu, **Dongliang Mu**, Ping Chen, Xinyu Xing, Pei Wang, Peng Liu  
 Proceedings of the 23nd ACM Conference on Computer and Communications Security 
 
-2. [**USENIX Security 17**] POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts [\[Paper\]]({{site.url}}/files/papers/sec17-xu.pdf)  
+* [**USENIX Security 17**] POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts [\[Paper\]]({{site.url}}/files/papers/sec17-xu.pdf)  
 Jun Xu, **Dongliang Mu**, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao  
 Proceedings of the 26th USENIX Security Symposium 
 
-3. [**SecureCOMM 17**] ROPOB: Obfuscating Binary Code via ReturnOriented Programming [\[Paper\]]({{site.url}}/files/papers/ropob_securecomm.pdf)  
+* [**SecureCOMM 17**] ROPOB: Obfuscating Binary Code via ReturnOriented Programming [\[Paper\]]({{site.url}}/files/papers/ropob_securecomm.pdf)  
 **Dongliang Mu**, Jia Guo, Wenbiao Ding, Zhilong Wang, Bing Mao, Lei Shi  
 International Conference on Security and Privacy in Communication Systems 
 
-4. [**SecureCOMM 17**] DiffGuard: Obscuring Sensitive Information in Canary Based Protections [\[Paper\]]({{site.url}}/files/papers/diffguard_securecomm.pdf)  
+* [**SecureCOMM 17**] DiffGuard: Obscuring Sensitive Information in Canary Based Protections [\[Paper\]]({{site.url}}/files/papers/diffguard_securecomm.pdf)  
 Jun Zhu, Weiping Zhou, Zhilong Wang, **Dongliang Mu**, Bing Mao  
 International Conference on Security and Privacy in Communication Systems
 
-5. [**USENIX Security 18**] Understanding the Reproducibility of Crowd-reported Security Vulnerabilities [\[Paper\]]({{site.url}}/files/papers/sec18-mu.pdf)  
+* [**USENIX Security 18**] Understanding the Reproducibility of Crowd-reported Security Vulnerabilities [\[Paper\]]({{site.url}}/files/papers/sec18-mu.pdf)  
 **Dongliang Mu**, Alejandro Cuevas, Limin Yang, Hang Hu, Xinyu Xing, Bing Mao, Gang Wang  
 Proceedings of the 27th USENIX Security Symposium 
 
-6. [**ACM CCS 18**] LEMNA: Explaining Deep Learning based Security Applications [\[Paper\]]({{site.url}}/files/papers/ccs18.pdf)  
+* [**ACM CCS 18**] LEMNA: Explaining Deep Learning based Security Applications [\[Paper\]]({{site.url}}/files/papers/ccs18.pdf)  
 Wenbo Guo, **Dongliang Mu**, Jun Xu, Purui Su, Gang Wang, Xinyu Xing  
 Proceedings of The 25th ACM Conference on Computer and Communications Security **Outstanding paper award**
 
-7. [**USENIX Security 19**] DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis [\[Paper\]]({{site.url}}/files/papers/deepvsa.pdf)  
+* [**USENIX Security 19**] DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis [\[Paper\]]({{site.url}}/files/papers/deepvsa.pdf)  
 Wenbo Guo\*, **Dongliang Mu\***, Xinyu Xing, Min Du, Dawn Song  
 Proceedings of the 28th USENIX Security Symposium 
 
-8. [**AsiaCCS 19**] Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary [\[Paper\]]({{site.url}}/files/papers/ptrix.pdf)  
+* [**AsiaCCS 19**] Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary [\[Paper\]]({{site.url}}/files/papers/ptrix.pdf)  
 Yaohui Chen\*, **Dongliang Mu\***, Jun Xu, Zhichuang Sun, Wenbo Shen, Xinyu Xing, Long Lu, Bing Mao  
 Proceedings of the 14th ACM ASIA Conference on Computer and Communications Security
 
-9. [**ASE 19**] RENN: Efficient Reverse Execution with Neural-Network-assisted Alias Analysis [\[Paper\]]({{site.url}}/files/papers/ASE19.pdf)  
+* [**ASE 19**] RENN: Efficient Reverse Execution with Neural-Network-assisted Alias Analysis [\[Paper\]]({{site.url}}/files/papers/ASE19.pdf)  
 **Dongliang Mu\***, Wenbo Guo\*, Alejandro Cuevas, Yueqi Chen, Jinxuan Gai, Xinyu Xing, Bing Mao, Chengyu Song  
 Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering
 
 #### Journal Papers
 
-1. [**TSE 19**] POMP++: Facilitating Postmortem Program Diagnosis with Value-set Analysis [\[Paper\]]({{site.url}}/files/papers/pomp++.pdf)  
+* [**TSE 19**] POMP++: Facilitating Postmortem Program Diagnosis with Value-set Analysis [\[Paper\]]({{site.url}}/files/papers/pomp++.pdf)  
 **Dongliang Mu**, Yunlan Du, Jianhao Xu, Jun Xu, Xinyu Xing, Bing Mao, Peng Liu  
 IEEE Transactions on Software Engineering  
 
@@ -83,14 +84,17 @@ IEEE Transactions on Software Engineering
 
 ### Talks
 
-- [Understanding the Reproducibility of Crowd-reported Security Vulnerabilities]({{site.url}}/files/slides/usenix18_slide.pptx)  
-  - *USENIX Security 2018*, Baltimore, USA
-- [From Physical Security to Cyber Security: How to forge data spoofing personalized auto insurance](https://drive.google.com/file/d/1DV0XX7m7xFGxhG74TmUfDmCmNsWU-7B7/view?usp=sharing)
-  - *Geekpwn China 2018*, Shanghai, China
-- [Towards Facilitating the Removal of Software Defects]({{site.url}}/files/slides/zhejiang_0510.pptx)
-  - *QiZhen Youth Forum in Zhejiang University 2019*, Zhejiang, China
 - [Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary]({{site.url}}/files/slides/asiaccs19_slide.pptx)  
   - *AsiaCCS 2019*, Auckland, New Zealand
+
+- [Towards Facilitating the Removal of Software Defects]({{site.url}}/files/slides/zhejiang_0510.pptx)
+  - *QiZhen Youth Forum in Zhejiang University 2019*, Zhejiang, China
+
+- [From Physical Security to Cyber Security: How to forge data spoofing personalized auto insurance](https://drive.google.com/file/d/1DV0XX7m7xFGxhG74TmUfDmCmNsWU-7B7/view?usp=sharing)
+  - *Geekpwn China 2018*, Shanghai, China
+
+- [Understanding the Reproducibility of Crowd-reported Security Vulnerabilities]({{site.url}}/files/slides/usenix18_slide.pptx)  
+  - *USENIX Security 2018*, Baltimore, USA
 
 ### Open Source Projects
 
