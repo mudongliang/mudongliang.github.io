@@ -85,9 +85,9 @@ IEEE Transactions on Software Engineering
 
 - [Understanding the Reproducibility of Crowd-reported Security Vulnerabilities]({{site.url}}/files/slides/usenix18_slide.pptx)  
   - *USENIX Security 2018*, Baltimore, USA
-- From Physical Security to Cyber Security: How to forge data spoofing personalized auto insurance
+- [From Physical Security to Cyber Security: How to forge data spoofing personalized auto insurance](https://drive.google.com/file/d/1DV0XX7m7xFGxhG74TmUfDmCmNsWU-7B7/view?usp=sharing)
   - *Geekpwn China 2018*, Shanghai, China
-- Towards Facilitating the Removal of Software Defects
+- [Towards Facilitating the Removal of Software Defects]({{site.url}}/files/slides/zhejiang_0510.pptx)
   - *QiZhen Youth Forum in Zhejiang University 2019*, Zhejiang, China
 - [Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary]({{site.url}}/files/slides/asiaccs19_slide.pptx)  
   - *AsiaCCS 2019*, Auckland, New Zealand
