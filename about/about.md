@@ -33,9 +33,25 @@ My current research focuses on **Software and System Security**. More specifical
 
 #### Conference Papers
 
-* [**ACM CCS 16**] CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump [\[Paper\]]({{site.url}}/files/papers/p529-xu.pdf)  
-Jun Xu, **Dongliang Mu**, Ping Chen, Xinyu Xing, Pei Wang, Peng Liu  
-Proceedings of the 23nd ACM Conference on Computer and Communications Security 
+* [**USENIX Security 19**] DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis [\[Paper\]]({{site.url}}/files/papers/deepvsa.pdf)  
+Wenbo Guo\*, **Dongliang Mu\***, Xinyu Xing, Min Du, Dawn Song  
+Proceedings of the 28th USENIX Security Symposium 
+
+* [**AsiaCCS 19**] Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary [\[Paper\]]({{site.url}}/files/papers/ptrix.pdf)  
+Yaohui Chen\*, **Dongliang Mu\***, Jun Xu, Zhichuang Sun, Wenbo Shen, Xinyu Xing, Long Lu, Bing Mao  
+Proceedings of the 14th ACM ASIA Conference on Computer and Communications Security
+
+* [**ASE 19**] RENN: Efficient Reverse Execution with Neural-Network-assisted Alias Analysis [\[Paper\]]({{site.url}}/files/papers/ASE19.pdf)  
+**Dongliang Mu\***, Wenbo Guo\*, Alejandro Cuevas, Yueqi Chen, Jinxuan Gai, Xinyu Xing, Bing Mao, Chengyu Song  
+Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering
+
+* [**USENIX Security 18**] Understanding the Reproducibility of Crowd-reported Security Vulnerabilities [\[Paper\]]({{site.url}}/files/papers/sec18-mu.pdf)  
+**Dongliang Mu**, Alejandro Cuevas, Limin Yang, Hang Hu, Xinyu Xing, Bing Mao, Gang Wang  
+Proceedings of the 27th USENIX Security Symposium
+
+* [**ACM CCS 18**] LEMNA: Explaining Deep Learning based Security Applications [\[Paper\]]({{site.url}}/files/papers/ccs18.pdf)  
+Wenbo Guo, **Dongliang Mu**, Jun Xu, Purui Su, Gang Wang, Xinyu Xing  
+Proceedings of The 25th ACM Conference on Computer and Communications Security **Outstanding paper award**
 
 * [**USENIX Security 17**] POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts [\[Paper\]]({{site.url}}/files/papers/sec17-xu.pdf)  
 Jun Xu, **Dongliang Mu**, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao  
@@ -49,25 +65,9 @@ International Conference on Security and Privacy in Communication Systems
 Jun Zhu, Weiping Zhou, Zhilong Wang, **Dongliang Mu**, Bing Mao  
 International Conference on Security and Privacy in Communication Systems
 
-* [**USENIX Security 18**] Understanding the Reproducibility of Crowd-reported Security Vulnerabilities [\[Paper\]]({{site.url}}/files/papers/sec18-mu.pdf)  
-**Dongliang Mu**, Alejandro Cuevas, Limin Yang, Hang Hu, Xinyu Xing, Bing Mao, Gang Wang  
-Proceedings of the 27th USENIX Security Symposium 
-
-* [**ACM CCS 18**] LEMNA: Explaining Deep Learning based Security Applications [\[Paper\]]({{site.url}}/files/papers/ccs18.pdf)  
-Wenbo Guo, **Dongliang Mu**, Jun Xu, Purui Su, Gang Wang, Xinyu Xing  
-Proceedings of The 25th ACM Conference on Computer and Communications Security **Outstanding paper award**
-
-* [**USENIX Security 19**] DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis [\[Paper\]]({{site.url}}/files/papers/deepvsa.pdf)  
-Wenbo Guo\*, **Dongliang Mu\***, Xinyu Xing, Min Du, Dawn Song  
-Proceedings of the 28th USENIX Security Symposium 
-
-* [**AsiaCCS 19**] Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary [\[Paper\]]({{site.url}}/files/papers/ptrix.pdf)  
-Yaohui Chen\*, **Dongliang Mu\***, Jun Xu, Zhichuang Sun, Wenbo Shen, Xinyu Xing, Long Lu, Bing Mao  
-Proceedings of the 14th ACM ASIA Conference on Computer and Communications Security
-
-* [**ASE 19**] RENN: Efficient Reverse Execution with Neural-Network-assisted Alias Analysis [\[Paper\]]({{site.url}}/files/papers/ASE19.pdf)  
-**Dongliang Mu\***, Wenbo Guo\*, Alejandro Cuevas, Yueqi Chen, Jinxuan Gai, Xinyu Xing, Bing Mao, Chengyu Song  
-Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering
+* [**ACM CCS 16**] CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump [\[Paper\]]({{site.url}}/files/papers/p529-xu.pdf)  
+Jun Xu, **Dongliang Mu**, Ping Chen, Xinyu Xing, Pei Wang, Peng Liu  
+Proceedings of the 23nd ACM Conference on Computer and Communications Security
 
 #### Journal Papers
 
