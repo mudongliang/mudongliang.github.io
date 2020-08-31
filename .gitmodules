@@ -4,3 +4,6 @@
 [submodule "debgen"]
 	path = debgen
 	url = https://github.com/MintCN/debgen
+[submodule "ubuntugen"]
+	path = ubuntugen
+	url = https://github.com/mudongliang/ubuntugen
