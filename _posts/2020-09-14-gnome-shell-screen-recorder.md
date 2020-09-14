@@ -42,3 +42,7 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys max-screencast-length
 Replace the '60' value with the length you want in seconds, e.g., 300 for 5 minutes, 600 for 10 minutes, and so on.
 
 If you set the value to '0' there will be no time limit.
+
+## References
+
+[1] [Instantly Screen Record on Ubuntu Using this Hidden Feature](https://www.omgubuntu.co.uk/2018/06/gnome-shell-screen-recorder-ubuntu)

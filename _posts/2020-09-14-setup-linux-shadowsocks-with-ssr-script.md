@@ -59,7 +59,7 @@ First, open `Network` from `Setting`,
 
 Second, configure the proxy with **Socks Host: 127.0.0.1** and **Ports: 1080**, like the following picture,
 
-![manual]({{site.url}}/images/network_proxy.png)
+![manual]({{site.url}}/images/proxy_manual.png)
 
 ## References
 
