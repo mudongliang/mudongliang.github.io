@@ -7,8 +7,9 @@ permalink: /about/
 * TOC
 {:toc}
 
-My current research focuses on **Software and System Security**. More specifically, my research interests span the areas of *Software Failure Diagnosis, Vulnerability Reproduction, Vulnerability Fuzzing, and Binary Analysis*. I am on the job market this year. Please feel free to download [my CV]({{site.url}}/files/DongliangMu_CV.pdf).
+I am an associate professor in the school of Cyber Science and Engineering at Huazhong University of Science and Technology(HUST). I earned my Ph.D. in Computer Science from [Nanjing University](https://cs.nju.edu.cn/), and fornately was supervised by [Bing Mao](http://seclab.nju.edu.cn/people/professor.html). During my Ph.D. career, I collabrated and studied a lot from [Xinyu Xing](http://xinyuxing.org/) at Penn State University.
 
+My current research focuses on **Software and System Security**. More specifically, my research interests span the areas of *Software Failure Diagnosis, Vulnerability Reproduction, Vulnerability Fuzzing, and Binary Analysis*.
 
 ### Education
 
@@ -18,13 +19,15 @@ My current research focuses on **Software and System Security**. More specifical
 
 ### Experience
 
+- **Associate Professor at HUST**, Huazhong University of Science and Technology (2020 - Now)
+
 - **Research Assistant in Software and System Security**, Pennsylvania State University (2016 - 2020)
 	- Adviser: Professor [Xinyu Xing](http://xinyuxing.org/)
 
 - **Organizer of 2018 Penn State Cybersecurity Competition**, Pennsylvania State University
 	- HomePage : <https://psusecurity.github.io/>
 
-- **Graduate Research and Teaching Assistant**, Nanjing University
+- **Graduate Research and Teaching Assistant**, Nanjing University (2014 - 2019)
   - Advisor: Professor [Bing Mao](http://seclab.nju.edu.cn/people/professor.html)
 
 ### Publications
