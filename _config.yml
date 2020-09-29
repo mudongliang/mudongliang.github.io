@@ -9,7 +9,7 @@
 title: Dongliang Mu de Blog
 email: mudongliangabcd@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Blog Website For Information Security/System Security Student and Linuxer
+  Blog Website For Software/System Security Researcher and Linuxer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mudongliang.github.io" # the base hostname & protocol for your site
 twitter_username: mudongliang
