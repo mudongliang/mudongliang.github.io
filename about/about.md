@@ -9,6 +9,8 @@ permalink: /about/
 
 I am an associate professor in the school of Cyber Science and Engineering at Huazhong University of Science and Technology(HUST). I earned my Ph.D. in Computer Science from [Nanjing University](https://cs.nju.edu.cn/), and fornately was supervised by [Bing Mao](http://seclab.nju.edu.cn/people/professor.html). During my Ph.D. career, I collabrated and studied a lot from [Xinyu Xing](http://xinyuxing.org/) at Penn State University.
 
+### Research interest
+
 My current research focuses on **Software and System Security**. More specifically, my research interests span the areas of *Software Failure Diagnosis, Vulnerability Reproduction, Vulnerability Fuzzing, and Binary Analysis*.
 
 ### Education
@@ -19,16 +21,26 @@ My current research focuses on **Software and System Security**. More specifical
 
 ### Experience
 
-- **Associate Professor at HUST**, Huazhong University of Science and Technology (2020 - Now)
+- **Associate Professor**, Huazhong University of Science and Technology (2020/08 - Now)
 
-- **Research Assistant in Software and System Security**, Pennsylvania State University (2016 - 2020)
+- **Research Fellow**, \emph{Pennsylvania State University} (2020/01 - 2020/07)
 	- Adviser: Professor [Xinyu Xing](http://xinyuxing.org/)
 
 - **Organizer of 2018 Penn State Cybersecurity Competition**, Pennsylvania State University
 	- HomePage : <https://psusecurity.github.io/>
 
+- **Research Assistant in Software and System Security**, Pennsylvania State University (2016 - 2020)
+	- Adviser: Professor [Xinyu Xing](http://xinyuxing.org/)
+
 - **Graduate Research and Teaching Assistant**, Nanjing University (2014 - 2019)
   - Advisor: Professor [Bing Mao](http://seclab.nju.edu.cn/people/professor.html)
+
+### Honors & Awards
+
+- Student Travel Grant of 14th ACM ASIACCS, 2019
+- Artificial Intelligence Scholarship at Nanjing University, 2018
+- ACM CCS Outstanding Paper Award (Top 1), 2018
+- Student Travel Grant of 38th IEEE Symposium on Security and Privacy, 2017
 
 ### Publications
 
@@ -77,13 +89,6 @@ Proceedings of the 23nd ACM Conference on Computer and Communications Security
 * [**TSE 19**] POMP++: Facilitating Postmortem Program Diagnosis with Value-set Analysis [\[Paper\]]({{site.url}}/files/papers/pomp++.pdf)  
 **Dongliang Mu**, Yunlan Du, Jianhao Xu, Jun Xu, Xinyu Xing, Bing Mao, Peng Liu  
 IEEE Transactions on Software Engineering  
-
-### Honors & Awards
-
-- Student Travel Grant of 14th ACM ASIACCS, 2019
-- Artificial Intelligence Scholarship at Nanjing University, 2018
-- ACM CCS Outstanding Paper Award (Top 1), 2018
-- Student Travel Grant of 38th IEEE Symposium on Security and Privacy, 2017
 
 ### Talks
 
