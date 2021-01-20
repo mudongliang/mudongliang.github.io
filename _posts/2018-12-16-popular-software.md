@@ -1736,7 +1736,7 @@ Sun公司开发的完全开源的x86模拟器
 
 - 下载位置
 
-[官方网站](https://www.virtualbox.org/) [下载位置](ihttps://www.virtualbox.org/wiki/Linux_Downloads)
+[官方网站](https://www.virtualbox.org/) [下载位置](https://www.virtualbox.org/wiki/Linux_Downloads)
 
 - 安装方法
 
@@ -2191,7 +2191,7 @@ sudo apt-get purge clamav clamtk
 
 Gnome Terminal 是 Gnome 桌面环境中的终端模拟软件
 
-- 官方网站
+- 下载位置
 
 [Official Website](https://help.gnome.org/users/gnome-terminal/stable/index.html.en)
 
@@ -2215,7 +2215,7 @@ sudo apt-get purge gnome-terminal
 
 Terminator 是一个程序，它可让用户自由地排布多个 GNOME 终端，而不用通过窗口管理器来实现，比较适合需要同时打开多个终端的用户
 
-- 官方网站
+- 下载位置
 
 [Official Website](http://gnometerminator.blogspot.com/p/introduction.html)
 
@@ -2237,7 +2237,7 @@ sudo apt-get purge terminator
 
 GNU screen 类似的程序，可作为 screen 的替代品使用
 
-- 官方网站
+- 下载位置
 
 [Official Website](http://sourceforge.net/projects/tmux/)
 
@@ -2301,7 +2301,7 @@ sudo apt-get purge zsh
 
 用于安装你自己手动下载的包的GUI程序
 
-- 官方网站
+- 下载位置
 
 [Official Website](https://packages.debian.org/stretch/gdebi)
 
@@ -2323,7 +2323,7 @@ sudo apt-get purge gdebi
 
 apt系的图形化安装软件
 
-- 官方网站
+- 下载位置
 
 [Official Website](https://www.nongnu.org/synaptic/)
 
@@ -2395,7 +2395,7 @@ sudo apt-get purge font-manager
 
 Secure Shell 的开源实现，目前已经成为 SSH Server 的首选
 
-- 官方网站
+- 下载位置
 
 [Official Website](http://www.openssh.com/)
 
@@ -2417,7 +2417,7 @@ sudo apt-get purge openssh-server
 
 Secure Shell 的开源实现，目前已经成为 SSH Server 的首选
 
-- 官方网站
+- 下载位置
 
 [Official Website](http://www.openssh.com/)
 

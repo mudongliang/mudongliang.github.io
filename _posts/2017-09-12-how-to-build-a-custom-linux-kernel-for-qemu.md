@@ -76,7 +76,7 @@ $ mkdir -pv {bin,sbin,etc,proc,sys,usr/{bin,sbin}}
 $ cp -av $WORK_DIR/obj/busybox-x86/_install/* .
 ```
 
-Of course, there’s a lot missing from this skeleton hierarachy that will cause a lot of applications to break (no /etc/passwd, for example), but it’s enough to boot to a shell, so we’ll live with it for the sake of brevity. If you want to flesh it out more you can refer to [these sections](http://www.linuxfromscratch.org/lfs/view/stable/chapter06/creatingdirs.html) of Linux From Scratch.
+Of course, there’s a lot missing from this skeleton hierarachy that will cause a lot of applications to break (no /etc/passwd, for example), but it’s enough to boot to a shell, so we’ll live with it for the sake of brevity. If you want to flesh it out more you can refer to [these sections](http://www.linuxfromscratch.org/lfs/view/stable/chapter07/creatingdirs.html) of Linux From Scratch.
 
 One absolutely critical piece of our userland that’s still missing is an init program. We’ll just write a tiny shell script and use it as our init:
 
