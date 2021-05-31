@@ -23,7 +23,7 @@ My current research focuses on **Software and System Security**. More specifical
 
 - **Associate Professor**, Huazhong University of Science and Technology (2020/08 - Now)
 
-- **Research Fellow**, \emph{Pennsylvania State University} (2020/01 - 2020/07)
+- **Research Fellow**, **Pennsylvania State University** (2020/01 - 2020/07)
 	- Adviser: Professor [Xinyu Xing](http://xinyuxing.org/)
 
 - **Organizer of 2018 Penn State Cybersecurity Competition**, Pennsylvania State University
