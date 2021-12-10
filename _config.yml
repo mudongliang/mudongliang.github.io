@@ -21,3 +21,5 @@ plugins_dir:
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-midnight
