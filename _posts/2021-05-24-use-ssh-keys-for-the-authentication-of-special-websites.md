@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Draft for Use ssh keys for the authentication of special websites"
+title: "Use ssh keys for the authentication of special websites"
 date: 2021-05-24
 description: ""
 category: 
