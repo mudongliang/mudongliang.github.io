@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Draft for Launching Teamviewer remotely through SSH"
+title: "Launching Teamviewer remotely through SSH"
 date: 2021-05-10
 description: ""
 category: 
@@ -11,7 +11,7 @@ tags: []
 
 Teamviewer is a wonderful tool to access your computer (or any other device) remotely if you need to use your a graphical screen.
 
-## List of TeamViewer command
+## List of TeamViewer commands
 
 ```
 $ whereis teamviewer
