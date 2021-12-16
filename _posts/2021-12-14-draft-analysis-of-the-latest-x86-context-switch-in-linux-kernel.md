@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Draft for "Draft: Analysis of the latest x86 context switch in Linux Kernel"
+title: "Draft: Analysis of the latest x86 context switch in Linux Kernel"
 date: 2021-12-14
 description: ""
 category: 
