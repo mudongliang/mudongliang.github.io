@@ -7,7 +7,7 @@ permalink: /about/
 * TOC
 {:toc}
 
-I am an associate professor in the school of Cyber Science and Engineering at Huazhong University of Science and Technology(HUST). I earned my Ph.D. in Computer Science from [Nanjing University](https://cs.nju.edu.cn/), and fornately was supervised by [Bing Mao](http://seclab.nju.edu.cn/people/professor.html). During my Ph.D. career, I collabrated and studied a lot from [Xinyu Xing](http://xinyuxing.org/) at Penn State University. My recent projects are focused on Linux Kernel Security and my work is usually published in conferences such as Usenix Security/CCS/NDSS/Oakland, and ASE. And I am a recipient of the **ACM CCS Outstanding Paper Award (2018)**.
+I am an associate professor in the school of Cyber Science and Engineering at Huazhong University of Science and Technology(HUST). I earned my Ph.D. in Computer Science from [Nanjing University](https://cs.nju.edu.cn/), and fortunately was supervised by [Bing Mao](http://seclab.nju.edu.cn/people/professor.html). During my Ph.D. career, I collabrated and studied a lot from [Xinyu Xing](http://xinyuxing.org/) at Penn State University. My recent projects are focused on Linux Kernel Security and my work is usually published in conferences such as Usenix Security/CCS/NDSS/Oakland, and ASE. And I am a recipient of the **ACM CCS Outstanding Paper Award (2018)**.
 
 [**Prospective Students**] I am looking for multiple Ph.D. students and undergraduate/graduate research interns who share my academic interests and have a solid background in System/Software Security. If you are interested, please send me emails about your information.
 
