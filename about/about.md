@@ -58,7 +58,7 @@ Proceedings of the Network and Distributed System Security Symposium
 Zhenpeng Lin, Yueqi Chen, **Dongliang Mu**, Chensheng Yu, Yuhang Wu, Kang Li, Xinyu Xing  
 Proceedings of the 43rd IEEE Symposium on Security and Privacy
 
-* [**TrustComm 2021**] RoBin: Facilitating the Reproduction of Configuration-Related Vulnerability  
+* [**TrustComm 2021**] RoBin: Facilitating the Reproduction of Configuration-Related Vulnerability [\[Paper\]]({{site.url}}/files/papers/robin.pdf)  
 Ligeng Chen, Jian Guo, Zhongling He, **Dongliang Mu**, and Bing Mao  
 Proceedings of the 20th IEEE International Conference on Trust, Security and Privacy in Computing and Communications
 

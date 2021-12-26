@@ -1,9 +1,9 @@
 [submodule "x86"]
 	path = x86
-	url = https://github.com/mudongliang/x86.renejeschke.de
+	url = git@github.com:mudongliang/x86.renejeschke.de.git
 [submodule "debgen"]
 	path = debgen
-	url = https://github.com/MintCN/debgen
+	url = git@github.com:MintCN/debgen.git
 [submodule "ubuntugen"]
 	path = ubuntugen
-	url = https://github.com/mudongliang/ubuntugen
+	url = git@github.com:mudongliang/ubuntugen.git
