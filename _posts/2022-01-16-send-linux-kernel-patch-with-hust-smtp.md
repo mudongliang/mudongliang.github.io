@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Draft for "Send linux kernel patch with HUST SMTP"
+title: "Send linux kernel patch with HUST SMTP"
 date: 2022-01-16
 description: ""
 category: 
@@ -33,12 +33,13 @@ Same as [2], edit the .gitconfig in the home directory to add the following send
 
 ### Send Linux kernel patch with HUST SMTP
 
-Use `git format-patch` to generate one kernel patch, and 
+Use `git format-patch` to generate one kernel patch, and `git send-mail` to send patch
 
 ```
 # PWD should be a kernel git repository
 git format-patch -1
-git send-patch --to=mudongliangabcd@gmail.com 0001-*.patch
+# this Gmail is a testing mailbox, please use your own
+git send-mail --to=mudongliangabcd@gmail.com 0001-*.patch
 ```
 
 ## References

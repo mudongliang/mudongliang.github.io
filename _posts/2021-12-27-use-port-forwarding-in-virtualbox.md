@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Draft for "Use Port Forwarding in VirtualBox"
+title: "Use Port Forwarding in VirtualBox"
 date: 2021-12-27
 description: ""
 category: 
