@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Draft for "CISCN2017 - babydriver"
+title: "CISCN2017 - babydriver"
 date: 2022-01-18
 description: ""
 category: 
@@ -240,14 +240,14 @@ ssize_t __fastcall babyread(file *filp, char *buffer, size_t length, loff_t *off
 
 Since the device_buf is in the .bss section, i.e., a global variable, so there is one racy issue - the latter open operation will overwrite the device_buf allocated by the former open operation.
 
--------------------------------------------------------------------
+```
    fd 1                  fd 2
    open  <-- allocate device_buf		
                          open  <-- allocate and overwrite device_buf
   release  <-- free the new allocation
                        operation  <-- Use After Free is triggered
                         release   <-- Double Free is triggered
--------------------------------------------------------------------
+```
 
 ### PoC Generation
 
