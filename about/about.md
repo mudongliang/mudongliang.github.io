@@ -13,7 +13,7 @@ I am an associate professor in the school of Cyber Science and Engineering at Hu
 
 ### Research interest
 
-My current research focuses on **Software and System Security**. More specifically, my research interests span the areas of *Software Failure Diagnosis, Vulnerability Reproduction, Vulnerability Fuzzing, and Binary Analysis*.
+My current research focuses on **Software and System Security**. More specifically, my research interests span the areas of *Vulnerability Fuzzing, Vulnerability Analysis (including Crash Deduplication, Crash Diagnosis, Vulnerability Reproduction) and Vulnerability Assessment*.
 
 ### Education
 
@@ -50,15 +50,15 @@ My current research focuses on **Software and System Security**. More specifical
 
 #### Conference Papers
 
-* [**NDSS 2022**] An In-depth Analysis of Duplicated Linux Kernel Bug Reports  
+* [**NDSS 22**] An In-depth Analysis of Duplicated Linux Kernel Bug Reports  
 **Dongliang Mu**, Yuhang Wu, Yueqi Chen, Zhenpeng Lin, Chensheng Yu, Xinyu Xing, Gang Wang  
 Proceedings of the Network and Distributed System Security Symposium
 
-* [**Oakland SP 2022**] GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs  
+* [**Oakland SP 22**] GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs  
 Zhenpeng Lin, Yueqi Chen, **Dongliang Mu**, Chensheng Yu, Yuhang Wu, Kang Li, Xinyu Xing  
 Proceedings of the 43rd IEEE Symposium on Security and Privacy
 
-* [**TrustComm 2021**] RoBin: Facilitating the Reproduction of Configuration-Related Vulnerability [\[Paper\]]({{site.url}}/files/papers/robin.pdf)  
+* [**TrustComm 21**] RoBin: Facilitating the Reproduction of Configuration-Related Vulnerability [\[Paper\]]({{site.url}}/files/papers/robin.pdf)  
 Ligeng Chen, Jian Guo, Zhongling He, **Dongliang Mu**, and Bing Mao  
 Proceedings of the 20th IEEE International Conference on Trust, Security and Privacy in Computing and Communications
 
@@ -73,6 +73,10 @@ Proceedings of the 14th ACM ASIA Conference on Computer and Communications Secur
 * [**ASE 19**] RENN: Efficient Reverse Execution with Neural-Network-assisted Alias Analysis [\[Paper\]]({{site.url}}/files/papers/ASE19.pdf)  
 **Dongliang Mu\***, Wenbo Guo\*, Alejandro Cuevas, Yueqi Chen, Jinxuan Gai, Xinyu Xing, Bing Mao, Chengyu Song  
 Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering
+
+* [**PRICAI 19**] Building Adversarial Defense with Non-invertible Data Transformations  [\[Paper\]]({{site.url}}/files/papers/)  
+Wenbo Guo, **Dongliang Mu**, Ligeng Chen, Jinxuan Gai  
+Proceedings of the 16th Pacific Rim International Conference on Artificial Intelligence
 
 * [**USENIX Security 18**] Understanding the Reproducibility of Crowd-reported Security Vulnerabilities [\[Paper\]]({{site.url}}/files/papers/sec18-mu.pdf)  
 **Dongliang Mu**, Alejandro Cuevas, Limin Yang, Hang Hu, Xinyu Xing, Bing Mao, Gang Wang  
