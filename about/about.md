@@ -50,11 +50,11 @@ My current research focuses on **Software and System Security**. More specifical
 
 #### Conference Papers
 
-* [**NDSS 22**] An In-depth Analysis of Duplicated Linux Kernel Bug Reports  
+* [**NDSS 22**] An In-depth Analysis of Duplicated Linux Kernel Bug Reports [\[Paper\]]({{site.url}}/files/papers/NDSS_deduplication.pdf)   
 **Dongliang Mu**, Yuhang Wu, Yueqi Chen, Zhenpeng Lin, Chensheng Yu, Xinyu Xing, Gang Wang  
 Proceedings of the Network and Distributed System Security Symposium
 
-* [**Oakland SP 22**] GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs  
+* [**Oakland SP 22**] GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs [\[Paper\]]({{site.url}}/files/papers/GREBE.pdf)  
 Zhenpeng Lin, Yueqi Chen, **Dongliang Mu**, Chensheng Yu, Yuhang Wu, Kang Li, Xinyu Xing  
 Proceedings of the 43rd IEEE Symposium on Security and Privacy
 
