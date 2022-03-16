@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Draft for "Double Fetch"
+title: "Double Fetch"
 date: 2022-02-25
 description: ""
 category: 
@@ -8,6 +8,8 @@ tags: []
 ---
 * TOC
 {:toc}
+
+## Double Fetch
 
 ## References
 
