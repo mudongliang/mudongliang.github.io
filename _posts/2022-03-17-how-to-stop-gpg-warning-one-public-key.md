@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Draft for "how to stop gpg warning one public key"
+title: "How to stop gpg warning one public key"
 date: 2022-03-17
 description: ""
 category: 
