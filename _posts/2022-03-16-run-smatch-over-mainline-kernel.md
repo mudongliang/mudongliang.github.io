@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Draft for "Run smatch over mainline kernel"
+title: "Quick guidance of running smatch over mainline kernel"
 date: 2022-03-16
 description: ""
 category: 
