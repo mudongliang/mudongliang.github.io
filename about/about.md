@@ -151,11 +151,21 @@ IEEE Transactions on Software Engineering
 |CVE-2018-9996  | Stack Exhaustion       | binutils-2.29      |
 |CVE-2018-10316 | Denial-of-Service      | nasm-2.14rc0       |
 |CVE-2018-9251  | Denial-of-Service      | libxml2-2.9.8      |
+|CVE-2021-37159 | Double Free            | Linux Kernel       |
+|CVE-2022-27950 | Memory Leak            | Linux Kernel       |
 
 ### Upstream Linux Kernel Bug Patches
 
 |     Age    | Kernel Commits |
 | ---------- | -------------- |
+|2022-03-22  | [ntfs: add sanity check on allocation size](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=714fbf2647b1a33d914edd695d4da92029c7e7c0) |
+|2022-03-17  | [fs: erofs: add sanity check for kobject in erofs_unregister_sysfs](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a942da24abc5839c11a8fc2a4b7cb268ea94ba54) |
+|2022-03-14  | [btrfs: don't access possibly stale fs_info data in device_list_add](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=79c9234ba596e903907de20573fd4bcc85315b06) |
+|2022-03-07  | [media: hdpvr: initialize dev->worker at hdpvr_register_videodev](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=07922937e9a580825f9965c46fd15e23ba5754b6) |
+|2022-02-22  | [media: em28xx: initialize refcount before kref_get](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c08eadca1bdfa099e20a32f8fa4b52b2f672236d) |
+|2022-01-24  | [HID: elo: fix memory leak in elo_probe](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=817b8b9c5396d2b2d92311b46719aad5d3339dbe) |
+|2021-12-06  | [spi: change clk_disable_unprepare to clk_unprepare](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=db6689b643d8653092f5853751ea2cdbc299f8d3) |
+|2021-12-03  | [usb: bdc: fix error handling code in bdc_resume](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e1c72d907f4c3f4f859f0c5890d5326d804625dc) |
 | 2021-11-30 | [dpaa2-eth: destroy workqueue at the end of remove function](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f4a8adbfe4841491b60c14fe610571e1422359f9) |
 | 2021-11-09 | [f2fs: fix UAF in f2fs_available_free_memory](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5429c9dbc9025f9a166f64e22e3a69c94fd5b29b) |
 | 2021-10-27 | [fs: reiserfs: remove useless new_opts in reiserfs_remount](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=81dedaf10c20959bdf5624f9783f408df26ba7a4) |
