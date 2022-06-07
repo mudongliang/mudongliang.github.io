@@ -1,8 +1,22 @@
-# 2022-RealWorld-CTF(experience competition)-digger_into_kernel
+---
+layout: post
+title: "RealWorldCTF-digging_into_kernel"
+date: 2022-06-07
+description: ""
+category: 
+tags: []
+
+---
+
+* TOC
+{:toc}
+
+
+## 2022-RealWorld-CTF(experience competition)-digger_into_kernel
 
 [Attachment](https://github.com/wumingzhilian/wumingzhilian.github.io/blob/master/Digging_into_Kernel_dfe60641bc6185b43a0f9c0932a27f76.tar.xz)
 
-## Check Materials
+### Check Materials
 
 ```
 $ xz -d Digging_into_Kernel_dfe60641bc6185b43a0f9c0932a27f76.tar.xz
@@ -115,7 +129,7 @@ setsid cttyhack setuidgid 0 sh
 
 
 
-## Vulnerability Analysis
+### Vulnerability Analysis
 
 Analysis of kernel modules:
 
@@ -308,7 +322,7 @@ if ( buf && len <= 0x50 && index <= 0x70 )
     }
 ```
 
-### Trick
+#### Trick
 
 https://elixir.bootlin.com/linux/v5.4.38/source/include/linux/sched.h#L878
 
@@ -423,7 +437,7 @@ At this time, we construct a `UAF` vulnerability.
 
 We can synchronously modify the `parent process's permission information` by `forking` the child process and then modifying its `cred_jar` information.
 
-### Experimental Validation
+#### Experimental Validation
 
 When we `debug`, we need a kernel `symbol table`.
 
@@ -753,7 +767,7 @@ pwndbg>
 
 So it is consistent with our conjecture.
 
-### Slub Analysis
+#### Slub Analysis
 
 The `slub allocation mechanism` of the kernel itself has a property that when we go to apply for a `slub`  if we already have a `slub` of the `same size`, the kernel will initialization the slub that `already exists`, So we allocated slub and released slub are both the original `cred_jar`.
 
@@ -792,7 +806,7 @@ void __init cred_init(void)
 
 In the comparison between kernel 4.4.74 and kernel 4.5, it can find that when a slab is created, an additional parameter is called `SLAB_ACCOUNT`, which means that `cred_jar` and `kmalloc-192` will not merge again.
 
-#### Allocation Mechanism
+##### Allocation Mechanism
 
 Compared to the overhead of `slab` creating a new `mem_cache` at will, In terms of `kmem_cache` creation, `slub` introduces the mechanism of `object reuse`. When a new `kmem_cache` is created, The dispenser searches for pre-existing `kmem_cache` based on `size`.
 
@@ -812,18 +826,18 @@ And If there is no `idle slab` in `kmem_cache_cpu-> partial`, retrieve the new `
 
 This approach is much simpler and more efficient than the `slab` mechanism;  of course, it directly applies to a new `slab` if there is no `object`.
 
-#### Free Mechanism
+##### Free Mechanism
 
 If the `object` to be released belongs to the `local active slab`, the mechanism adds it directly to the head of the current `free list` and moves  the `free list` behind the `object`.
 But if the `object`  to be released belongs to the rest of the `slab`, The mechanism adds it to the idle queue of  the `slab`. And determine the `slab` state after release. Destroy `all idle slabs` or move to a different linked list as appropriate.
 
-#### Slub Structure
+##### Slub Structure
 
 ![image-20220604221538496](https://cdn.jsdelivr.net/gh/wumingzhilian/image/imgwin/202206042215779.png)
 
 
 
-#### Kmalloc
+##### Kmalloc
 
 The `create_kmalloc_caches` function creates some `slab descriptors ` when system boots.
 
@@ -913,7 +927,7 @@ static __always_inline unsigned int kmalloc_index(size_t size)
 }
 ```
 
-#### How to merge
+##### How to merge
 
 ```cpp
 【file:/mm/slub.c】
@@ -983,11 +997,11 @@ Analysis of the Merge:
 
 - `kmem_cache_create_memcg() `If the function `__kmem_cache_alias() `finds a slab that can be merged, it will return its `kmem_cache` structure as a return value, otherwise it will create a new slab.
 
-### Extension
+#### Extension
 
 In the new version of the kernel, this attack method is invalid because the cred structure of the new process will have a separate area for application, so a hacker cannot successfully exploit the UAF vulnerability. This new feature is called lockdown.  For details, please refer to [lockdown ](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=aefcf2f4b58155d27340ba5f9ddbe9513da8286d).
 
-## Exp Generation
+### Exp Generation
 
 ````
 #include <stdio.h>
