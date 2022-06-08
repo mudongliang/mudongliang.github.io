@@ -1134,9 +1134,9 @@ void wt(int fd)
 
 [3] https://mudongliang.github.io/2022/01/18/ciscn2017-babydriver.html
 
-[4]https://github.com/g0dA/linuxStack/blob/master/%E5%85%B3%E4%BA%8E%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B.md
+[4] https://github.com/g0dA/linuxStack/blob/master/%E5%85%B3%E4%BA%8E%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B.md
 
-[5]段鑫峰. 面向Linux内核空间的内存分配隔离方法的研究与实现[D].北京交通大学,2021.DOI:10.26944/d.cnki.gbfju.2021.000664.
+[5] 段鑫峰. 面向Linux内核空间的内存分配隔离方法的研究与实现[D].北京交通大学,2021.DOI:10.26944/d.cnki.gbfju.2021.000664.
 
 [6] https://www.anquanke.com/post/id/259252#h2-6
 
