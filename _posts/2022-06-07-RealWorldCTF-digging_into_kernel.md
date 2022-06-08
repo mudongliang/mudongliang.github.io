@@ -41,7 +41,7 @@ qemu-system-x86_64 \
 
 To facilitate debugging, we can use the gdb parameter, `-gdb tcp::1234` ,to open the debugging port.
 
-This `run.sh ` scripts don't contain the argument of `-monitor null` , so you can enter the monitor mode by pressing `ctrl+A` and then entering C (Ps: the command execution of the host can be equivalent to escape)
+This `run.sh ` script  does not  contain the argument of `-monitor null` , so you can enter the monitor mode by pressing `ctrl+A` and then entering C (Ps: the command execution of the host can be equivalent to escape)
 
 
 
@@ -378,6 +378,27 @@ struct cred {
 	……
 ```
 
+Analysis of `cred_init` :
+
+https://elixir.bootlin.com/linux/v5.4.38/source/kernel/cred.c#L656
+
+```
+……
+void __init cred_init(void)
+{
+	/* allocate a slab in which we can store credentials */
+	cred_jar = kmem_cache_create("cred_jar", sizeof(struct cred), 0,
+			SLAB_HWCACHE_ALIGN|SLAB_PANIC|SLAB_ACCOUNT, NULL);
+}
+……
+```
+
+Both `kmem_cache_create`  and  `kmem_cache_alloc` are slab allocator-based memory allocation methods, and these are suitable for repeated allocation and release of memory blocks of the same size.
+
+Create a cache region with the `kmem_cache_create`  and then use the `kmem_cache_alloc` to fetch a new block of memory from that cache region.
+
+In the `cred_init` function, we create a slab called `cred_jar` with the size of a cred structure through `kmem_cache_create`.
+
 Analysis of `prepare_creds`:
 
 This structure is used to apply and generate the cred structure.
@@ -420,7 +441,7 @@ struct cred *prepare_creds(void)
 
 `new = kmem_cache_alloc(cred_jar, GFP_KERNEL);`
 
-Apply for `cred_jar` throuth the `kmem_cache_alloc`  and  in the current case ,the size of the `cred_jar` is exactly 0xc0.Meanwhile,the `cred_jar` is a `dedicated slab`.
+Apply for `cred_jar` throuth the `kmem_cache_alloc`  and  in the current case ,the size of the `cred_jar` is exactly 0xc0. Meanwhile,the `cred_jar` is a `dedicated slab`.
 
 ```
 / # cat /proc/slabinfo | grep cred
@@ -770,8 +791,6 @@ So it is consistent with our conjecture.
 #### Slub Analysis
 
 The `slub allocation mechanism` of the kernel itself has a property that when we go to apply for a `slub`  if we already have a `slub` of the `same size`, the kernel will initialization the slub that `already exists`, So we allocated slub and released slub are both the original `cred_jar`.
-
-
 
 `kmem_cache_alloc ` allocate buf as  `dedicated cache` or `special cache` ,  and    `kmalloc` allocate buf as `general cache` or `general-purpose cache`.
 
