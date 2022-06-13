@@ -153,6 +153,8 @@ IEEE Transactions on Software Engineering
 |CVE-2018-9251  | Denial-of-Service      | libxml2-2.9.8      |
 |CVE-2021-37159 | Double Free            | Linux Kernel       |
 |CVE-2022-27950 | Memory Leak            | Linux Kernel       |
+|CVE-2022-30868 | Uninitialized Use      | Linux Kernel       |
+|CVE-2022-30869 | Improper Input Valid.  | Linux Kernel       |
 
 ### Upstream Linux Kernel Bug Patches
 
