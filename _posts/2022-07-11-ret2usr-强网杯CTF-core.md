@@ -14,7 +14,7 @@ tags: []
 
 [Attachment](https://github.com/hai119/QWB2018---core)
 
-The ret2usr attack leverages the fact that **userspace processes cannot access kernel space, but kernel space can access user space** to direct kernel code or data streams to user controls and execute user space code with the `ring 0` privilege to complete operations such as privilege escalation.
+The ret2usr (return-to-user) attack leverages the fact that **userspace processes cannot access kernel space, but kernel space can access user space** to direct kernel code or data streams to user controls and execute user space code with the `ring 0` privilege to complete operations such as privilege escalation.
 
 This vulnerability analysis is consistent with the [Kernel ROP](https://mudongliang.github.io/2022/07/07/%E5%BC%BA%E7%BD%91%E6%9D%AFCTF-core.html), the difference is that here we construct `commit_creds(prepare_kernel_cred(0))` in user space through the function pointer for privilege escalation. Although the function is in kernel space, at this point we are in ring0 privilege and can execute normally. 
 
@@ -167,6 +167,18 @@ int main()
 }
 ```
 
+## Prevention
+
+### SMEP
+
+Initially, when executing code in the kernel mode, it is possible to execute the code in the user space directly. Since the code in the user space is controllable by the attacker, it is easier to execute the attack. To prevent such attacks, researchers propose that code in the user state can't be executed when located in the kernel mode.
+
+**Supervisor Memory Execute Protection (SMEP)** is a kernel security mechanism present in  Broadwell and later Intel CPUs. SMEP could prevent the kernel running in ring 0 from executing code that is user accessible. If the CPU is running in the ring0 mode, executing a code in user space will trigger a page fault. SMEP is similar to NX, but SMEP is in the kernel mode and NX is in the user mode. Like NX, SMEP requires processor support, which can be checked by `cat /proc/cpuinfo`.
+
+### Bypass
+
+Once we control the execution flow, we could execute gadgets in the kernel to modify the `CR4` register. After setting the `CR4` register to 0 in bit 20, we could execute the user space code in kernel mode. In general, we will use `0x6f0` to set the `CR4` register to close SMEP.
+
 ## Reference
 
 [1] https://ctf-wiki.org/pwn/linux/kernel-mode/exploitation/rop/
@@ -176,3 +188,5 @@ int main()
 [3] https://blog.csdn.net/gatieme/article/details/78311841
 
 [4] https://www.anquanke.com/post/id/258874
+
+[5] https://dangokyo.me/2019/01/27/linux-kernel-exploitation-part-3-ret2usr-and-smep/
