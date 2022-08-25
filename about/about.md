@@ -155,6 +155,7 @@ IEEE Transactions on Software Engineering
 |CVE-2022-27950 | Memory Leak            | Linux Kernel       |
 |CVE-2022-30868 | Uninitialized Use      | Linux Kernel       |
 |CVE-2022-30869 | Improper Input Valid.  | Linux Kernel       |
+|CVE-2022-2978  | Use After Free         | Linux Kernel       |
 
 ### Upstream Linux Kernel Bug Patches
 
