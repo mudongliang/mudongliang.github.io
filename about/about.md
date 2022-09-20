@@ -156,11 +156,19 @@ IEEE Transactions on Software Engineering
 |CVE-2022-30868 | Uninitialized Use      | Linux Kernel       |
 |CVE-2022-30869 | Improper Input Valid.  | Linux Kernel       |
 |CVE-2022-2978  | Use After Free         | Linux Kernel       |
+|CVE-2022-3239  | Use After Free	 | Linux Kernel	      |
 
 ### Upstream Linux Kernel Bug Patches
 
 |     Age    | Kernel Commits |
 | ---------- | -------------- |
+|2022-06-20  | [media: pvrusb2: fix memory leak in pvr_probe](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=945a9a8e448b65bec055d37eba58f711b39f66f0) |
+|2022-06-16  | [RDMA/rxe: fix xa_alloc_cycle() error return value check again](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=1a685940e6200e9def6e34bbaa19dd31dc5aeaf8) |
+|2022-05-17  | [media: ov7670: remove ov7670_power_off from ov7670_remove](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5bf19572e31375368f19edd2dbb2e0789518bb99) |
+|2022-05-13  | [rtlwifi: Use pr_warn instead of WARN_ONCE](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ad732da434a2936128769216eddaece3b1af4588) |
+|2022-05-06  | [f2fs: remove WARN_ON in f2fs_is_valid_blkaddr](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=dc2f78e2d4cc844a1458653d57ce1b54d4a29f21) |
+|2022-05-06  | [HID: bigben: fix slab-out-of-bounds Write in bigben_probe](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=fc4ef9d5724973193bfa5ebed181dba6de3a56db) |
+|2022-04-05  | [tee: optee: add missing mutext_destroy in optee_ffa_probe](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b5e22886839ae466fcf03295150094516c0fd8eb) |
 |2022-03-22  | [ntfs: add sanity check on allocation size](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=714fbf2647b1a33d914edd695d4da92029c7e7c0) |
 |2022-03-17  | [fs: erofs: add sanity check for kobject in erofs_unregister_sysfs](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a942da24abc5839c11a8fc2a4b7cb268ea94ba54) |
 |2022-03-14  | [btrfs: don't access possibly stale fs_info data in device_list_add](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=79c9234ba596e903907de20573fd4bcc85315b06) |
