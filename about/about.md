@@ -157,6 +157,7 @@ IEEE Transactions on Software Engineering
 |CVE-2022-30869 | Improper Input Valid.  | Linux Kernel       |
 |CVE-2022-2978  | Use After Free         | Linux Kernel       |
 |CVE-2022-3239  | Use After Free	 | Linux Kernel	      |
+|CVE-2022-3577  | Out-of-Bound Write     | Linux Kernel       |
 
 ### Upstream Linux Kernel Bug Patches
 
