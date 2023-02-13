@@ -56,7 +56,7 @@ Proceedings of the Network and Distributed System Security Symposium
 
 * [**Oakland SP 22**] GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs [\[Paper\]]({{site.url}}/files/papers/GREBE.pdf)  
 Zhenpeng Lin, Yueqi Chen, **Dongliang Mu**, Chensheng Yu, Yuhang Wu, Kang Li, Xinyu Xing  
-Proceedings of the 43rd IEEE Symposium on Security and Privacy
+Proceedings of the 43rd IEEE Symposium on Security and Privacy (CSAW 22 Finalist)
 
 * [**TrustComm 21**] RoBin: Facilitating the Reproduction of Configuration-Related Vulnerability [\[Paper\]]({{site.url}}/files/papers/robin.pdf)  
 Ligeng Chen, Jian Guo, Zhongling He, **Dongliang Mu**, and Bing Mao  
@@ -107,6 +107,10 @@ Proceedings of the 23nd ACM Conference on Computer and Communications Security
 * [**TSE 19**] POMP++: Facilitating Postmortem Program Diagnosis with Value-set Analysis [\[Paper\]]({{site.url}}/files/papers/pomp++.pdf)  
 **Dongliang Mu**, Yunlan Du, Jianhao Xu, Jun Xu, Xinyu Xing, Bing Mao, Peng Liu  
 IEEE Transactions on Software Engineering  
+
+* [**TDSC 23**] Towards Unveiling Exploitation Potential with Multiple Error Behaviors for Kernel Bugs [\[Paper\]]({{site.url}}/}
+Ziqin Liu, Zhenpeng Lin, Yueqi Chen, Yuhang Wu, Yalong Zou, **Dongliang Mu**, and Xinyu Xing
+IEEE Transactions on Dependable and Secure Computing
 
 ### Talks
 
