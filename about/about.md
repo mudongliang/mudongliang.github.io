@@ -108,7 +108,7 @@ Proceedings of the 23nd ACM Conference on Computer and Communications Security
 **Dongliang Mu**, Yunlan Du, Jianhao Xu, Jun Xu, Xinyu Xing, Bing Mao, Peng Liu  
 IEEE Transactions on Software Engineering  
 
-* [**TDSC 23**] Towards Unveiling Exploitation Potential with Multiple Error Behaviors for Kernel Bugs [\[Paper\]]({{site.url}}/}
+* [**TDSC 23**] Towards Unveiling Exploitation Potential with Multiple Error Behaviors for Kernel Bugs [\[Paper\]]({{site.url}}/)
 Ziqin Liu, Zhenpeng Lin, Yueqi Chen, Yuhang Wu, Yalong Zou, **Dongliang Mu**, and Xinyu Xing
 IEEE Transactions on Dependable and Secure Computing
 
