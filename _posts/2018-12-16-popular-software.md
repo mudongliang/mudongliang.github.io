@@ -722,6 +722,29 @@ Google巨人开发的文件存储和同步服务
 
 使用Google Drive的[网页版本](https://drive.google.com)
 
+#### 百度网盘
+
+- 介绍
+
+记录每一份热爱，让美好永远陪伴。为你电脑/手机中的文件提供云备份、预览、分享等服务，帮你更便捷安全地管理数据。
+
+- 下载位置
+
+[安装包下载](https://pan.baidu.com/download#pan)
+
+- 安装方法
+
+```
+sudo gdebi baidunetdisk_*.deb
+```
+
+- 卸载方法
+
+```
+sudo dpkg -r baidunetdisk
+```
+
+
 ### 网络支付
 
 #### 支付宝
@@ -1523,12 +1546,11 @@ Bringing **The World’s Best Office Experience** To Linux
 
 - 下载位置
 
-[下载位置](http://wps-community.org/download.html)
+[下载位置](https://linux.wps.cn/)，点击对应的架构与包格式（如X64）下载对应的安装包
 
 - 安装方法
 
 ```
-wget http://kdl.cc.ksosoft.com/wps-community/download/6757/wps-office_10.1.0.6757_amd64.deb
 sudo gdebi wps-office_*_amd64.deb
 ```
 
