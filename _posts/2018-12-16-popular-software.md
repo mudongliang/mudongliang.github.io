@@ -51,7 +51,7 @@ sudo apt-get purge google-chrome-stable
 sudo apt-get purge google-chrome-beta
 
 sudo apt-get purge google-chrome-unstable
-sudo rm -rf /etc/apt/sources.list.d/google.list'
+sudo rm -rf /etc/apt/sources.list.d/google.list
 ```
 
 
@@ -1417,7 +1417,7 @@ sudo apt-get purge ibus ibus-pinyin ibus-sunpinyin
 ```
 
 
-#### fcitx + sunpinyin/googlepinyin
+#### fcitx + googlepinyin
 
 - 介绍
 
@@ -1430,13 +1430,13 @@ sudo apt-get purge ibus ibus-pinyin ibus-sunpinyin
 - 安装方法
 
 ```
-sudo apt-get install fcitx fcitx-googlepinyin fcitx-sunpionyin
+sudo apt-get install fcitx fcitx-googlepinyin
 ```
 
 - 卸载方法
 
 ```
-sudo apt-get purge fcitx fcitx-googlepinyin fcitx-sunpionyin
+sudo apt-get purge fcitx fcitx-googlepinyin
 ```
 
 
