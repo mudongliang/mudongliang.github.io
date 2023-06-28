@@ -9,6 +9,14 @@ tags: []
 * TOC
 {:toc}
 
+
+### Software Dependency
+
+```
+sudo apt install python-is-python3
+sudo apt install libssl-dev libsodium-dev
+```
+
 ### Install electron-ssr
 
 Download electron-ssr from [Github Repo](https://github.com/shadowsocksrr/electron-ssr) and install it on Ubuntu Linux
