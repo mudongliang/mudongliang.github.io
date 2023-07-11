@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Draft for "Set http/https proxy for GNOME Terminal"
+title: "Set http/https proxy for GNOME Terminal"
 date: 2023-07-10
 description: ""
 category: 
