@@ -39,6 +39,8 @@ My current research focuses on **Software and System Security**. More specifical
 
 ### Honors & Awards
 
+- Google Open Source Peer Award, 2023
+- Wuhan Talent Program, 2022
 - Student Travel Grant of 14th ACM ASIACCS, 2019
 - Artificial Intelligence Scholarship at Nanjing University, 2018
 - ACM CCS Outstanding Paper Award (Top 1), 2018
@@ -117,7 +119,14 @@ IEEE Transactions on Software Engineering
 Ziqin Liu, Zhenpeng Lin, Yueqi Chen, Yuhang Wu, Yalong Zou, **Dongliang Mu**, and Xinyu Xing  
 IEEE Transactions on Dependable and Secure Computing  
 
-### Talks (**outdated, needs updating**)
+### Talks
+
+- [Facilitating the Removal of Kernel Vulnerability with Crash Triage]()
+  - **ASSS 2022 Workshop (co-located with Euro S&P 2022)**, Genoa, Italy
+
+- [Towards Facilitating the Removal of Software Vulnerability]()
+  - **Security Seminar**, Qingdao, Shandong, China
+  - **InforSec Workshop**, Wuhan, Hubei, China
 
 - [Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary]({{site.url}}/files/slides/asiaccs19_slide.pptx)  
   - *AsiaCCS 2019*, Auckland, New Zealand
