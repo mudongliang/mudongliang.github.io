@@ -52,7 +52,7 @@ My current research focuses on **Software and System Security**. More specifical
 
 
 * [**USENIX Security 23**] Mitigating Security Risks in Linux with KLAUS : A Method for Evaluating Patch Correctness [\[Paper\]]({{site.url}}/)   
-Yuhang Wu, Zhenpeng Lin, Yueqi Chen, Dang Le, Dongliang Mu, Xinyu Xing, 
+Yuhang Wu, Zhenpeng Lin, Yueqi Chen, Dang Le, **Dongliang Mu**, Xinyu Xing, 
 Proceedings of the 32nd USENIX Security Symposium
 
 * [**NDSS 22**] An In-depth Analysis of Duplicated Linux Kernel Bug Reports [\[Paper\]]({{site.url}}/files/papers/NDSS_deduplication.pdf)   
