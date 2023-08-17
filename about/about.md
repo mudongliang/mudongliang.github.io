@@ -109,13 +109,17 @@ Proceedings of the 23nd ACM Conference on Computer and Communications Security
 
 #### Journal Papers
 
-* [**TSE 19**] POMP++: Facilitating Postmortem Program Diagnosis with Value-set Analysis [\[Paper\]]({{site.url}}/files/papers/pomp++.pdf)  
-**Dongliang Mu**, Yunlan Du, Jianhao Xu, Jun Xu, Xinyu Xing, Bing Mao, Peng Liu  
-IEEE Transactions on Software Engineering  
+* [**ToSEM 23**] Characterizing and Detecting WebAssembly Runtime Bugs [\[Paper\]]({{site.url}}/)
+Yixuan Zhang, Shangtong Cao, Haoyu Wang, Zhenpeng Chen, Xiapu Luo, **Dongliang Mu**, Yun Ma, Gang Huang, Xuanzhe Liu  
+ACM Transactions on Software Engineering and Methodology  
 
 * [**TDSC 23**] Towards Unveiling Exploitation Potential with Multiple Error Behaviors for Kernel Bugs [\[Paper\]]({{site.url}}/)  
 Ziqin Liu, Zhenpeng Lin, Yueqi Chen, Yuhang Wu, Yalong Zou, **Dongliang Mu**, and Xinyu Xing  
 IEEE Transactions on Dependable and Secure Computing  
+
+* [**TSE 19**] POMP++: Facilitating Postmortem Program Diagnosis with Value-set Analysis [\[Paper\]]({{site.url}}/files/papers/pomp++.pdf)  
+**Dongliang Mu**, Yunlan Du, Jianhao Xu, Jun Xu, Xinyu Xing, Bing Mao, Peng Liu  
+IEEE Transactions on Software Engineering  
 
 ### Talks (**outdated, needs updating**)
 
