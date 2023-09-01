@@ -111,7 +111,7 @@ Proceedings of the 23nd ACM Conference on Computer and Communications Security
 
 #### Journal Papers
 
-* [**ToSEM 23**] Characterizing and Detecting WebAssembly Runtime Bugs [\[Paper\]]({{site.url}}/)
+* [**ToSEM 23**] Characterizing and Detecting WebAssembly Runtime Bugs [\[Paper\]]({{site.url}}/)  
 Yixuan Zhang, Shangtong Cao, Haoyu Wang, Zhenpeng Chen, Xiapu Luo, **Dongliang Mu**, Yun Ma, Gang Huang, Xuanzhe Liu  
 ACM Transactions on Software Engineering and Methodology  
 
@@ -178,12 +178,13 @@ IEEE Transactions on Software Engineering
 |CVE-2022-30868 | Uninitialized Use      | Linux Kernel       |
 |CVE-2022-30869 | Improper Input Valid.  | Linux Kernel       |
 |CVE-2022-2978  | Use After Free         | Linux Kernel       |
-|CVE-2022-3239  | Use After Free	 | Linux Kernel	      |
+|CVE-2022-3239  | Use After Free	       | Linux Kernel	      |
 |CVE-2022-3577  | Out-of-Bound Write     | Linux Kernel       |
-|CVE-2023-2985  | Use After Free	 | Linux Kernel	      |
+|CVE-2023-2985  | Use After Free	       | Linux Kernel	      |
 
-### Upstream Linux Kernel Bug Patches
+### Upstream Linux Kernel Patches
 
-[Linux kernel linux-next](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=author&q=Dongliang+Mu)
+- 80 accepted patches. See more details in [Linux kernel mainline](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Dongliang+Mu)
 
-[Linux kernel mainline](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Dongliang+Mu)
+- 81 accepted patches. See more details in [Linux kernel linux-next](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=author&q=Dongliang+Mu)
+
