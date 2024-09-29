@@ -7,13 +7,13 @@ permalink: /about/
 * TOC
 {:toc}
 
-I am an associate professor in the school of Cyber Science and Engineering at Huazhong University of Science and Technology(HUST). I earned my Ph.D. in Computer Science from [Nanjing University](https://cs.nju.edu.cn/), and fortunately was supervised by [Bing Mao](http://seclab.nju.edu.cn/people/professor.html). During my Ph.D. career, I collabrated and studied a lot from [Xinyu Xing](http://xinyuxing.org/) at Penn State University. My recent projects are focused on Linux Kernel Security and my work is usually published in conferences such as Usenix Security/CCS/NDSS/Oakland, and ASE. And I am a recipient of the **ACM CCS Outstanding Paper Award (2018)**.
+I am an associate professor in the school of Cyber Science and Engineering at Huazhong University of Science and Technology(HUST). I earned my Ph.D. in Computer Science from [Nanjing University](https://cs.nju.edu.cn/), and fortunately was supervised by [Bing Mao](http://seclab.nju.edu.cn/people/professor.html). During my Ph.D. career, I collabrated and studied a lot from [Xinyu Xing](http://xinyuxing.org/) at Penn State University. My recent projects are focused on Linux Kernel Security and my work is usually published in conferences such as Usenix Security/CCS/NDSS/Oakland, and ASE. And I am a recipient of the **ACM CCS Outstanding Paper Award (2018)**. I received 2022 Wuhan Talent Program and 2023 Google Open Source Peer Bonus Award due to the contribution to Linux kernel and Syzkaller.
 
 [**Prospective Students**] I am looking for multiple Ph.D. students and undergraduate/graduate research interns who share my academic interests and have a solid background in System/Software Security. If you are interested, please send me emails about your information.
 
 ### Research interest
 
-My current research focuses on **Software and System Security**. More specifically, my research interests span the areas of *Vulnerability Fuzzing, Vulnerability Analysis (including Crash Deduplication, Crash Diagnosis, Vulnerability Reproduction) and Vulnerability Assessment*.
+My current research focuses on **Software and System Security**. More specifically, my research interests span the areas of *Vulnerability Fuzzing, Vulnerability Analysis (including Crash Deduplication, Crash Diagnosis, Vulnerability Reproduction) and Vulnerability Assessment*. I am interested in the OS kernel security and the security of Internet of Vehicles (IoV).
 
 ### Education
 
@@ -144,22 +144,6 @@ IEEE Transactions on Software Engineering
 - [Understanding the Reproducibility of Crowd-reported Security Vulnerabilities]({{site.url}}/files/slides/usenix18_slide.pptx)  
   - *USENIX Security 2018*, Baltimore, USA
 
-### Open Source Projects
-
-**Research Projects:**
-
-- [LinuxFlaw](https://github.com/mudongliang/LinuxFlaw)
-- [source-packages](https://github.com/mudongliang/source-packages)
-- [Dockerfiles](https://github.com/mudongliang/Dockerfiles)
-- [TraditionalMitigation](https://github.com/hardenedlinux/TraditionalMitigation)
-- [POMP](https://github.com/junxzm1990/pomp)
-- [DEEPVSA](https://github.com/Henrygwb/deepvsa)
-
-**Book-in-progress related with Linux Kernel**
-
-- [linux-insides](https://github.com/0xAX/linux-insides)
-- [linux-insides-zh](https://github.com/MintCN/linux-insides-zh)
-
 ### CVEs discovered by me
 
 |   CVE ID      | Vulnerability Type     | Vulnerable Software|
@@ -178,13 +162,32 @@ IEEE Transactions on Software Engineering
 |CVE-2022-30868 | Uninitialized Use      | Linux Kernel       |
 |CVE-2022-30869 | Improper Input Valid.  | Linux Kernel       |
 |CVE-2022-2978  | Use After Free         | Linux Kernel       |
-|CVE-2022-3239  | Use After Free	       | Linux Kernel	      |
+|CVE-2022-3239  | Use After Free	 | Linux Kernel	      |
 |CVE-2022-3577  | Out-of-Bound Write     | Linux Kernel       |
-|CVE-2023-2985  | Use After Free	       | Linux Kernel	      |
+|CVE-2023-2985  | Use After Free	 | Linux Kernel	      |
 
 ### Upstream Linux Kernel Patches
 
-- 80 accepted patches. See more details in [Linux kernel mainline](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Dongliang+Mu)
+- 100 accepted patches. See more details in [Linux kernel mainline](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Dongliang+Mu)
 
-- 81 accepted patches. See more details in [Linux kernel linux-next](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=author&q=Dongliang+Mu)
+- 100 accepted patches. See more details in [Linux kernel linux-next](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=author&q=Dongliang+Mu)
+
+[Ranking at #1900 in the whole Linux kernel contributors](https://www.remword.com/kps_result/all_petop.html)
+
+### Open Source Projects
+
+**Research Projects:**
+
+- [LinuxFlaw](https://github.com/mudongliang/LinuxFlaw)
+- [source-packages](https://github.com/mudongliang/source-packages)
+- [Dockerfiles](https://github.com/mudongliang/Dockerfiles)
+- [TraditionalMitigation](https://github.com/hardenedlinux/TraditionalMitigation)
+- [POMP](https://github.com/junxzm1990/pomp)
+- [DEEPVSA](https://github.com/Henrygwb/deepvsa)
+
+**Book-in-progress related with Linux Kernel**
+
+- [linux-insides](https://github.com/0xAX/linux-insides)
+- [linux-insides-zh](https://github.com/MintCN/linux-insides-zh)
+
 
