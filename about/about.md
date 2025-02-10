@@ -53,7 +53,7 @@ My current research focuses on **Software and System Security**. More specifical
 #### Conference Papers
 
 
-* [**USENIX Security 23**] Mitigating Security Risks in Linux with KLAUS : A Method for Evaluating Patch Correctness [\[Paper\]]({{site.url}}/)   
+* [**USENIX Security 23**] Mitigating Security Risks in Linux with KLAUS : A Method for Evaluating Patch Correctness [\[Paper\]]({{site.url}}/files/papers/KLAUS.pdf)   
 Yuhang Wu, Zhenpeng Lin, Yueqi Chen, Dang Le, **Dongliang Mu**, Xinyu Xing, 
 Proceedings of the 32nd USENIX Security Symposium
 
@@ -111,11 +111,11 @@ Proceedings of the 23nd ACM Conference on Computer and Communications Security
 
 #### Journal Papers
 
-* [**ToSEM 23**] Characterizing and Detecting WebAssembly Runtime Bugs [\[Paper\]]({{site.url}}/)  
+* [**ToSEM 23**] Characterizing and Detecting WebAssembly Runtime Bugs [\[Paper\]](https://dl.acm.org/doi/10.1145/3624743)  
 Yixuan Zhang, Shangtong Cao, Haoyu Wang, Zhenpeng Chen, Xiapu Luo, **Dongliang Mu**, Yun Ma, Gang Huang, Xuanzhe Liu  
 ACM Transactions on Software Engineering and Methodology  
 
-* [**TDSC 23**] Towards Unveiling Exploitation Potential with Multiple Error Behaviors for Kernel Bugs [\[Paper\]]({{site.url}}/)  
+* [**TDSC 23**] Towards Unveiling Exploitation Potential with Multiple Error Behaviors for Kernel Bugs [\[Paper\]]({{site.url}}/files/papers/TDSC.pdf)  
 Ziqin Liu, Zhenpeng Lin, Yueqi Chen, Yuhang Wu, Yalong Zou, **Dongliang Mu**, and Xinyu Xing  
 IEEE Transactions on Dependable and Secure Computing  
 
