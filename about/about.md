@@ -52,6 +52,9 @@ My current research focuses on **Software and System Security**. More specifical
 
 #### Conference Papers
 
+* [**USENIX Security 25**] Mitigating Security Risks in Linux with KLAUS : A Method for Evaluating Patch Correctness [\[Paper\]]({{site.url}})   
+Zheng Yu, Ziyi Guo, Yuhang Wu, Jiahao Yu, Meng Xu, **Dongliang Mu**, Yan Chen, Xinyu Xing
+Proceedings of the 34nd USENIX Security Symposium
 
 * [**USENIX Security 23**] Mitigating Security Risks in Linux with KLAUS : A Method for Evaluating Patch Correctness [\[Paper\]]({{site.url}}/files/papers/KLAUS.pdf)   
 Yuhang Wu, Zhenpeng Lin, Yueqi Chen, Dang Le, **Dongliang Mu**, Xinyu Xing, 
