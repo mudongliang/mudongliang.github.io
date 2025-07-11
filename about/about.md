@@ -41,6 +41,10 @@ My research centers on **Software and System Security**, with a focus on develop
 
 #### Conference Papers
 
+* [**VehicleSec 25**] WIP: QKSAN: Towards Multiple Sanitizers for In-vehicle COTS OS Kernels [\[Paper\]]({{site.url/}})   
+Yalong Zou, Ziqiu Cheng, Dongliang Mu  
+3rd USENIX Symposium on Vehicle Security and Privacy
+
 * [**USENIX Security 25**] PatchAgent: A Practical Program Repair Agent Mimicking Human Expertise [\[Paper\]]({{site.url/files/papers/PatchAgent.pdf}})   
 Zheng Yu, Ziyi Guo, Yuhang Wu, Jiahao Yu, Meng Xu, **Dongliang Mu**, Yan Chen, Xinyu Xing  
 Proceedings of the 34nd USENIX Security Symposium
