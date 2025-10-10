@@ -1,39 +1,52 @@
 ---
 layout: page
-title: About Me
-permalink: /about/
+title: 个人简介
+permalink: /about_zh/
 ---
 
 * TOC
 {:toc}
 
-I am an Associate Professor in the School of Cyber Science and Engineering at Huazhong University of Science and Technology (HUST). I earned my Ph.D. in [Computer Science from Nanjing University](https://cs.nju.edu.cn/), where I collaborated extensively with [Professor Xinyu Xing](http://xinyuxing.org/) at Penn State University. My research focuses on Linux kernel security, with recent work published at top-tier conferences including IEEE S&P (Oakland), USENIX Security, ACM CCS, NDSS, and ASE. Additionally, I am actively exploring emerging areas at LLM for Security, as well as automotive operating system security, with a focus on real-world industrial applications. I am honored to be a recipient of the **ACM CCS 2018 Outstanding Paper Award** and the 2023 Google Open Source Peer Bonus Award for contributions to the Linux kernel and Syzkaller. Additionally, I was recognized in the 2022 and 2024 Wuhan Talent Programs for my research achievements.
+I am an associate professor in the school of Cyber Science and Engineering at Huazhong University of Science and Technology(HUST). I earned my Ph.D. in Computer Science from [Nanjing University](https://cs.nju.edu.cn/), and fortunately was supervised by [Bing Mao](http://seclab.nju.edu.cn/people/professor.html). During my Ph.D. career, I collabrated and studied a lot from [Xinyu Xing](http://xinyuxing.org/) at Penn State University. My recent projects are focused on Linux Kernel Security and my work is usually published in conferences such as Usenix Security/CCS/NDSS/Oakland, and ASE. And I am a recipient of the **ACM CCS Outstanding Paper Award (2018)**. I received 2022 Wuhan Talent Program and 2023 Google Open Source Peer Bonus Award due to the contribution to Linux kernel and Syzkaller.
+
+我是华中科技大学网络空间安全学院的副教授。2019年于[南京大学](https://cs.nju.edu.cn/)计算机科学与技术系获得博士学位。博士期间，我曾在宾夕法尼亚州立大学与邢新宇教授开展合作研究。我的近期研究主要聚焦于Linux内核安全领域，相关成果发表于USENIX Security、CCS、NDSS、Oakland和ASE等顶级会议，并荣获ACM CCS 2018杰出论文奖（Top 1）。因在Linux内核和Syzkaller方面的贡献，入选2022年武汉英才计划并获得2023年Google开源贡献奖。
 
 [**Prospective Students**] I am looking for multiple Ph.D. students and undergraduate/graduate research interns who share my academic interests and have a solid background in System/Software Security. If you are interested, please send me [emails](mailto:dzm91@hust.edu.cn) about your information.
 
 ### Research interest
 
-My research centers on **Software and System Security**, with a focus on developing automated frameworks for vulnerability discovery and lifecycle management. I specialize in advancing fuzzing techniques to uncover zero-day vulnerabilities in complex systems, while also designing methodologies for Vulnerability Reproduction, Crash Deduplication, Vulnerability Root Cause Analysis, Vulnerability Assessment, Vulnerability Patching and etc. I am interested in the OS kernel security, the security of Internet of Vehicles (IoV) and LLMs for Security.
+My current research focuses on **Software and System Security**. More specifically, my research interests span the areas of *Vulnerability Fuzzing, Vulnerability Analysis (including Crash Deduplication, Crash Diagnosis, Vulnerability Reproduction) and Vulnerability Assessment*. I am interested in the OS kernel security and the security of Internet of Vehicles (IoV).
 
 ### Education
 
 - Ph.D. (2014.09 - 2019.12), Computer Science and Technology, Nanjing University
+  - Advisor: Professor [Bing Mao](http://seclab.nju.edu.cn/people/professor.html)
 - B.E. (2010.09 - 2014.06), Computer Science and Technology, Zhengzhou University
 
 ### Experience
 
 - **Associate Professor**, Huazhong University of Science and Technology (2020/08 - Now)
+
 - **Research Fellow**, **Pennsylvania State University** (2020/01 - 2020/07)
+	- Adviser: Professor [Xinyu Xing](http://xinyuxing.org/)
+
 - **Organizer of 2018 Penn State Cybersecurity Competition**, Pennsylvania State University
+	- HomePage : <https://psusecurity.github.io/>
+
 - **Research Assistant in Software and System Security**, Pennsylvania State University (2016 - 2020)
+	- Adviser: Professor [Xinyu Xing](http://xinyuxing.org/)
+
 - **Graduate Research and Teaching Assistant**, Nanjing University (2014 - 2019)
+  - Advisor: Professor [Bing Mao](http://seclab.nju.edu.cn/people/professor.html)
 
 ### Honors & Awards
 
-- Wuhan Talent Program, 2024
 - Google Open Source Peer Award, 2023
 - Wuhan Talent Program, 2022
+- Student Travel Grant of 14th ACM ASIACCS, 2019
+- Artificial Intelligence Scholarship at Nanjing University, 2018
 - ACM CCS Outstanding Paper Award (Top 1), 2018
+- Student Travel Grant of 38th IEEE Symposium on Security and Privacy, 2017
 
 ### Publications
 
@@ -41,24 +54,12 @@ My research centers on **Software and System Security**, with a focus on develop
 
 #### Conference Papers
 
-* [**Oakland SP 26**] PORTGPT: Towards Automated Backporting Using Large Language [\[Paper\]]({{site.url/}})  
-Zhaoyang Li, Zheng Yu, Jingyi Song, Meng Xu, Yuxuan Luo, Dongliang Mu  
-Proceedings of the 46rd IEEE Symposium on Security and Privacy
-
-* [**Black Hat Europe 25**] Token Injection: Crashing LLM Inference With Special Tokens  
-Pengyu Ding, Ziteng Xu, Zhiniang Peng, **Dongliang Mu**  
-Proceedings of the 2025 Black Hat Europe
-
-* [**VehicleSec 25**] WIP: QKSAN: Towards Multiple Sanitizers for In-vehicle COTS OS Kernels [\[Paper\]]({{site.url/}})   
-Yalong Zou, Ziqiu Cheng, Dongliang Mu  
-Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy
-
-* [**USENIX Security 25**] PatchAgent: A Practical Program Repair Agent Mimicking Human Expertise [\[Paper\]]({{site.url/files/papers/PatchAgent.pdf}})   
-Zheng Yu, Ziyi Guo, Yuhang Wu, Jiahao Yu, Meng Xu, **Dongliang Mu**, Yan Chen, Xinyu Xing  
+* [**USENIX Security 25**] PatchAgent: A Practical Program Repair Agent Mimicking Human Expertise [\[Paper\]]({{site.url}})   
+Zheng Yu, Ziyi Guo, Yuhang Wu, Jiahao Yu, Meng Xu, **Dongliang Mu**, Yan Chen, Xinyu Xing
 Proceedings of the 34nd USENIX Security Symposium
 
 * [**USENIX Security 23**] Mitigating Security Risks in Linux with KLAUS : A Method for Evaluating Patch Correctness [\[Paper\]]({{site.url}}/files/papers/KLAUS.pdf)   
-Yuhang Wu, Zhenpeng Lin, Yueqi Chen, Dang Le, **Dongliang Mu**, Xinyu Xing  
+Yuhang Wu, Zhenpeng Lin, Yueqi Chen, Dang Le, **Dongliang Mu**, Xinyu Xing, 
 Proceedings of the 32nd USENIX Security Symposium
 
 * [**NDSS 22**] An In-depth Analysis of Duplicated Linux Kernel Bug Reports [\[Paper\]]({{site.url}}/files/papers/NDSS_deduplication.pdf)   
@@ -129,10 +130,10 @@ IEEE Transactions on Software Engineering
 
 ### Talks
 
-- Facilitating the Removal of Kernel Vulnerability with Crash Triage
+- [Facilitating the Removal of Kernel Vulnerability with Crash Triage]()
   - **ASSS 2022 Workshop (co-located with Euro S&P 2022)**, Genoa, Italy
 
-- Towards Facilitating the Removal of Software Vulnerability
+- [Towards Facilitating the Removal of Software Vulnerability]()
   - **Security Seminar**, Qingdao, Shandong, China
   - **InforSec Workshop**, Wuhan, Hubei, China
 
@@ -142,7 +143,7 @@ IEEE Transactions on Software Engineering
 - [Towards Facilitating the Removal of Software Defects]({{site.url}}/files/slides/zhejiang_0510.pptx)
   - *QiZhen Youth Forum in Zhejiang University 2019*, Zhejiang, China
 
-- From Physical Security to Cyber Security: How to forge data spoofing personalized auto insurance
+- [From Physical Security to Cyber Security: How to forge data spoofing personalized auto insurance](https://drive.google.com/file/d/1DV0XX7m7xFGxhG74TmUfDmCmNsWU-7B7/view?usp=sharing)
   - *Geekpwn China 2018*, Shanghai, China
 
 - [Understanding the Reproducibility of Crowd-reported Security Vulnerabilities]({{site.url}}/files/slides/usenix18_slide.pptx)  
@@ -172,10 +173,26 @@ IEEE Transactions on Software Engineering
 
 ### Upstream Linux Kernel Patches
 
-[Become a Reviewer for Chinese Translation Subsystem in Linux Kernel](https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=15f738292b3427235967099e1aae54f041961294)
-
 - 100 accepted patches. See more details in [Linux kernel mainline](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Dongliang+Mu)
 
 - 100 accepted patches. See more details in [Linux kernel linux-next](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=author&q=Dongliang+Mu)
 
 [Ranking at #1900 in the whole Linux kernel contributors](https://www.remword.com/kps_result/all_petop.html)
+
+### Open Source Projects
+
+**Research Projects:**
+
+- [LinuxFlaw](https://github.com/mudongliang/LinuxFlaw)
+- [source-packages](https://github.com/mudongliang/source-packages)
+- [Dockerfiles](https://github.com/mudongliang/Dockerfiles)
+- [TraditionalMitigation](https://github.com/hardenedlinux/TraditionalMitigation)
+- [POMP](https://github.com/junxzm1990/pomp)
+- [DEEPVSA](https://github.com/Henrygwb/deepvsa)
+
+**Book-in-progress related with Linux Kernel**
+
+- [linux-insides](https://github.com/0xAX/linux-insides)
+- [linux-insides-zh](https://github.com/MintCN/linux-insides-zh)
+
+
