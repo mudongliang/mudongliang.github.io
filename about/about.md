@@ -7,9 +7,11 @@ permalink: /about/
 * TOC
 {:toc}
 
-I am an Associate Professor in the School of Cyber Science and Engineering at Huazhong University of Science and Technology (HUST). I earned my Ph.D. in [Computer Science from Nanjing University](https://cs.nju.edu.cn/), where I collaborated extensively with [Professor Xinyu Xing](http://xinyuxing.org/) at Penn State University. My research focuses on Linux kernel security, with recent work published at top-tier conferences including IEEE S&P (Oakland), USENIX Security, ACM CCS, NDSS, and ASE. Additionally, I am actively exploring emerging areas at LLM for Security, as well as automotive operating system security, with a focus on real-world industrial applications. I am honored to be a recipient of the **ACM CCS 2018 Outstanding Paper Award** and the 2023 Google Open Source Peer Bonus Award for contributions to the Linux kernel and Syzkaller. Additionally, I was recognized in the 2022 and 2024 Wuhan Talent Programs for my research achievements.
+I am an Associate Professor in the School of Cyber Science and Engineering at Huazhong University of Science and Technology (HUST). I earned my Ph.D. in [Computer Science from Nanjing University](https://cs.nju.edu.cn/), where I collaborated extensively with [Professor Xinyu Xing](http://xinyuxing.org/) at Penn State University. My research, conducted alongside my research team at [OS³ Lab (Open Source Operating System Optimal Security Lab)](https://github.com/OS3Lab), focuses on Linux kernel security, with recent work published at top-tier conferences including IEEE Oakland S&P, USENIX Security, ACM CCS, NDSS, and ASE. Additionally, my team and I are actively exploring emerging areas in LLM for Security, as well as automotive operating system security, with a focus on real-world industrial applications.
 
-[**Prospective Students**] I am looking for multiple Ph.D. students and undergraduate/graduate research interns who share my academic interests and have a solid background in System/Software Security. If you are interested, please send me [emails](mailto:dzm91@hust.edu.cn) about your information.
+I am honored to be a recipient of the **ACM CCS 2018 Outstanding Paper Award** and the 2023 Google Open Source Peer Bonus Award for contributions to the Linux kernel and Syzkaller. Additionally, I was recognized in the 2022 and 2024 Wuhan Talent Programs for my research achievements.
+
+[**Prospective Students**] I am looking for Ph.D. and graduate students, meanwhile recruit undergraduate/graduate research interns, who have a solid background in System/Software Security. If you are interested, please send me [emails](mailto:dzm91@hust.edu.cn) about your information.
 
 ### Research interest
 
@@ -19,14 +21,6 @@ My research centers on **Software and System Security**, with a focus on develop
 
 - Ph.D. (2014.09 - 2019.12), Computer Science and Technology, Nanjing University
 - B.E. (2010.09 - 2014.06), Computer Science and Technology, Zhengzhou University
-
-### Experience
-
-- **Associate Professor**, Huazhong University of Science and Technology (2020/08 - Now)
-- **Research Fellow**, **Pennsylvania State University** (2020/01 - 2020/07)
-- **Organizer of 2018 Penn State Cybersecurity Competition**, Pennsylvania State University
-- **Research Assistant in Software and System Security**, Pennsylvania State University (2016 - 2020)
-- **Graduate Research and Teaching Assistant**, Nanjing University (2014 - 2019)
 
 ### Honors & Awards
 
@@ -174,8 +168,6 @@ IEEE Transactions on Software Engineering
 
 [Become a Reviewer for Chinese Translation Subsystem in Linux Kernel](https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=15f738292b3427235967099e1aae54f041961294)
 
-- 100 accepted patches. See more details in [Linux kernel mainline](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Dongliang+Mu)
+- 124 accepted patches. See more details in [Linux kernel mainline](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Dongliang+Mu)
 
-- 100 accepted patches. See more details in [Linux kernel linux-next](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=author&q=Dongliang+Mu)
-
-[Ranking at #1900 in the whole Linux kernel contributors](https://www.remword.com/kps_result/all_petop.html)
+[Ranking at #1706 in the whole Linux kernel contributors](https://www.remword.com/kps_result/all_petop.html)
