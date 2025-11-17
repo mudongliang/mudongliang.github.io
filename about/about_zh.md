@@ -7,7 +7,7 @@ permalink: /about_zh/
 * TOC
 {:toc}
 
-我目前担任华中科技大学（Huazhong University of Science and Technology, HUST）网络空间安全学院副教授。我毕业于南京大学，获[计算机科学与技术系](https://cs.nju.edu.cn/)博士学位，读博期间曾与美国宾夕法尼亚州立大学的邢新宇教授（链接：http://xinyuxing.org/）开展深入合作。我的研究工作由我所在的[**开源操作系统优化安全实验室（OS³ Lab，Open Source Operating System Optimal Security Lab）**](https://github.com/OS3Lab) 团队共同开展，核心研究方向为 Linux 内核安全，近期相关成果已发表于多个国际顶级学术会议，包括 IEEE Oakland S&P, USENIX Security, ACM CCS, NDSS, and ASE。此外，我与团队当前正积极探索新兴研究领域，涵盖大语言模型（LLM）安全应用、车载操作系统安全，且研究重点均围绕实际工业应用场景展开。
+我目前担任华中科技大学（Huazhong University of Science and Technology, HUST）网络空间安全学院副教授。我毕业于南京大学，获[计算机科学与技术系](https://cs.nju.edu.cn/)博士学位，读博期间曾与美国宾夕法尼亚州立大学的[邢新宇教授](http://xinyuxing.org/)开展深入合作。我的研究工作由我所在的[**开源操作系统优化安全实验室（OS³ Lab，Open Source Operating System Optimal Security Lab）**](https://github.com/OS3Lab) 团队共同开展，核心研究方向为 Linux 内核安全，近期相关成果已发表于多个国际顶级学术会议，包括 IEEE Oakland S&P, USENIX Security, ACM CCS, NDSS, and ASE。此外，我与团队当前正积极探索新兴研究领域，涵盖大语言模型（LLM）安全应用、车载操作系统安全，且研究重点均围绕实际工业应用场景展开。
 
 我曾荣获**2018年ACM CCS杰出论文奖**（ACM CCS 2018 Outstanding Paper Award），并因对Linux内核及Syzkaller（内核模糊测试工具）的贡献，获得2023年谷歌开源同行奖励计划（2023 Google Open Source Peer Bonus Award）。此外，我的研究成果还先后获得认可，于 2022年、2024 年入选武汉市人才计划（Wuhan Talent Programs）。
 
@@ -36,7 +36,7 @@ permalink: /about_zh/
 
 #### 会议论文
 
-* [**Oakland SP 26**] PORTGPT: Towards Automated Backporting Using Large Language [\[Paper\]]({{site.url/}})  
+* [**Oakland SP 26**] PORTGPT: Towards Automated Backporting Using Large Language [\[Paper\]]({{site.url/files/papers/sp2026c1-final449.pdf}})  
 Zhaoyang Li, Zheng Yu, Jingyi Song, Meng Xu, Yuxuan Luo, Dongliang Mu  
 Proceedings of the 46rd IEEE Symposium on Security and Privacy
 
@@ -44,7 +44,7 @@ Proceedings of the 46rd IEEE Symposium on Security and Privacy
 Pengyu Ding, Ziteng Xu, Zhiniang Peng, **Dongliang Mu**  
 Proceedings of the 2025 Black Hat Europe
 
-* [**VehicleSec 25**] WIP: QKSAN: Towards Multiple Sanitizers for In-vehicle COTS OS Kernels [\[Paper\]]({{site.url/}})   
+* [**VehicleSec 25**] WIP: QKSAN: Towards Multiple Sanitizers for In-vehicle COTS OS Kernels [\[Paper\]]({{site.url/files/papers/vehiclesec25-zou.pdf}})   
 Yalong Zou, Ziqiu Cheng, Dongliang Mu  
 Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy
 
