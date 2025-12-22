@@ -35,7 +35,11 @@ My research centers on **Software and System Security**, with a focus on develop
 
 #### Conference Papers
 
-* [**Oakland SP 26**] PORTGPT: Towards Automated Backporting Using Large Language [\[Paper\]]({{site.url/files/papers/sp2026c1-final449.pdf}})   
+* [**NDSS 26**] SoK:Take a Deep Step into Linux Kernel Hardening Effectiveness from the Offensive-Defensive Perspective [\[Paper\]]({{site.url}}/files/papers/NDSS_sok.pdf)  
+Yinhao Hu, Pengyu Ding, Zhenpeng Lin, **Dongliang Mu**, Yuan Li  
+Proceedings of the Network and Distributed System Security Symposium
+
+* [**Oakland SP 26**] PORTGPT: Towards Automated Backporting Using Large Language [\[Paper\]]({{site.url/files/papers/sp2026c1-final449.pdf}})  
 Zhaoyang Li, Zheng Yu, Jingyi Song, Meng Xu, Yuxuan Luo, **Dongliang Mu**  
 Proceedings of the 46rd IEEE Symposium on Security and Privacy
 
@@ -43,19 +47,19 @@ Proceedings of the 46rd IEEE Symposium on Security and Privacy
 Pengyu Ding, Ziteng Xu, Zhiniang Peng, **Dongliang Mu**  
 Proceedings of the 2025 Black Hat Europe
 
-* [**VehicleSec 25**] WIP: QKSAN: Towards Multiple Sanitizers for In-vehicle COTS OS Kernels [\[Paper\]]({{site.url/files/papers/vehiclesec25-zou.pdf}})   
+* [**VehicleSec 25**] WIP: QKSAN: Towards Multiple Sanitizers for In-vehicle COTS OS Kernels [\[Paper\]]({{site.url/files/papers/vehiclesec25-zou.pdf}})  
 Yalong Zou, Ziqiu Cheng, Dongliang Mu  
 Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy
 
-* [**USENIX Security 25**] PatchAgent: A Practical Program Repair Agent Mimicking Human Expertise [\[Paper\]]({{site.url/files/papers/PatchAgent.pdf}})   
+* [**USENIX Security 25**] PatchAgent: A Practical Program Repair Agent Mimicking Human Expertise [\[Paper\]]({{site.url/files/papers/PatchAgent.pdf}})  
 Zheng Yu, Ziyi Guo, Yuhang Wu, Jiahao Yu, Meng Xu, **Dongliang Mu**, Yan Chen, Xinyu Xing  
 Proceedings of the 34nd USENIX Security Symposium
 
-* [**USENIX Security 23**] Mitigating Security Risks in Linux with KLAUS : A Method for Evaluating Patch Correctness [\[Paper\]]({{site.url}}/files/papers/KLAUS.pdf)   
+* [**USENIX Security 23**] Mitigating Security Risks in Linux with KLAUS: A Method for Evaluating Patch Correctness [\[Paper\]]({{site.url}}/files/papers/KLAUS.pdf)  
 Yuhang Wu, Zhenpeng Lin, Yueqi Chen, Dang Le, **Dongliang Mu**, Xinyu Xing  
 Proceedings of the 32nd USENIX Security Symposium
 
-* [**NDSS 22**] An In-depth Analysis of Duplicated Linux Kernel Bug Reports [\[Paper\]]({{site.url}}/files/papers/NDSS_deduplication.pdf)   
+* [**NDSS 22**] An In-depth Analysis of Duplicated Linux Kernel Bug Reports [\[Paper\]]({{site.url}}/files/papers/NDSS_deduplication.pdf)  
 **Dongliang Mu**, Yuhang Wu, Yueqi Chen, Zhenpeng Lin, Chensheng Yu, Xinyu Xing, Gang Wang  
 Proceedings of the Network and Distributed System Security Symposium
 
