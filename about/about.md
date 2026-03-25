@@ -35,6 +35,10 @@ My research centers on **Software and System Security**, with a focus on develop
 
 #### Conference Papers
 
+* [**FSE 26**] pPatch: Automated Vulnerability Unpatching [\[Paper\]]({{site.url}})  
+Tianyi Jing, Pengyu Ding, Meng Xu, Yinhao Hu, Zheng Yu, **Dongliang Mu**  
+Proceedings of ACM International Conference on the Foundations of Software Engineering
+
 * [**NDSS 26**] SoK:Take a Deep Step into Linux Kernel Hardening Effectiveness from the Offensive-Defensive Perspective [\[Paper\]]({{site.url}}/files/papers/NDSS_sok.pdf)  
 Yinhao Hu, Pengyu Ding, Zhenpeng Lin, **Dongliang Mu**, Yuan Li  
 Proceedings of the Network and Distributed System Security Symposium
@@ -48,7 +52,7 @@ Pengyu Ding, Ziteng Xu, Zhiniang Peng, **Dongliang Mu**
 Proceedings of the 2025 Black Hat Europe
 
 * [**VehicleSec 25**] WIP: QKSAN: Towards Multiple Sanitizers for In-vehicle COTS OS Kernels [\[Paper\]]({{site.url}}/files/papers/vehiclesec25-zou.pdf)  
-Yalong Zou, Ziqiu Cheng, Dongliang Mu  
+Yalong Zou, Ziqiu Cheng, **Dongliang Mu**  
 Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy
 
 * [**USENIX Security 25**] PatchAgent: A Practical Program Repair Agent Mimicking Human Expertise [\[Paper\]]({{site.url}}/files/papers/PatchAgent.pdf)  
@@ -146,7 +150,7 @@ IEEE Transactions on Software Engineering
 - [Understanding the Reproducibility of Crowd-reported Security Vulnerabilities]({{site.url}}/files/slides/usenix18_slide.pptx)  
   - *USENIX Security 2018*, Baltimore, USA
 
-### CVEs discovered by me
+### CVEs Discovered by Our Team
 
 |   CVE ID      | Vulnerability Type     | Vulnerable Software|
 | ------------- | ---------------------- | -------------------|

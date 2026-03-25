@@ -36,6 +36,10 @@ permalink: /about_zh/
 
 #### 会议论文
 
+* [**FSE 26**] pPatch: Automated Vulnerability Unpatching [\[Paper\]]({{site.url}})  
+Tianyi Jing, Pengyu Ding, Meng Xu, Yinhao Hu, Zheng Yu, **Dongliang Mu**  
+Proceedings of ACM International Conference on the Foundations of Software Engineering
+
 * [**NDSS 26**] SoK:Take a Deep Step into Linux Kernel Hardening Effectiveness from the Offensive-Defensive Perspective [\[Paper\]]({{site.url}}/files/papers/NDSS_sok.pdf)  
 Yinhao Hu, Pengyu Ding, Zhenpeng Lin, **Dongliang Mu**, Yuan Li  
 Proceedings of the Network and Distributed System Security Symposium
@@ -147,7 +151,7 @@ IEEE Transactions on Software Engineering
 - [Understanding the Reproducibility of Crowd-reported Security Vulnerabilities]({{site.url}}/files/slides/usenix18_slide.pptx)  
   - *USENIX Security 2018*, Baltimore, USA
 
-### 发现的 CVEs
+### 我们团队发现的 CVEs
 
 |   CVE ID      | Vulnerability Type     | Vulnerable Software|
 | ------------- | ---------------------- | -------------------|
