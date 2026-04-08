@@ -43,9 +43,9 @@ Proceedings of ACM International Conference on the Foundations of Software Engin
 Yinhao Hu, Pengyu Ding, Zhenpeng Lin, **Dongliang Mu**, Yuan Li  
 Proceedings of the Network and Distributed System Security Symposium
 
-* [**Oakland SP 26**] PORTGPT: Towards Automated Backporting Using Large Language [\[Paper\]]({{site.url}}/files/papers/sp2026c1-final449.pdf)  
+* [**Oakland SP 26**] PORTGPT: Towards Automated Backporting Using Large Language Models [\[Paper\]]({{site.url}}/files/papers/sp2026c1-final449.pdf)  
 Zhaoyang Li, Zheng Yu, Jingyi Song, Meng Xu, Yuxuan Luo, **Dongliang Mu**  
-Proceedings of the 46rd IEEE Symposium on Security and Privacy
+Proceedings of the 47th IEEE Symposium on Security and Privacy
 
 * [**Black Hat Europe 25**] Token Injection: Crashing LLM Inference With Special Tokens  
 Pengyu Ding, Ziteng Xu, Zhiniang Peng, **Dongliang Mu**  
