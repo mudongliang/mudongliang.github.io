@@ -36,7 +36,7 @@ permalink: /about_zh/
 
 #### 会议论文
 
-* [**FSE 26**] pPatch: Automated Vulnerability Unpatching [\[Paper\]]({{site.url}})  
+* [**FSE 26**] pPatch: Automated Vulnerability Unpatching [\[Paper\]]({{site.url}}/files/papers/PPATCH_FSE_final.pdf)  
 Tianyi Jing, Pengyu Ding, Meng Xu, Yinhao Hu, Zheng Yu, **Dongliang Mu**  
 Proceedings of ACM International Conference on the Foundations of Software Engineering
 
