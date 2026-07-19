@@ -35,6 +35,10 @@ My research centers on **Software and System Security**, with a focus on develop
 
 #### Conference Papers
 
+* [**ACM CCS 26**] LDBF: Deep Exploration of eBPF Runtime via LLM-Driven Program Generation and Adaptive Context Orchestration [\[Paper\]]()  
+Yinhao Hu, Kaiyan Mei, Zeyu Sun, Quan Sun, **Dongliang Mu**, Yuan Li, Chao Zhang  
+Proceedings of the 33rd ACM Conference on Computer and Communications Security
+
 * [**FSE 26**] pPatch: Automated Vulnerability Unpatching [\[Paper\]]({{site.url}}/files/papers/PPATCH_FSE_final.pdf)  
 Tianyi Jing, Pengyu Ding, Meng Xu, Yinhao Hu, Zheng Yu, **Dongliang Mu**  
 Proceedings of ACM International Conference on the Foundations of Software Engineering
