@@ -121,6 +121,10 @@ Proceedings of the 23nd ACM Conference on Computer and Communications Security
 
 #### Journal Papers
 
+* [**TDSC 26**] KLAUS++: Facilitating Patch Correctness Assessment with Hybrid Feedback [\[Paper\]](https://ieeexplore.ieee.org/abstract/document/11673074)  
+Ziqin Liu, Kaiyan Mei, Yuhang Wu, Zhenpeng Lin, Yueqi Chen, **Dongliang Mu**  
+IEEE Transactions on Dependable and Secure Computing  
+
 * [**ToSEM 23**] Characterizing and Detecting WebAssembly Runtime Bugs [\[Paper\]](https://dl.acm.org/doi/10.1145/3624743)  
 Yixuan Zhang, Shangtong Cao, Haoyu Wang, Zhenpeng Chen, Xiapu Luo, **Dongliang Mu**, Yun Ma, Gang Huang, Xuanzhe Liu  
 ACM Transactions on Software Engineering and Methodology  
