@@ -36,7 +36,7 @@ permalink: /about_zh/
 
 #### 会议论文
 
-* [**ACM CCS 26**] LDBF: Deep Exploration of eBPF Runtime via LLM-Driven Program Generation and Adaptive Context Orchestration [\[Paper\]]()  
+* [**ACM CCS 26**] LDBF: Deep Exploration of eBPF Runtime via LLM-Driven Program Generation and Adaptive Context Orchestration [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3830454.3846613)  
 Yinhao Hu, Kaiyan Mei, Zeyu Sun, Quan Sun, **Dongliang Mu**, Yuan Li, Chao Zhang  
 Proceedings of the 33rd ACM Conference on Computer and Communications Security
 
